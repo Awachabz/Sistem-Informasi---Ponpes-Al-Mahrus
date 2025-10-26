@@ -145,6 +145,10 @@
             <li><a class="dropdown-item" href="#yasiin">Yasiin</a></li>
             <li><a class="dropdown-item" href="#waqiah">Al-Waqiah</a></li>
             <li><a class="dropdown-item" href="#tabaraq">Tabaraq</a></li>
+            <li><a class="dropdown-item" href="{{ route('kamilah') }}">Sholawat Kamilah</a></li>
+            <li><a class="dropdown-item" href="#tabaraq">Sholawat Nurzati</a></li>
+            <li><a class="dropdown-item" href="#tabaraq">Sholawat AnilQodr</a></li>
+
           </ul>
         </li>
 

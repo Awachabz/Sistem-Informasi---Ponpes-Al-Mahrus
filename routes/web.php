@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\LoginController;
@@ -57,3 +58,9 @@ Route::post('/logout', [LoginController::class, 'logout'])->name('logout');
 require __DIR__ . '/auth.php';
 
 Route::view('/tentang', 'tentang')->name('tentang');
+
+
+// Rotinan
+Route::get('/rotinan/kamilah', function () {
+    return view('rotinan.kamilah');
+})->name('kamilah');
