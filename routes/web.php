@@ -64,3 +64,7 @@ Route::view('/tentang', 'tentang')->name('tentang');
 Route::get('/rotinan/kamilah', function () {
     return view('rotinan.kamilah');
 })->name('kamilah');
+
+Route::get('/rotinan/nurzati', function () {
+    return view('rotinan.nurzati');
+})->name('nurzati');
