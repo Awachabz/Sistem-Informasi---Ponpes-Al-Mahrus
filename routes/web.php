@@ -68,3 +68,7 @@ Route::get('/rotinan/kamilah', function () {
 Route::get('/rotinan/nurzati', function () {
     return view('rotinan.nurzati');
 })->name('nurzati');
+
+Route::get('/rotinan/anilqodr', function () {
+    return view('rotinan.anilqodr');
+})->name('anilqodr');
