@@ -142,7 +142,7 @@
             Rotinan
           </a>
           <ul class="dropdown-menu" aria-labelledby="rotinanDropdown">
-            <li><a class="dropdown-item" href="#yasiin">Yasiin</a></li>
+            <li><a class="dropdown-item" href="{{ route('surat yasiin') }}">Yasiin</a></li>
             <li><a class="dropdown-item" href="#waqiah">Al-Waqiah</a></li>
             <li><a class="dropdown-item" href="#tabaraq">Tabaraq</a></li>
             <li><a class="dropdown-item" href="{{ route('kamilah') }}">Sholawat Kamilah</a></li>

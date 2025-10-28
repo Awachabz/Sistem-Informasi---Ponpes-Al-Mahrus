@@ -72,3 +72,7 @@ Route::get('/rotinan/nurzati', function () {
 Route::get('/rotinan/anilqodr', function () {
     return view('rotinan.anilqodr');
 })->name('anilqodr');
+
+Route::get('/rotinan/surat yasiin', function () {
+    return view('rotinan.yasiin');
+})->name('surat yasiin');
