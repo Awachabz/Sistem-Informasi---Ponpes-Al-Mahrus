@@ -76,3 +76,7 @@ Route::get('/rotinan/anilqodr', function () {
 Route::get('/rotinan/surat yasiin', function () {
     return view('rotinan.yasiin');
 })->name('surat yasiin');
+
+Route::get('/rotinan/alwakiah', function () {
+    return view('rotinan.alwakiah');
+})->name('alwakiah');
