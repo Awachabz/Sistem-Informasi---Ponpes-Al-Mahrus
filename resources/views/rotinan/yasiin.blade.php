@@ -67,6 +67,11 @@
 <div class="wrap-yasin">
 
 <h1>سُورَةُ یس</h1>
+<div class="ayat">
+    <div class="arab">بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ </div>
+    <div class="latin">bismillāhir-raḥmānir-raḥīm</div>
+    <div class="terjemahan">Dengan nama Allah Yang Maha Pengasih, Maha Penyayang</div>
+  </div>
 
   <div class="ayat">
     <div class="arab">يس <span class="nomor">1</span></div>

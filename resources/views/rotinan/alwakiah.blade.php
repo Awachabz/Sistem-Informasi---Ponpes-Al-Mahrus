@@ -12,7 +12,7 @@
     line-height: 1.9;
   }
 
-  .wrap-surah {
+  .wrap-Al-waqiah {
     padding: 40px 12%;
   }
 
@@ -62,592 +62,593 @@
     margin-left: 10px;
     font-size: 14px;
   }
-</style
+</style>
+<div class="wrap-Al-waqiah">
 
-<div class="wrap-alwakiah">
+<h1>سُورَةُ الْوَاقِعَة</h1>
 
-<h1>سُورَةُ الْوَاقِعَةِ</h1>
-
-  <div class="ayat">
-    <div class="arab">إِذَا وَقَعَتِ الْوَاقِعَةُ <span class="nomor">1</span></div>
-    <div class="latin">Idzā waqa‘atil wāqi‘ah</div>
-    <div class="terjemahan">Apabila terjadi hari Kiamat,</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">لَيْسَ لِوَقْعَتِهَا كَاذِبَةٌ <span class="nomor">2</span></div>
-    <div class="latin">Laisa liwaq‘atihā kādzibah</div>
-    <div class="terjemahan">tidak seorang pun dapat berdusta tentang kejadiannya.</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">خَافِضَةٌ رَّافِعَةٌ <span class="nomor">3</span></div>
-    <div class="latin">Khāfidhah rafi‘ah</div>
-    <div class="terjemahan">(Kejadian itu) merendahkan (satu golongan) dan meninggikan (golongan yang lain).</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">إِذَا رُجَّتِ الْأَرْضُ رَجًّا <span class="nomor">4</span></div>
-    <div class="latin">Idzā rujjatil ardu rajjā</div>
-    <div class="terjemahan">Apabila bumi diguncangkan sedahsyat-dahsyatnya,</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">وَبُسَّتِ الْجِبَالُ بَسًّا <span class="nomor">5</span></div>
-    <div class="latin">Wa bussatil jibālu bassā</div>
-    <div class="terjemahan">dan gunung-gunung dihancurluluhkan sehancur-hancurnya,</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">فَكَانَتْ هَبَاءً مُّنبَثًّا <span class="nomor">6</span></div>
-    <div class="latin">Fakānat habā’am munbatsā</div>
-    <div class="terjemahan">maka jadilah ia debu yang beterbangan,</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">وَكُنتُمْ أَزْوَاجًا ثَلَاثَةً <span class="nomor">7</span></div>
-    <div class="latin">Wa kuntum azwājan tsalātsah</div>
-    <div class="terjemahan">dan kamu menjadi tiga golongan,</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">فَأَصْحَابُ الْمَيْمَنَةِ مَا أَصْحَابُ الْمَيْمَنَةِ <span class="nomor">8</span></div>
-    <div class="latin">Fa as-hābul-maimanati mā as-hābul-maimanah</div>
-    <div class="terjemahan">golongan kanan, alangkah mulianya golongan kanan itu,</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">وَأَصْحَابُ الْمَشْأَمَةِ مَا أَصْحَابُ الْمَشْأَمَةِ <span class="nomor">9</span></div>
-    <div class="latin">Wa as-hābul-masy’amati mā as-hābul-masy’amah</div>
-    <div class="terjemahan">dan golongan kiri, alangkah celakanya golongan kiri itu,</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">وَالسَّابِقُونَ السَّابِقُونَ <span class="nomor">10</span></div>
-    <div class="latin">Was-sābiqūnas-sābiqūn</div>
-    <div class="terjemahan">dan orang-orang yang paling dahulu (beriman), merekalah yang paling dahulu (masuk surga).</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">أُولَٰئِكَ الْمُقَرَّبُونَ <span class="nomor">11</span></div>
-    <div class="latin">Ulā’ikal muqarrabūn</div>
-    <div class="terjemahan">Mereka itulah yang didekatkan (kepada Allah),</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">فِي جَنَّاتِ النَّعِيمِ <span class="nomor">12</span></div>
-    <div class="latin">Fī jannātin-na‘īm</div>
-    <div class="terjemahan">berada dalam surga kenikmatan,</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">ثُلَّةٌ مِّنَ الْأَوَّلِينَ <span class="nomor">13</span></div>
-    <div class="latin">Tsullatum minal awwalīn</div>
-    <div class="terjemahan">segolongan besar dari orang-orang terdahulu,</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">وَقَلِيلٌ مِّنَ الْآخِرِينَ <span class="nomor">14</span></div>
-    <div class="latin">Wa qalīlum minal ākhirīn</div>
-    <div class="terjemahan">dan segolongan kecil dari orang-orang yang kemudian.</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">عَلَىٰ سُرُرٍ مَّوْضُونَةٍ <span class="nomor">15</span></div>
-    <div class="latin">‘Alā sururin maudhūnah</div>
-    <div class="terjemahan">Mereka berada di atas dipan-dipan yang bertatahkan emas dan permata,</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">مُّتَّكِئِينَ عَلَيْهَا مُتَقَابِلِينَ <span class="nomor">16</span></div>
-    <div class="latin">Muttaki’īna ‘alayhā mutaqābilīn</div>
-    <div class="terjemahan">mereka bertelekan di atasnya berhadap-hadapan.</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">يَطُوفُ عَلَيْهِمْ وِلْدَانٌ مُّخَلَّدُونَ <span class="nomor">17</span></div>
-    <div class="latin">Yathūfu ‘alayhim wildānum mukhalladūn</div>
-    <div class="terjemahan">Mereka dikelilingi oleh anak-anak muda yang tetap muda,</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">بِأَكْوَابٍ وَأَبَارِيقَ وَكَأْسٍ مِّن مَّعِينٍ <span class="nomor">18</span></div>
-    <div class="latin">Bi-akwābin wa abārīqa wa ka’sim mim ma‘īn</div>
-    <div class="terjemahan">dengan membawa gelas, cerek, dan piala berisi minuman dari mata air (surga),</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">لَا يُصَدَّعُونَ عَنْهَا وَلَا يُنزِفُونَ <span class="nomor">19</span></div>
-    <div class="latin">Lā yushadda‘ūna ‘anhā wa lā yunzifūn</div>
-    <div class="terjemahan">mereka tidak pening karenanya dan tidak mabuk,</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">وَفَاكِهَةٍ مِّمَّا يَتَخَيَّرُونَ <span class="nomor">20</span></div>
-    <div class="latin">Wa fākihatim mimmā yatakhayyarūn</div>
-    <div class="terjemahan">dan buah-buahan apa pun yang mereka pilih,</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">وَلَحْمِ طَيْرٍ مِّمَّا يَشْتَهُونَ <span class="nomor">21</span></div>
-    <div class="latin">Wa lahmi thairim mimmā yashtahūn</div>
-    <div class="terjemahan">dan daging burung apa pun yang mereka inginkan.</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">وَحُورٌ عِينٌ <span class="nomor">22</span></div>
-    <div class="latin">Wa hūr ‘īn</div>
-    <div class="terjemahan">Dan ada bidadari-bidadari bermata indah,</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">كَأَمْثَالِ اللُّؤْلُؤِ الْمَكْنُونِ <span class="nomor">23</span></div>
-    <div class="latin">Ka amtsānil lu’lu’il maknūn</div>
-    <div class="terjemahan">laksana mutiara yang tersimpan baik.</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">جَزَاءً بِمَا كَانُوا يَعْمَلُونَ <span class="nomor">24</span></div>
-    <div class="latin">Jazā’an bimā kānū ya‘malūn</div>
-    <div class="terjemahan">Sebagai balasan atas apa yang telah mereka kerjakan.</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">لَا يَسْمَعُونَ فِيهَا لَغْوًا وَلَا تَأْثِيمًا <span class="nomor">25</span></div>
-    <div class="latin">Lā yasma‘ūna fīhā laghwan wa lā ta’tsīmā</div>
-    <div class="terjemahan">Di dalamnya mereka tidak mendengar perkataan yang sia-sia maupun yang menimbulkan dosa,</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">إِلَّا قِيلًا سَلَامًا سَلَامًا <span class="nomor">26</span></div>
-    <div class="latin">Illā qīlan salāman salāmā</div>
-    <div class="terjemahan">kecuali ucapan salam sebagai penghormatan.</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">وَأَصْحَابُ الْيَمِينِ مَا أَصْحَابُ الْيَمِينِ <span class="nomor">27</span></div>
-    <div class="latin">Wa ash-hābul yamīni mā ash-hābul yamīn</div>
-    <div class="terjemahan">Dan golongan kanan, alangkah bahagianya golongan kanan itu,</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">فِي سِدْرٍ مَّخْضُودٍ <span class="nomor">28</span></div>
-    <div class="latin">Fī sidrim makhdūd</div>
-    <div class="terjemahan">mereka berada di antara pohon bidara yang tak berduri,</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">وَطَلْحٍ مَّنضُودٍ <span class="nomor">29</span></div>
-    <div class="latin">Wa thalhim mandhūd</div>
-    <div class="terjemahan">dan pohon pisang yang bersusun-susun buahnya,</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">وَظِلٍّ مَّمْدُودٍ <span class="nomor">30</span></div>
-    <div class="latin">Wa zhillin mamdūd</div>
-    <div class="terjemahan">dan naungan yang terbentang luas,</div>
-  </div>
-
+<!-- Bismillah -->
+<div class="ayat">
+  <div class="arab">بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ</div>
+  <div class="latin">bismillāhir-raḥmānir-raḥīm</div>
+  <div class="terjemahan">Dengan nama Allah Yang Maha Pengasih, Maha Penyayang</div>
 </div>
 
 <div class="ayat">
-  <div class="arab">وَفُرُشٍ مَّرْفُوعَةٍ <span class="nomor">31</span></div>
-  <div class="latin">Wa furushim marfū‘ah</div>
-  <div class="terjemahan">Dan kasur-kasur yang tinggi lagi empuk,</div>
+  <div class="arab">إِذَا وَقَعَتِ الْوَاقِعَةُ <span class="nomor">١</span></div>
+  <div class="latin">idhā waqa‘atil-wāqi‘ah</div>
+  <div class="terjemahan">Apabila terjadi hari Kiamat,</div>
 </div>
 
 <div class="ayat">
-  <div class="arab">إِنَّآ أَنشَأْنَـٰهُنَّ إِنشَآءًۭ <span class="nomor">32</span></div>
-  <div class="latin">Innâ ansya’nāhunna insyā’ā</div>
-  <div class="terjemahan">Sesungguhnya Kami menciptakan mereka (bidadari-bidadari) dengan ciptaan yang istimewa,</div>
+  <div class="arab">لَيْسَ لِوَقْعَتِهَا كَاذِبَةٌ <span class="nomor">٢</span></div>
+  <div class="latin">laisa liwaq‘atihā kādzibah</div>
+  <div class="terjemahan">tidak seorang pun dapat berdusta tentang kejadiannya.</div>
 </div>
 
 <div class="ayat">
-  <div class="arab">فَجَعَلْنَـٰهُنَّ أَبْكَارًۭا <span class="nomor">33</span></div>
-  <div class="latin">Faja‘alnāhunna abkārā</div>
+  <div class="arab">خَافِضَةٌ رَّافِعَةٌ <span class="nomor">٣</span></div>
+  <div class="latin">khāfiḍatur-rāfi‘ah</div>
+  <div class="terjemahan">(Kiamat itu) merendahkan (sebagian) dan meninggikan (sebagian lainnya).</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">إِذَا رُجَّتِ الْأَرْضُ رَجًّا <span class="nomor">٤</span></div>
+  <div class="latin">idhā rujjatil-arḍu rajjā</div>
+  <div class="terjemahan">Apabila bumi diguncangkan dengan guncangan yang dahsyat,</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">وَبُسَّتِ الْجِبَالُ بَسًّا <span class="nomor">٥</span></div>
+  <div class="latin">wa bussatil-jibālu bassā</div>
+  <div class="terjemahan">dan gunung-gunung dihancurkan sehancur-hancurnya,</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">فَكَانَتْ هَبَاءً مُّنبَثًّا <span class="nomor">٦</span></div>
+  <div class="latin">fakānat habā’am munbathsā</div>
+  <div class="terjemahan">maka jadilah ia debu yang berterbangan,</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">وَكُنتُمْ أَزْوَاجًا ثَلَاثَةً <span class="nomor">٧</span></div>
+  <div class="latin">wa kuntum azwājan tsalātsah</div>
+  <div class="terjemahan">dan kamu menjadi tiga golongan,</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">فَأَصْحَابُ الْمَيْمَنَةِ مَا أَصْحَابُ الْمَيْمَنَةِ <span class="nomor">٨</span></div>
+  <div class="latin">fa-aṣḥābul-maimanati mā aṣḥābul-maimanah</div>
+  <div class="terjemahan">Golongan kanan, alangkah mulianya golongan kanan itu!</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">وَأَصْحَابُ الْمَشْئَمَةِ مَا أَصْحَابُ الْمَشْئَمَةِ <span class="nomor">٩</span></div>
+  <div class="latin">wa aṣḥābul-mas’amatī mā aṣḥābul-mas’amah</div>
+  <div class="terjemahan">Golongan kiri, alangkah sengsaranya golongan kiri itu!</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">وَالسَّابِقُونَ السَّابِقُونَ <span class="nomor">١٠</span></div>
+  <div class="latin">was-sābiqūnas-sābiqūn</div>
+  <div class="terjemahan">Dan orang-orang yang paling dahulu (beriman), merekalah yang paling dahulu (masuk surga).</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">أُولَٰئِكَ الْمُقَرَّبُونَ <span class="nomor">١١</span></div>
+  <div class="latin">ulā’ikal-muqarrabūn</div>
+  <div class="terjemahan">Merekalah orang-orang yang dekat (kepada Allah).</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">فِي جَنَّاتِ النَّعِيمِ <span class="nomor">١٢</span></div>
+  <div class="latin">fī jannātin-na‘īm</div>
+  <div class="terjemahan">berada di dalam surga penuh kenikmatan,</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">ثُلَّةٌ مِّنَ الْأَوَّلِينَ <span class="nomor">١٣</span></div>
+  <div class="latin">tsullatum minal-awwalīn</div>
+  <div class="terjemahan">sekelompok besar dari umat terdahulu,</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">وَقَلِيلٌ مِّنَ الْآخِرِينَ <span class="nomor">١٤</span></div>
+  <div class="latin">wa qalīlum minal-ākhirīn</div>
+  <div class="terjemahan">dan sedikit dari umat yang kemudian.</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">عَلَىٰ سُرُرٍ مَّوْضُونَةٍ <span class="nomor">١٥</span></div>
+  <div class="latin">‘alā sururim mawḍūnah</div>
+  <div class="terjemahan">di atas dipan-dipan yang dihias,</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">مُّتَّكِئِينَ عَلَيْهَا مُتَقَابِلِينَ <span class="nomor">١٦</span></div>
+  <div class="latin">muttaki’īna ‘alai-hā mutaqābilīn</div>
+  <div class="terjemahan">mereka bertelekan di atasnya sambil berhadap-hadapan.</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">يَطُوفُ عَلَيْهِمْ وِلْدَانٌ مُّخَلَّدُونَ <span class="nomor">١٧</span></div>
+  <div class="latin">yaṭūfu ‘alaihim wildānum mukhalladūn</div>
+  <div class="terjemahan">Mereka dikelilingi anak-anak muda yang tetap muda,</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">بِأَكْوَابٍ وَأَبَارِيقَ وَكَأْسٍ مِّن مَّعِينٍ <span class="nomor">١٨</span></div>
+  <div class="latin">bi-akwābin wa abārīqa wa ka’sim mim ma‘īn</div>
+  <div class="terjemahan">dengan membawa gelas, kendi, dan cawan berisi minuman dari mata air,</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">لَا يُصَدَّعُونَ عَنْهَا وَلَا يُنزِفُونَ <span class="nomor">١٩</span></div>
+  <div class="latin">lā yuṣadda‘ūna ‘anhā wa lā yunzifūn</div>
+  <div class="terjemahan">mereka tidak pening karenanya dan tidak pula mabuk,</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">وَفَاكِهَةٍ مِّمَّا يَتَخَيَّرُونَ <span class="nomor">٢٠</span></div>
+  <div class="latin">wa fākihatim mimmā yatakhayyarūn</div>
+  <div class="terjemahan">dan buah-buahan dari apa saja yang mereka pilih.</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">وَلَحْمِ طَيْرٍ مِّمَّا يَشْتَهُونَ <span class="nomor">٢١</span></div>
+  <div class="latin">wa laḥmi ṭairim mimmā yasytahūn</div>
+  <div class="terjemahan">dan daging burung dari apa yang mereka inginkan.</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">وَحُورٌ عِينٌ <span class="nomor">٢٢</span></div>
+  <div class="latin">wa ḥūrun ‘īn</div>
+  <div class="terjemahan">(Mereka memperoleh) bidadari-bidadari yang bermata indah,</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">كَأَمْثَالِ اللُّؤْلُؤِ الْمَكْنُونِ <span class="nomor">٢٣</span></div>
+  <div class="latin">ka-amṡāril-lu’lu’il-maknūn</div>
+  <div class="terjemahan">laksana mutiara yang tersimpan dengan baik.</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">جَزَاءً بِمَا كَانُوا يَعْمَلُونَ <span class="nomor">٢٤</span></div>
+  <div class="latin">jazā’am bimā kānū ya‘malūn</div>
+  <div class="terjemahan">Sebagai balasan atas apa yang telah mereka kerjakan.</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">لَا يَسْمَعُونَ فِيهَا لَغْوًا وَلَا تَأْثِيمًا <span class="nomor">٢٥</span></div>
+  <div class="latin">lā yasma‘ūna fīhā laghwan wa lā ta’ṡīmā</div>
+  <div class="terjemahan">Mereka tidak mendengar perkataan sia-sia maupun yang menimbulkan dosa,</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">إِلَّا قِيلًا سَلَامًا سَلَامًا <span class="nomor">٢٦</span></div>
+  <div class="latin">illā qīlan salāman salāmā</div>
+  <div class="terjemahan">melainkan ucapan salam dan sejahtera.</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">وَأَصْحَابُ الْيَمِينِ مَا أَصْحَابُ الْيَمِينِ <span class="nomor">٢٧</span></div>
+  <div class="latin">wa aṣḥābul-yamīni mā aṣḥābul-yamīn</div>
+  <div class="terjemahan">Golongan kanan, alangkah mulianya golongan kanan itu!</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">فِي سِدْرٍ مَّخْضُودٍ <span class="nomor">٢٨</span></div>
+  <div class="latin">fī sidrim makhḍūd</div>
+  <div class="terjemahan">(Mereka berada) di antara pohon bidara yang tidak berduri,</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">وَطَلْحٍ مَّنضُودٍ <span class="nomor">٢٩</span></div>
+  <div class="latin">wa ṭalḥim manḍūd</div>
+  <div class="terjemahan">dan pohon pisang yang bersusun-susun (buahnya),</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">وَظِلٍّ مَّمْدُودٍ <span class="nomor">٣٠</span></div>
+  <div class="latin">wa ẓillin mamdūd</div>
+  <div class="terjemahan">dan naungan yang terbentang luas,</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">وَمَاءٍ مَّسْكُوبٍ <span class="nomor">٣١</span></div>
+  <div class="latin">wa mā’im maskūb</div>
+  <div class="terjemahan">dan air yang tercurah,</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">وَفَاكِهَةٍ كَثِيرَةٍ <span class="nomor">٣٢</span></div>
+  <div class="latin">wa fākihatin katsīrah</div>
+  <div class="terjemahan">serta buah-buahan yang banyak,</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">لَّا مَقْطُوعَةٍ وَلَا مَمْنُوعَةٍ <span class="nomor">٣٣</span></div>
+  <div class="latin">lā maqṭū‘ah wa lā mamnū‘ah</div>
+  <div class="terjemahan">yang tidak berhenti (berbuah) dan tidak terlarang,</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">وَفُرُشٍ مَّرْفُوعَةٍ <span class="nomor">٣٤</span></div>
+  <div class="latin">wa furusim marfū‘ah</div>
+  <div class="terjemahan">dan kasur-kasur yang ditinggikan.</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">إِنَّا أَنشَأْنَاهُنَّ إِنشَاءً <span class="nomor">٣٥</span></div>
+  <div class="latin">innā ansya’nāhunna insyā’ā</div>
+  <div class="terjemahan">Sesungguhnya Kami menciptakan mereka (bidadari-bidadari itu) dengan langsung,</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">فَجَعَلْنَاهُنَّ أَبْكَارًا <span class="nomor">٣٦</span></div>
+  <div class="latin">faja‘alnāhunna abkārā</div>
   <div class="terjemahan">lalu Kami jadikan mereka gadis-gadis perawan,</div>
 </div>
 
 <div class="ayat">
-  <div class="arab">عُرُبًۭا أَتْرَابًۭا <span class="nomor">34</span></div>
-  <div class="latin">‘Uruban atrābā</div>
+  <div class="arab">عُرُبًا أَتْرَابًا <span class="nomor">٣٧</span></div>
+  <div class="latin">‘uruban atrābā</div>
   <div class="terjemahan">penuh cinta lagi sebaya umurnya,</div>
 </div>
 
 <div class="ayat">
-  <div class="arab">لِأَصْحَـٰبِ ٱلْمَيْمَنَةِ <span class="nomor">35</span></div>
-  <div class="latin">Li asḥābil maimanah</div>
+  <div class="arab">لِأَصْحَابِ الْيَمِينِ <span class="nomor">٣٨</span></div>
+  <div class="latin">li’aṣḥābil-yamīn</div>
   <div class="terjemahan">untuk golongan kanan,</div>
 </div>
 
 <div class="ayat">
-  <div class="arab">ثُلَّةٌۭ مِّنَ ٱلْأَوَّلِينَ <span class="nomor">36</span></div>
-  <div class="latin">Ṯullatum minal awwalīn</div>
-  <div class="terjemahan">sejumlah besar dari orang-orang terdahulu,</div>
+  <div class="arab">ثُلَّةٌ مِّنَ الْأَوَّلِينَ <span class="nomor">٣٩</span></div>
+  <div class="latin">tsullatum minal-awwalīn</div>
+  <div class="terjemahan">sekelompok besar dari umat terdahulu,</div>
 </div>
 
 <div class="ayat">
-  <div class="arab">وَثُلَّةٌۭ مِّنَ ٱلْـَٔاخِرِينَ <span class="nomor">37</span></div>
-  <div class="latin">Wa ṯullatum minal ākhirīn</div>
-  <div class="terjemahan">dan sejumlah besar pula dari orang-orang kemudian.</div>
+  <div class="arab">وَثُلَّةٌ مِّنَ الْآخِرِينَ <span class="nomor">٤٠</span></div>
+  <div class="latin">wa tsullatum minal-ākhirīn</div>
+  <div class="terjemahan">dan sekelompok besar dari umat yang kemudian.</div>
 </div>
 
 <div class="ayat">
-  <div class="arab">وَأَصْحَـٰبُ ٱلشِّمَالِ مَآ أَصْحَـٰبُ ٱلشِّمَالِ <span class="nomor">38</span></div>
-  <div class="latin">Wa aṣḥābusy-syimāli mā aṣḥābusy-syimāl</div>
-  <div class="terjemahan">Dan golongan kiri, siapakah golongan kiri itu?</div>
+  <div class="arab">وَأَصْحَابُ الشِّمَالِ مَا أَصْحَابُ الشِّمَالِ <span class="nomor">٤١</span></div>
+  <div class="latin">wa aṣḥābusy-syimāli mā aṣḥābusy-syimāl</div>
+  <div class="terjemahan">Golongan kiri, alangkah sengsaranya golongan kiri itu!</div>
 </div>
 
 <div class="ayat">
-  <div class="arab">فِى سَمُومٍۢ وَحَمِيمٍۢ <span class="nomor">39</span></div>
-  <div class="latin">Fī samūmin wa ḥamīm</div>
-  <div class="terjemahan">Mereka berada dalam (siksaan) angin yang sangat panas dan air yang mendidih,</div>
+  <div class="arab">فِي سَمُومٍ وَحَمِيمٍ <span class="nomor">٤٢</span></div>
+  <div class="latin">fī samūmin wa ḥamīm</div>
+  <div class="terjemahan">mereka berada dalam angin panas yang membakar dan air yang mendidih,</div>
 </div>
 
 <div class="ayat">
-  <div class="arab">وَظِلٍّۢ مِّن يَحْمُومٍۢ <span class="nomor">40</span></div>
-  <div class="latin">Wa ẓillin min yaḥmūm</div>
-  <div class="terjemahan">dan dalam naungan asap yang hitam pekat,</div>
+  <div class="arab">وَظِلٍّ مِّن يَحْمُومٍ <span class="nomor">٤٣</span></div>
+  <div class="latin">wa ẓillim min yaḥmūm</div>
+  <div class="terjemahan">dan dalam naungan asap yang hitam,</div>
 </div>
 
 <div class="ayat">
-  <div class="arab">لَّا بَارِدٍۢ وَلَا كَرِيمٍۢ <span class="nomor">41</span></div>
-  <div class="latin">Lā bāridin wa lā karīm</div>
-  <div class="terjemahan">tidak sejuk dan tidak menyenangkan.</div>
+  <div class="arab">لَّا بَارِدٍ وَلَا كَرِيمٍ <span class="nomor">٤٤</span></div>
+  <div class="latin">lā bāridin wa lā karīm</div>
+  <div class="terjemahan">yang tidak sejuk dan tidak menyenangkan.</div>
 </div>
 
 <div class="ayat">
-  <div class="arab">إِنَّهُمْ كَانُوا۟ قَبْلَ ذَٰلِكَ مُتْرَفِينَ <span class="nomor">42</span></div>
-  <div class="latin">Innahum kānū qabla żālika mutrafīn</div>
+  <div class="arab">إِنَّهُمْ كَانُوا قَبْلَ ذَٰلِكَ مُتْرَفِينَ <span class="nomor">٤٥</span></div>
+  <div class="latin">innahum kānū qabla dzālika mutrafīn</div>
   <div class="terjemahan">Sesungguhnya mereka sebelum itu hidup bermewah-mewahan,</div>
 </div>
 
 <div class="ayat">
-  <div class="arab">وَكَانُوا۟ يُصِرُّونَ عَلَى ٱلْحِنثِ ٱلْعَظِيمِ <span class="nomor">43</span></div>
-  <div class="latin">Wa kānū yuṣirrūna ‘alal ḥinthil ‘aẓīm</div>
-  <div class="terjemahan">dan mereka tetap bersikeras dalam dosa besar.</div>
+  <div class="arab">وَكَانُوا يُصِرُّونَ عَلَى الْحِنثِ الْعَظِيمِ <span class="nomor">٤٦</span></div>
+  <div class="latin">wa kānū yuṣirrūna ‘alal-ḥinthil-‘aẓīm</div>
+  <div class="terjemahan">dan mereka terus-menerus mengerjakan dosa besar.</div>
 </div>
 
 <div class="ayat">
-  <div class="arab">وَكَانُوا۟ يَقُولُونَ أَئِذَا مِتْنَا وَكُنَّا تُرَٰبًۭا وَعِظَـٰمًا أَئِنَّا لَمَبْعُوثُونَ <span class="nomor">44</span></div>
-  <div class="latin">Wa kānū yaqūlūna a’iżā mitnā wa kunnā turāban wa ‘iẓāmā a’innā lamab‘ūṯūn</div>
-  <div class="terjemahan">Dan mereka berkata, “Apakah apabila kami telah mati dan menjadi tanah serta tulang-belulang, apakah kami benar-benar akan dibangkitkan kembali?”</div>
+  <div class="arab">وَيَقُولُونَ أَإِذَا مِتْنَا وَكُنَّا تُرَابًا وَعِظَامًا أَإِنَّا لَمَبْعُوثُونَ <span class="nomor">٤٧</span></div>
+  <div class="latin">wa yaqūlūna a’idzā mitnā wa kunnā turāban wa ‘iẓāmā a’innā lamab‘ūṡūn</div>
+  <div class="terjemahan">Mereka berkata, “Apakah setelah kami mati, menjadi tanah dan tulang belulang, kami benar-benar akan dibangkitkan?”</div>
 </div>
 
 <div class="ayat">
-  <div class="arab">أَوَ ءَابَآؤُنَا ٱلْأَوَّلُونَ <span class="nomor">45</span></div>
-  <div class="latin">Awa ābā’unal awwalūn</div>
-  <div class="terjemahan">Apakah nenek moyang kami yang terdahulu juga (akan dibangkitkan)?”</div>
+  <div class="arab">أَوَ آبَاؤُنَا الْأَوَّلُونَ <span class="nomor">٤٨</span></div>
+  <div class="latin">aw ābā’unal-awwalūn</div>
+  <div class="terjemahan">“Dan apakah nenek moyang kami yang terdahulu (juga akan dibangkitkan)?”</div>
 </div>
 
-{{-- Lanjutan Surah Al-Waqi‘ah ayat 46–65 --}}
-
 <div class="ayat">
-  <div class="arab">قُلْ إِنَّ ٱلْأَوَّلِينَ وَٱلْـَٔاخِرِينَ <span class="nomor">46</span></div>
-  <div class="latin">Qul innal awwalīna wal ākhirīn</div>
+  <div class="arab">قُلْ إِنَّ الْأَوَّلِينَ وَالْآخِرِينَ <span class="nomor">٤٩</span></div>
+  <div class="latin">qul innal-awwalīna wal-ākhirīn</div>
   <div class="terjemahan">Katakanlah, “Sesungguhnya orang-orang terdahulu dan yang kemudian,</div>
 </div>
 
 <div class="ayat">
-  <div class="arab">لَمَجْمُوعُونَ إِلَىٰ مِيقَـٰتِ يَوْمٍۢ مَّعْلُومٍۢ <span class="nomor">47</span></div>
-  <div class="latin">Lamajmū‘ūna ilā mīqāti yaumin ma‘lūm</div>
-  <div class="terjemahan">benar-benar akan dikumpulkan pada waktu tertentu pada hari yang telah diketahui,”</div>
+  <div class="arab">لَمَجْمُوعُونَ إِلَىٰ مِيقَاتِ يَوْمٍ مَّعْلُومٍ <span class="nomor">٥٠</span></div>
+  <div class="latin">lamajmū‘ūna ilā mīqāti yaumin ma‘lūm</div>
+  <div class="terjemahan">benar-benar akan dikumpulkan pada waktu tertentu pada hari yang telah ditentukan.</div>
 </div>
 
 <div class="ayat">
-  <div class="arab">ثُمَّ إِنَّكُمْ أَيُّهَا ٱلضَّآلُّونَ ٱلْمُكَذِّبُونَ <span class="nomor">48</span></div>
-  <div class="latin">Ṯumma innakum ayyuhadh-dhāllūnal mukadzdzibūn</div>
-  <div class="terjemahan">Kemudian sesungguhnya kamu wahai orang-orang yang sesat lagi mendustakan,</div>
+  <div class="arab">ثُمَّ إِنَّكُمْ أَيُّهَا الضَّالُّونَ الْمُكَذِّبُونَ <span class="nomor">٥١</span></div>
+  <div class="latin">tsumma innakum ayyuhadh-dhāllūnal-mukażżibūn</div>
+  <div class="terjemahan">Kemudian, wahai orang-orang yang sesat lagi mendustakan,</div>
 </div>
 
 <div class="ayat">
-  <div class="arab">لَـَٔاكِلُونَ مِن شَجَرٍۢ مِّن زَقُّومٍۢ <span class="nomor">49</span></div>
-  <div class="latin">Laākilūna min shajarin min zaqqūm</div>
-  <div class="terjemahan">pasti akan memakan pohon zaqqum,</div>
+  <div class="arab">لَآكِلُونَ مِن شَجَرٍ مِّن زَقُّومٍ <span class="nomor">٥٢</span></div>
+  <div class="latin">laākilūna min syajarin min zaqqūm</div>
+  <div class="terjemahan">sesungguhnya kamu benar-benar akan memakan pohon zaqqum,</div>
 </div>
 
 <div class="ayat">
-  <div class="arab">فَمَالِـُٔونَ مِنْهَا ٱلْبُطُونَ <span class="nomor">50</span></div>
-  <div class="latin">Famāli’ūna minhāl buṭūn</div>
-  <div class="terjemahan">lalu kamu akan memenuhi perutmu dengannya,</div>
+  <div class="arab">فَمَالِئُونَ مِنْهَا الْبُطُونَ <span class="nomor">٥٣</span></div>
+  <div class="latin">famāli’ūna minhāl-buṭūn</div>
+  <div class="terjemahan">dan akan memenuhi perutmu dengannya.</div>
 </div>
 
 <div class="ayat">
-  <div class="arab">فَشَـٰرِبُونَ عَلَيْهِ مِنَ ٱلْحَمِيمِ <span class="nomor">51</span></div>
-  <div class="latin">Fasyāribūna ‘alayhi minal ḥamīm</div>
-  <div class="terjemahan">kemudian kamu akan minum di atasnya air yang sangat panas,</div>
+  <div class="arab">فَشَارِبُونَ عَلَيْهِ مِنَ الْحَمِيمِ <span class="nomor">٥٤</span></div>
+  <div class="latin">fasysyāribūna ‘alaihi minal-ḥamīm</div>
+  <div class="terjemahan">Kemudian kamu akan meminum air yang sangat panas,</div>
 </div>
 
 <div class="ayat">
-  <div class="arab">فَشَـٰرِبُونَ شُرْبَ ٱلْهِيمِ <span class="nomor">52</span></div>
-  <div class="latin">Fasyāribūna syurba al-hīm</div>
-  <div class="terjemahan">lalu kamu minum seperti unta yang sangat haus minum.</div>
+  <div class="arab">فَشَارِبُونَ شُرْبَ الْهِيمِ <span class="nomor">٥٥</span></div>
+  <div class="latin">fasysyāribūna syurbal-hīm</div>
+  <div class="terjemahan">maka kamu minum seperti unta yang sangat haus minum.</div>
 </div>
 
 <div class="ayat">
-  <div class="arab">هَـٰذَا نُزُلُهُمْ يَوْمَ ٱلدِّينِ <span class="nomor">53</span></div>
-  <div class="latin">Hāżā nuzuluhum yaumad dīn</div>
-  <div class="terjemahan">Itulah hidangan mereka pada hari pembalasan.</div>
+  <div class="arab">هَٰذَا نُزُلُهُمْ يَوْمَ الدِّينِ <span class="nomor">٥٦</span></div>
+  <div class="latin">hāżā nuzuluhum yaumad-dīn</div>
+  <div class="terjemahan">Itulah jamuan untuk mereka pada hari pembalasan.</div>
 </div>
 
 <div class="ayat">
-  <div class="arab">نَحْنُ خَلَقْنَـٰكُمْ فَلَوْلَا تُصَدِّقُونَ <span class="nomor">54</span></div>
-  <div class="latin">Naḥnu khalaqnākum falawlā tuṣaddiqūn</div>
+  <div class="arab">نَحْنُ خَلَقْنَاكُمْ فَلَوْلَا تُصَدِّقُونَ <span class="nomor">٥٧</span></div>
+  <div class="latin">naḥnu khalaqnākum falau-lā tuṣaddiqūn</div>
   <div class="terjemahan">Kami telah menciptakan kamu, maka mengapa kamu tidak membenarkan (hari kebangkitan)?</div>
 </div>
 
 <div class="ayat">
-  <div class="arab">أَفَرَءَيْتُم مَّا تُمْنُونَ <span class="nomor">55</span></div>
-  <div class="latin">Afa ra’aytum mā tumnūn</div>
-  <div class="terjemahan">Maka pernahkah kamu perhatikan (benih) yang kamu pancarkan?</div>
+  <div class="arab">أَفَرَأَيْتُم مَّا تُمْنُونَ <span class="nomor">٥٨</span></div>
+  <div class="latin">a fara-aitum mā tumnūn</div>
+  <div class="terjemahan">Maka pernahkah kamu memperhatikan air mani yang kamu pancarkan?</div>
 </div>
 
 <div class="ayat">
-  <div class="arab">ءَأَنتُمْ تَخْلُقُونَهُۥٓ أَمْ نَحْنُ ٱلْخَـٰلِقُونَ <span class="nomor">56</span></div>
-  <div class="latin">A’antum takhluqūnahu am naḥnul khāliqūn</div>
-  <div class="terjemahan">Kamukah yang menciptakannya, atau Kami yang menciptakannya?</div>
+  <div class="arab">أَأَنتُمْ تَخْلُقُونَهُ أَمْ نَحْنُ الْخَالِقُونَ <span class="nomor">٥٩</span></div>
+  <div class="latin">a’antum takhluqūnahu am naḥnul-khāliqūn</div>
+  <div class="terjemahan">Kamukah yang menciptakannya, atau Kami penciptanya?</div>
 </div>
 
 <div class="ayat">
-  <div class="arab">نَحْنُ قَدَّرْنَا بَيْنَكُمُ ٱلْمَوْتَ وَمَا نَحْنُ بِمَسْبُوقِينَ <span class="nomor">57</span></div>
-  <div class="latin">Naḥnu qaddarnā bainakumul mauta wa mā naḥnu bimasbūqīn</div>
+  <div class="arab">نَحْنُ قَدَّرْنَا بَيْنَكُمُ الْمَوْتَ وَمَا نَحْنُ بِمَسْبُوقِينَ <span class="nomor">٦٠</span></div>
+  <div class="latin">naḥnu qaddarnā bainakumul-mauta wa mā naḥnu bimasbūqīn</div>
   <div class="terjemahan">Kami telah menentukan kematian di antara kamu dan Kami tidak akan dikalahkan,</div>
 </div>
 
 <div class="ayat">
-  <div class="arab">عَلَىٰٓ أَن نُّبَدِّلَ أَمْثَـٰلَكُمْ وَنُنشِئَكُمْ فِى مَا لَا تَعْلَمُونَ <span class="nomor">58</span></div>
-  <div class="latin">‘Alā an nubaddila amṯālakum wa nunasyi’akum fīmā lā ta‘lamūn</div>
-  <div class="terjemahan">untuk mengganti kamu dengan orang-orang yang seperti kamu dan menjadikan kamu (dalam bentuk) yang tidak kamu ketahui.</div>
+  <div class="arab">عَلَىٰ أَن نُّبَدِّلَ أَمْثَالَكُمْ وَنُنشِئَكُمْ فِي مَا لَا تَعْلَمُونَ <span class="nomor">٦١</span></div>
+  <div class="latin">‘alā an nubaddila amṡālakum wa nunsyi’akum fī mā lā ta‘lamūn</div>
+  <div class="terjemahan">untuk mengganti kamu dengan makhluk yang serupa dan menjadikan kamu dalam keadaan yang kamu tidak ketahui.</div>
 </div>
 
 <div class="ayat">
-  <div class="arab">وَلَقَدْ عَلِمْتُمُ ٱلنَّشْأَةَ ٱلْأُولَىٰ فَلَوْلَا تَذَكَّرُونَ <span class="nomor">59</span></div>
-  <div class="latin">Wa laqad ‘alimtumus-sya’atal ūlā falawlā tazakkarūn</div>
-  <div class="terjemahan">Dan sesungguhnya kamu telah mengetahui penciptaan pertama, maka mengapa kamu tidak mengambil pelajaran?</div>
+  <div class="arab">وَلَقَدْ عَلِمْتُمُ النَّشْأَةَ الْأُولَىٰ فَلَوْلَا تَذَكَّرُونَ <span class="nomor">٦٢</span></div>
+  <div class="latin">wa laqad ‘alimtun-nasya’atal-ūlā falau-lā tadzakkarūn</div>
+  <div class="terjemahan">Dan sungguh, kamu telah mengetahui penciptaan yang pertama; maka mengapa kamu tidak mengambil pelajaran?</div>
 </div>
 
 <div class="ayat">
-  <div class="arab">أَفَرَءَيْتُم مَّا تَحْرُثُونَ <span class="nomor">60</span></div>
-  <div class="latin">Afa ra’aytum mā taḥrūṯūn</div>
+  <div class="arab">أَفَرَأَيْتُم مَّا تَحْرُثُونَ <span class="nomor">٦٣</span></div>
+  <div class="latin">a fara-aitum mā taḥrūṡūn</div>
   <div class="terjemahan">Maka pernahkah kamu memperhatikan apa yang kamu tanam?</div>
 </div>
 
 <div class="ayat">
-  <div class="arab">ءَأَنتُمْ تَزْرَعُونَهُۥٓ أَمْ نَحْنُ ٱلزَّٰرِعُونَ <span class="nomor">61</span></div>
-  <div class="latin">A’antum tazra‘ūnahu am naḥnuzzāri‘ūn</div>
+  <div class="arab">أَأَنتُمْ تَزْرَعُونَهُ أَمْ نَحْنُ الزَّارِعُونَ <span class="nomor">٦٤</span></div>
+  <div class="latin">a’antum tazra‘ūnahu am naḥnuz-zāri‘ūn</div>
   <div class="terjemahan">Kamukah yang menumbuhkannya, atau Kami yang menumbuhkannya?</div>
 </div>
 
 <div class="ayat">
-  <div class="arab">لَوْ نَشَآءُ لَجَعَلْنَـٰهُ حُطَـٰمًۭا فَظَلْتُمْ تَفَكَّهُونَ <span class="nomor">62</span></div>
-  <div class="latin">Law nasyā’u laja‘alnāhu ḥuṭāman faẓaltum tafakkahūn</div>
-  <div class="terjemahan">Sekiranya Kami kehendaki, benar-benar Kami jadikan ia hancur, maka kamu pun heran tercengang,</div>
+  <div class="arab">لَوْ نَشَاءُ لَجَعَلْنَاهُ حُطَامًا فَظَلْتُمْ تَفَكَّهُونَ <span class="nomor">٦٥</span></div>
+  <div class="latin">lau nasyā’u laja‘alnāhu ḥuṭāmā faẓaltum tafakkahūn</div>
+  <div class="terjemahan">Jika Kami kehendaki, niscaya Kami jadikan ia hancur, sehingga kamu heran tercengang.</div>
 </div>
 
 <div class="ayat">
-  <div class="arab">إِنَّا لَمُغْرَمُونَ <span class="nomor">63</span></div>
-  <div class="latin">Innà lamughramūn</div>
-  <div class="terjemahan">(sambil berkata), “Sesungguhnya kami benar-benar menderita kerugian,”</div>
+  <div class="arab">إِنَّا لَمُغْرَمُونَ <span class="nomor">٦٦</span></div>
+  <div class="latin">innā lamughramūn</div>
+  <div class="terjemahan">(seraya berkata), “Sesungguhnya kami menderita kerugian.”</div>
 </div>
 
 <div class="ayat">
-  <div class="arab">بَلْ نَحْنُ مَحْرُومُونَ <span class="nomor">64</span></div>
-  <div class="latin">Bal naḥnu maḥrūmūn</div>
-  <div class="terjemahan">bahkan kami tidak memperoleh hasil apa pun.”</div>
+  <div class="arab">بَلْ نَحْنُ مَحْرُومُونَ <span class="nomor">٦٧</span></div>
+  <div class="latin">bal naḥnu maḥrūmūn</div>
+  <div class="terjemahan">“Bahkan kami tidak memperoleh apa-apa.”</div>
 </div>
 
 <div class="ayat">
-  <div class="arab">أَفَرَءَيْتُمُ ٱلْمَآءَ ٱلَّذِى تَشْرَبُونَ <span class="nomor">65</span></div>
-  <div class="latin">Afa ra’aytumul mā’alladzī tasyrabūn</div>
+  <div class="arab">أَفَرَأَيْتُمُ الْمَاءَ الَّذِي تَشْرَبُونَ <span class="nomor">٦٨</span></div>
+  <div class="latin">a fara-aitumul-mā’al-lażī tasyrabūn</div>
   <div class="terjemahan">Maka pernahkah kamu memperhatikan air yang kamu minum?</div>
 </div>
-  
-  <div class="ayat">
-    <div class="arab">لَوْ نَشَاءُ لَجَعَلْنَاهُ حُطَامًا فَظَلْتُمْ تَفَكَّهُونَ <span class="nomor">66</span></div>
-    <div class="latin">Law nashā`u laja‘alnāhu ḥuṭāman faẓaltum tafakkahụn</div>
-    <div class="terjemahan">Jika Kami kehendaki, pasti Kami jadikan (tanaman) itu hancur, maka kamu pun heran tercengang.</div>
-  </div>
 
-  <div class="ayat">
-    <div class="arab">إِنَّا لَمُغْرَمُونَ <span class="nomor">67</span></div>
-    <div class="latin">Innā lamughramụn</div>
-    <div class="terjemahan">(Sambil berkata), “Sungguh, kami benar-benar menderita kerugian.”</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">بَلْ نَحْنُ مَحْرُومُونَ <span class="nomor">68</span></div>
-    <div class="latin">Bal naḥnu maḥrụmụn</div>
-    <div class="terjemahan">Bahkan kami tidak memperoleh apa pun (hasil panen).</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">أَفَرَأَيْتُمُ الْمَاءَ الَّذِي تَشْرَبُونَ <span class="nomor">69</span></div>
-    <div class="latin">Afa ra`aitumul-mā`al-ladzī tasyrabụn</div>
-    <div class="terjemahan">Maka terangkanlah kepadaku tentang air yang kamu minum,</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">أَأَنتُمْ أَنزَلْتُمُوهُ مِنَ الْمُزْنِ أَمْ نَحْنُ الْمُنزِلُونَ <span class="nomor">70</span></div>
-    <div class="latin">A-antum anzaltumụhu minal-muzni am naḥnul-munzilụn</div>
-    <div class="terjemahan">Kamukah yang menurunkannya dari awan, atau Kami yang menurunkannya?</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">لَوْ نَشَاءُ جَعَلْنَاهُ أُجَاجًا فَلَوْلَا تَشْكُرُونَ <span class="nomor">71</span></div>
-    <div class="latin">Law nashā`u ja‘alnāhu ujājan falau lā tasykurụn</div>
-    <div class="terjemahan">Jika Kami kehendaki, niscaya Kami jadikan air itu asin, maka mengapa kamu tidak bersyukur?</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">أَفَرَأَيْتُمُ النَّارَ الَّتِي تُورُونَ <span class="nomor">72</span></div>
-    <div class="latin">Afa ra`aitumun-nāral-latī tụrụn</div>
-    <div class="terjemahan">Maka terangkanlah kepadaku tentang api yang kamu nyalakan (dari kayu).</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">أَأَنتُمْ أَنشَأْتُمْ شَجَرَتَهَا أَمْ نَحْنُ الْمُنشِئُونَ <span class="nomor">73</span></div>
-    <div class="latin">A-antum ansya`tum syajaratahā am naḥnul-munsyi`ụn</div>
-    <div class="terjemahan">Kamukah yang menjadikan kayunya, atau Kami yang membuatnya?</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">نَحْنُ جَعَلْنَاهَا تَذْكِرَةً وَمَتَاعًا لِّلْمُقْوِينَ <span class="nomor">74</span></div>
-    <div class="latin">Naḥnu ja‘alnāhā tażkiratan wa matā‘al lil-muqwīn</div>
-    <div class="terjemahan">Kami menjadikannya peringatan dan bahan yang berguna bagi orang-orang yang bermukim di padang pasir.</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">فَسَبِّحْ بِاسْمِ رَبِّكَ الْعَظِيمِ <span class="nomor">75</span></div>
-    <div class="latin">Fasabbiḥ bismi rabbikal-‘aẓīm</div>
-    <div class="terjemahan">Maka bertasbihlah dengan (menyebut) nama Tuhanmu Yang Mahabesar.</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">فَلَا أُقْسِمُ بِمَوَاقِعِ النُّجُومِ <span class="nomor">76</span></div>
-    <div class="latin">Falā uqsimu bimawāqi‘in-nujụm</div>
-    <div class="terjemahan">Maka Aku bersumpah dengan tempat beredarnya bintang-bintang,</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">وَإِنَّهُ لَقَسَمٌ لَّوْ تَعْلَمُونَ عَظِيمٌ <span class="nomor">77</span></div>
-    <div class="latin">Wa innahụ laqasamul law ta‘lamụna ‘aẓīm</div>
-    <div class="terjemahan">dan sesungguhnya itu benar-benar sumpah yang besar kalau kamu mengetahui,</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">إِنَّهُ لَقُرْآنٌ كَرِيمٌ <span class="nomor">78</span></div>
-    <div class="latin">Innahụ laqur`ānun karīm</div>
-    <div class="terjemahan">sesungguhnya (Al-Qur’an) itu adalah bacaan yang mulia,</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">فِي كِتَابٍ مَّكْنُونٍ <span class="nomor">79</span></div>
-    <div class="latin">Fī kitābim maknụn</div>
-    <div class="terjemahan">yang tersimpan dalam kitab yang terpelihara (Lauh Mahfuz),</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">لَّا يَمَسُّهُ إِلَّا الْمُطَهَّرُونَ <span class="nomor">80</span></div>
-    <div class="latin">Lā yamassuhū illal-muṭahharụn</div>
-    <div class="terjemahan">tidak ada yang menyentuhnya selain hamba-hamba yang disucikan,</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">تَنزِيلٌ مِّن رَّبِّ الْعَالَمِينَ <span class="nomor">81</span></div>
-    <div class="latin">Tanzīlum mir rabbil-‘ālamīn</div>
-    <div class="terjemahan">diturunkan dari Tuhan semesta alam.</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">أَفَبِهَٰذَا الْحَدِيثِ أَنتُم مُّدْهِنُونَ <span class="nomor">82</span></div>
-    <div class="latin">Afa bihāżal-ḥadīṡi antum mud'hinụn</div>
-    <div class="terjemahan">Maka apakah kamu menganggap remeh berita ini (Al-Qur’an)?</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">وَتَجْعَلُونَ رِزْقَكُمْ أَنَّكُمْ تُكَذِّبُونَ <span class="nomor">83</span></div>
-    <div class="latin">Wa taj‘alụna rizqakum annakum tukażżibụn</div>
-    <div class="terjemahan">Dan kamu menjadikan rezekimu bahwa kamu mendustakan (Allah)?</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">فَلَوْلَا إِذَا بَلَغَتِ الْحُلْقُومَ <span class="nomor">84</span></div>
-    <div class="latin">Falau lā iżā balaġatil-ḥulqụm</div>
-    <div class="terjemahan">Maka mengapa ketika (nyawa) sampai di kerongkongan,</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">وَأَنتُمْ حِينَئِذٍ تَنظُرُونَ <span class="nomor">85</span></div>
-    <div class="latin">Wa antum ḥīna`iżin tanẓurụn</div>
-    <div class="terjemahan">dan kamu pada waktu itu melihat,</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنكُمْ وَلَٰكِن لَّا تُبْصِرُونَ <span class="nomor">86</span></div>
-    <div class="latin">Wa naḥnu aqrabu ilaihi minkum walākin lā tubṣirụn</div>
-    <div class="terjemahan">dan Kami lebih dekat kepadanya daripada kamu, tetapi kamu tidak melihat,</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">فَلَوْلَا إِن كُنتُمْ غَيْرَ مَدِينِينَ <span class="nomor">87</span></div>
-    <div class="latin">Falau lā in kuntum ġaira madīnīn</div>
-    <div class="terjemahan">maka mengapa jika kamu tidak dikuasai (oleh Allah),</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">تَرْجِعُونَهَا إِن كُنتُمْ صَادِقِينَ <span class="nomor">88</span></div>
-    <div class="latin">Tarji‘ụnahā in kuntum ṣādiqīn</div>
-    <div class="terjemahan">kamu tidak mengembalikan (nyawa itu) jika kamu orang yang benar?</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">فَأَمَّا إِن كَانَ مِنَ الْمُقَرَّبِينَ <span class="nomor">89</span></div>
-    <div class="latin">Fa ammā in kāna minal-muqarrabīn</div>
-    <div class="terjemahan">Adapun jika dia termasuk orang-orang yang didekatkan (kepada Allah),</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">فَرَوْحٌ وَرَيْحَانٌ وَجَنَّتُ نَعِيمٍ <span class="nomor">90</span></div>
-    <div class="latin">Farauḥuw wa raiḥānuw wa jannatu na‘īm</div>
-    <div class="terjemahan">maka dia memperoleh ketenteraman, rezeki, dan surga penuh kenikmatan.</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">وَأَمَّا إِن كَانَ مِنْ أَصْحَابِ الْيَمِينِ <span class="nomor">91</span></div>
-    <div class="latin">Wa ammā in kāna min aṣḥābil-yamīn</div>
-    <div class="terjemahan">Dan adapun jika dia termasuk golongan kanan,</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">فَسَلَامٌ لَّكَ مِنْ أَصْحَابِ الْيَمِينِ <span class="nomor">92</span></div>
-    <div class="latin">Fasalamul laka min aṣḥābil-yamīn</div>
-    <div class="terjemahan">maka keselamatan bagimu dari golongan kanan.</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">وَأَمَّا إِن كَانَ مِنَ الْمُكَذِّبِينَ الضَّالِّينَ <span class="nomor">93</span></div>
-    <div class="latin">Wa ammā in kāna minal-mukażżibīnaḍ-ḍāllīn</div>
-    <div class="terjemahan">Dan adapun jika dia termasuk orang-orang yang mendustakan lagi sesat,</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">فَنُزُلٌ مِّنْ حَمِيمٍ <span class="nomor">94</span></div>
-    <div class="latin">Fanuzulum min ḥamīm</div>
-    <div class="terjemahan">maka dia mendapat hidangan dari air yang mendidih,</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">وَتَصْلِيَةُ جَحِيمٍ <span class="nomor">95</span></div>
-    <div class="latin">Wa taṣliyyatu jaḥīm</div>
-    <div class="terjemahan">dan dibakar di dalam neraka.</div>
-  </div>
-
-  <div class="ayat">
-    <div class="arab">إِنَّ هَٰذَا لَهُوَ حَقُّ الْيَقِينِ <span class="nomor">96</span></div>
-    <div class="latin">Inna hāżā lahuwa ḥaqqūl yaqīn</div>
-    <div class="terjemahan">Sungguh, (semua itu) adalah kebenaran yang pasti.</div>
-  </div>
-
+<div class="ayat">
+  <div class="arab">أَأَنتُمْ أَنزَلْتُمُوهُ مِنَ الْمُزْنِ أَمْ نَحْنُ الْمُنزِلُونَ <span class="nomor">٦٩</span></div>
+  <div class="latin">a’antum anzaltumūhu minal-muzni am naḥnul-munzilūn</div>
+  <div class="terjemahan">Kamukah yang menurunkannya dari awan, atau Kami yang menurunkannya?</div>
 </div>
 
+<div class="ayat">
+  <div class="arab">لَوْ نَشَاءُ جَعَلْنَاهُ أُجَاجًا فَلَوْلَا تَشْكُرُونَ <span class="nomor">٧٠</span></div>
+  <div class="latin">lau nasyā’u ja‘alnāhu ujājā falau-lā tasykurūn</div>
+  <div class="terjemahan">Jika Kami menghendaki, niscaya Kami jadikan dia asin; maka mengapa kamu tidak bersyukur?</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">أَفَرَأَيْتُمُ النَّارَ الَّتِي تُورُونَ <span class="nomor">٧١</span></div>
+  <div class="latin">a fara-aitumun-nāral-latī tūrūn</div>
+  <div class="terjemahan">Maka pernahkah kamu memperhatikan api yang kamu nyalakan?</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">أَأَنتُمْ أَنشَأْتُمْ شَجَرَتَهَا أَمْ نَحْنُ الْمُنشِئُونَ <span class="nomor">٧٢</span></div>
+  <div class="latin">a’antum ansya’tum syajaratahā am naḥnul-munsyi’ūn</div>
+  <div class="terjemahan">Kamukah yang menciptakan pohonnya atau Kami yang menciptakannya?</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">نَحْنُ جَعَلْنَاهَا تَذْكِرَةً وَمَتَاعًا لِّلْمُقْوِينَ <span class="nomor">٧٣</span></div>
+  <div class="latin">naḥnu ja‘alnāhā tazkirah wa matā‘al-lil-muqwīn</div>
+  <div class="terjemahan">Kami menjadikannya sebagai peringatan dan bahan berguna bagi musafir.</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">فَسَبِّحْ بِاسْمِ رَبِّكَ الْعَظِيمِ <span class="nomor">٧٤</span></div>
+  <div class="latin">fa sabbiḥ bismi rabbikal-‘aẓīm</div>
+  <div class="terjemahan">Maka bertasbihlah dengan (menyebut) nama Tuhanmu Yang Maha Besar.</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">فَلَا أُقْسِمُ بِمَوَاقِعِ النُّجُومِ <span class="nomor">٧٥</span></div>
+  <div class="latin">falā uqsimu bimawāqi‘in-nujūm</div>
+  <div class="terjemahan">Aku bersumpah demi tempat beredarnya bintang-bintang,</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">وَإِنَّهُ لَقَسَمٌ لَّوْ تَعْلَمُونَ عَظِيمٌ <span class="nomor">٧٦</span></div>
+  <div class="latin">wa innahu laqasamun lau ta‘lamūna ‘aẓīm</div>
+  <div class="terjemahan">dan sesungguhnya itu benar-benar sumpah yang besar jika kamu mengetahui,</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">إِنَّهُ لَقُرْآنٌ كَرِيمٌ <span class="nomor">٧٧</span></div>
+  <div class="latin">innahu laqur’ānun karīm</div>
+  <div class="terjemahan">sesungguhnya Al-Qur’an ini adalah bacaan yang mulia,</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">فِي كِتَابٍ مَّكْنُونٍ <span class="nomor">٧٨</span></div>
+  <div class="latin">fī kitābin maknūn</div>
+  <div class="terjemahan">yang tersimpan dalam kitab yang terpelihara,</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">لَّا يَمَسُّهُ إِلَّا الْمُطَهَّرُونَ <span class="nomor">٧٩</span></div>
+  <div class="latin">lā yamas-suhū illal-muṭahharūn</div>
+  <div class="terjemahan">tidak ada yang menyentuhnya selain hamba-hamba yang disucikan.</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">تَنزِيلٌ مِّن رَّبِّ الْعَالَمِينَ <span class="nomor">٨٠</span></div>
+  <div class="latin">tanzīlum mir rabbil-‘ālamīn</div>
+  <div class="terjemahan">Diturunkan dari Tuhan seluruh alam.</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">أَفَبِهَٰذَا الْحَدِيثِ أَنتُم مُّدْهِنُونَ <span class="nomor">٨١</span></div>
+  <div class="latin">a fā bihāżal-ḥadīṡi antum mudhinūn</div>
+  <div class="terjemahan">Maka apakah kamu menganggap remeh berita ini (Al-Qur’an)?</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">وَتَجْعَلُونَ رِزْقَكُمْ أَنَّكُمْ تُكَذِّبُونَ <span class="nomor">٨٢</span></div>
+  <div class="latin">wa taj‘alūna rizqakum annakum tukażżibūn</div>
+  <div class="terjemahan">dan kamu menjadikan rezekimu bahwa kamu mendustakan (nya).</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">فَلَوْلَا إِذَا بَلَغَتِ الْحُلْقُومَ <span class="nomor">٨٣</span></div>
+  <div class="latin">falau-lā iżā balaghatil-ḥulqūm</div>
+  <div class="terjemahan">Maka mengapa ketika nyawa sampai di tenggorokan,</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">وَأَنتُمْ حِينَئِذٍ تَنظُرُونَ <span class="nomor">٨٤</span></div>
+  <div class="latin">wa antum ḥīna’iżin tanẓurūn</div>
+  <div class="terjemahan">dan kamu ketika itu melihat,</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنكُمْ وَلَٰكِن لَّا تُبْصِرُونَ <span class="nomor">٨٥</span></div>
+  <div class="latin">wa naḥnu aqrabu ilaihi minkum wa lākin lā tubṣirūn</div>
+  <div class="terjemahan">sedangkan Kami lebih dekat kepadanya daripada kamu, tetapi kamu tidak melihat,</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">فَلَوْلَا إِن كُنتُمْ غَيْرَ مَدِينِينَ <span class="nomor">٨٦</span></div>
+  <div class="latin">falau-lā in kuntum ghaira madīnīn</div>
+  <div class="terjemahan">maka mengapa jika kamu tidak dikuasai (oleh Allah),</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">تَرْجِعُونَهَا إِن كُنتُمْ صَادِقِينَ <span class="nomor">٨٧</span></div>
+  <div class="latin">tarji‘ūnahā in kuntum ṣādiqīn</div>
+  <div class="terjemahan">kamu tidak mengembalikan nyawa itu (ke tempatnya) jika kamu orang-orang yang benar?</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">فَأَمَّا إِن كَانَ مِنَ الْمُقَرَّبِينَ <span class="nomor">٨٨</span></div>
+  <div class="latin">fa ammā in kāna minal-muqarrabīn</div>
+  <div class="terjemahan">Adapun jika dia termasuk orang-orang yang didekatkan (kepada Allah),</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">فَرَوْحٌ وَرَيْحَانٌ وَجَنَّتُ نَعِيمٍ <span class="nomor">٨٩</span></div>
+  <div class="latin">fa rauḥun wa raiḥānun wa jannatu na‘īm</div>
+  <div class="terjemahan">maka dia memperoleh ketenteraman, rezeki, dan surga penuh kenikmatan.</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">وَأَمَّا إِن كَانَ مِنْ أَصْحَابِ الْيَمِينِ <span class="nomor">٩٠</span></div>
+  <div class="latin">wa ammā in kāna min aṣḥābil-yamīn</div>
+  <div class="terjemahan">Dan adapun jika dia termasuk golongan kanan,</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">فَسَلَامٌ لَّكَ مِنْ أَصْحَابِ الْيَمِينِ <span class="nomor">٩١</span></div>
+  <div class="latin">fa salāmun laka min aṣḥābil-yamīn</div>
+  <div class="terjemahan">maka (dikatakan kepadanya), “Salam bagimu dari golongan kanan.”</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">وَأَمَّا إِن كَانَ مِنَ الْمُكَذِّبِينَ الضَّالِّينَ <span class="nomor">٩٢</span></div>
+  <div class="latin">wa ammā in kāna minal-mukażżibīnaḍ-ḍāllīn</div>
+  <div class="terjemahan">Dan adapun jika dia termasuk orang-orang yang mendustakan lagi sesat,</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">فَنُزُلٌ مِّنْ حَمِيمٍ <span class="nomor">٩٣</span></div>
+  <div class="latin">fa nuzulum min ḥamīm</div>
+  <div class="terjemahan">maka dia mendapat jamuan dari air yang mendidih,</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">وَتَصْلِيَةُ جَحِيمٍ <span class="nomor">٩٤</span></div>
+  <div class="latin">wa taṣliyatu jaḥīm</div>
+  <div class="terjemahan">dan dibakar di dalam neraka.</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">إِنَّ هَٰذَا لَهُوَ حَقُّ الْيَقِينِ <span class="nomor">٩٥</span></div>
+  <div class="latin">inna hāżā lahuwa ḥaqqūl-yaqīn</div>
+  <div class="terjemahan">Sesungguhnya ini benar-benar keyakinan yang pasti.</div>
+</div>
+
+<div class="ayat">
+  <div class="arab">فَسَبِّحْ بِاسْمِ رَبِّكَ الْعَظِيمِ <span class="nomor">٩٦</span></div>
+  <div class="latin">fa sabbiḥ bismi rabbikal-‘aẓīm</div>
+  <div class="terjemahan">Maka bertasbihlah dengan (menyebut) nama Tuhanmu Yang Maha Besar.</div>
+</div>
+
+</div> <!-- penutup wrap -->
 @endsection

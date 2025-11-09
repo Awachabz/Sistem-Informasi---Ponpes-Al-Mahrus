@@ -80,3 +80,7 @@ Route::get('/rotinan/surat yasiin', function () {
 Route::get('/rotinan/alwakiah', function () {
     return view('rotinan.alwakiah');
 })->name('alwakiah');
+
+Route::get('/rotinan/almulk', function () {
+    return view('rotinan.almulk');
+})->name('almulk');
