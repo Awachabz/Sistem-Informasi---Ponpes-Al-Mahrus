@@ -144,7 +144,7 @@
           <ul class="dropdown-menu" aria-labelledby="rotinanDropdown">
             <li><a class="dropdown-item" href="{{ route('surat yasiin') }}">Yasiin</a></li>
             <li><a class="dropdown-item" href="{{ route('alwakiah') }}">Surat Al-Waqi’ah</a></li>
-            <li><a class="dropdown-item" href="#tabaraq">Tabaraq</a></li>
+            <li><a class="dropdown-item" href="{{ route('almulk') }}">Surat Al-Mulk</a></li>
             <li><a class="dropdown-item" href="{{ route('kamilah') }}">Sholawat Kamilah</a></li>
             <li><a class="dropdown-item" href="{{ route('nurzati') }}">Sholawat Nurzati</a></li>
             <li><a class="dropdown-item" href="{{ route('anilqodr') }}">Sholawat Anil Qodr</a></li>
