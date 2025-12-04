@@ -52,7 +52,7 @@
     <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="{{ asset('images/slide1.jpeg') }}" class="d-block w-100 carousel-placeholder" alt="slide1" 
+          <img src="{{ asset('images/slide1.jpg') }}" class="d-block w-100 carousel-placeholder" alt="slide1" 
                onerror="this.src='https://via.placeholder.com/1600x600?text=Slide+1'">
         </div>
         <div class="carousel-item">

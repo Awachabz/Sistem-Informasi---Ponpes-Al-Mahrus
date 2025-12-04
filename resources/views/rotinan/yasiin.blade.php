@@ -65,6 +65,12 @@
 </style>
 
 <div class="wrap-yasin">
+<div class="source-link">
+  Sumber : 
+  <a href="https://quran.nu.or.id/yasin" target="_blank">
+    https://quran.nu.or.id/yasin
+  </a>
+</div>
 
 <h1>سُورَةُ یس</h1>
 <div class="ayat">
@@ -74,145 +80,145 @@
   </div>
 
   <div class="ayat">
-    <div class="arab">يس <span class="nomor">1</span></div>
+    <div class="arab">يس <span class="nomor">١</span></div>
     <div class="latin">yâ sîn</div>
     <div class="terjemahan">Ya Sin</div>
   </div>
   
   <div class="ayat">
-    <div class="arab">وَالْقُرْآنِ الْحَكِيمِ <span class="nomor">2</span></div>
+    <div class="arab">وَالْقُرْآنِ الْحَكِيمِ <span class="nomor">٢</span></div>
     <div class="latin">Wal-Qur-aanil-Hakeem</div>
     <div class="terjemahan">Demi Al-Qur'an yang penuh hikmah,</div>
   </div>
   
   <div class="ayat">
-    <div class="arab">إِنَّكَ لَمِنَ الْمُرْسَلِينَ <span class="nomor">3</span></div>
+    <div class="arab">إِنَّكَ لَمِنَ الْمُرْسَلِينَ <span class="nomor">٣</span></div>
     <div class="latin">Innaka laminal mursaleen</div>
     <div class="terjemahan">sungguh, engkau (Muhammad) adalah salah seorang dari rasul-rasul,</div>
   </div>
   
   <div class="ayat">
-    <div class="arab">عَلَىٰ صِرَاطٍ مُّسْتَقِيمٍ <span class="nomor">4</span></div>
+    <div class="arab">عَلَىٰ صِرَاطٍ مُّسْتَقِيمٍ <span class="nomor">٤</span></div>
     <div class="latin">'Alaa Siraatim Mustaqeem</div>
     <div class="terjemahan">(yang berada) di atas jalan yang lurus,</div>
   </div>
   
   <div class="ayat">
-    <div class="arab">تَنزِيلَ الْعَزِيزِ الرَّحِيمِ <span class="nomor">5</span></div>
+    <div class="arab">تَنزِيلَ الْعَزِيزِ الرَّحِيمِ <span class="nomor">٥</span></div>
     <div class="latin">Tanzeelal 'Azeezir Raheem</div>
     <div class="terjemahan">(sebagai wahyu) yang diturunkan oleh (Allah) Yang Mahaperkasa, Maha Penyayang,</div>
   </div>
   
   <div class="ayat">
-    <div class="arab">لِتُنذِرَ قَوْمًا مَّا أُنذِرَ آبَاؤُهُمْ فَهُمْ غَافِلُونَ <span class="nomor">6</span></div>
+    <div class="arab">لِتُنذِرَ قَوْمًا مَّا أُنذِرَ آبَاؤُهُمْ فَهُمْ غَافِلُونَ <span class="nomor">٦</span></div>
     <div class="latin">Litunzira qawmam maaa unzira aabaaa'uhum fahum ghaafiloon</div>
     <div class="terjemahan">agar engkau memberi peringatan kepada suatu kaum yang nenek moyangnya belum pernah diberi peringatan, karena itu mereka lalai.</div>
   </div>
   
   <div class="ayat">
-    <div class="arab">لَقَدْ حَقَّ الْقَوْلُ عَلَىٰ أَكْثَرِهِمْ فَهُمْ لَا يُؤْمِنُونَ <span class="nomor">7</span></div>
+    <div class="arab">لَقَدْ حَقَّ الْقَوْلُ عَلَىٰ أَكْثَرِهِمْ فَهُمْ لَا يُؤْمِنُونَ <span class="nomor">٧</span></div>
     <div class="latin">Laqad haqqal qawlu 'alaaa aksarihim fahum laa yu'minoon</div>
     <div class="terjemahan">Sungguh, pasti berlaku perkataan (hukuman) terhadap kebanyakan mereka, karena mereka tidak beriman.</div>
   </div>
   
   <div class="ayat">
-    <div class="arab">إِنَّا جَعَلْنَا فِي أَعْنَاقِهِمْ أَغْلَالًا فَهِيَ إِلَى الْأَذْقَانِ فَهُم مُّقْمَحُونَ <span class="nomor">8</span></div>
+    <div class="arab">إِنَّا جَعَلْنَا فِي أَعْنَاقِهِمْ أَغْلَالًا فَهِيَ إِلَى الْأَذْقَانِ فَهُم مُّقْمَحُونَ <span class="nomor">٨</span></div>
     <div class="latin">Innaa ja'alnaa feee a'naaqihim aghlaalan fahiya ilal azqaani fahum muqmahoon</div>
     <div class="terjemahan">Sungguh, Kami telah memasang belenggu di leher mereka, lalu tangan mereka (diangkat) ke dagu, karena itu mereka tertengadah.</div>
   </div>
   
   <div class="ayat">
-    <div class="arab">وَجَعَلْنَا مِن بَيْنِ أَيْدِيهِمْ سَدًّا وَمِنْ خَلْفِهِمْ سَدًّا فَأَغْشَيْنَاهُمْ فَهُمْ لَا يُبْصِرُونَ <span class="nomor">9</span></div>
+    <div class="arab">وَجَعَلْنَا مِن بَيْنِ أَيْدِيهِمْ سَدًّا وَمِنْ خَلْفِهِمْ سَدًّا فَأَغْشَيْنَاهُمْ فَهُمْ لَا يُبْصِرُونَ <span class="nomor">٩</span></div>
     <div class="latin">Wa ja'alnaa mim baini aydeehim saddanw-wa min khalfihim saddan fa aghshai naahum fahum laa yubsiroon</div>
     <div class="terjemahan">Dan Kami jadikan di hadapan mereka sekat (dinding) dan di belakang mereka juga sekat, dan Kami tutup (mata) mereka sehingga mereka tidak dapat melihat.</div>
   </div>
   
   <div class="ayat">
-    <div class="arab">وَسَوَاءٌ عَلَيْهِمْ أَأَنذَرْتَهُمْ أَمْ لَمْ تُنذِرْهُمْ لَا يُؤْمِنُونَ <span class="nomor">10</span></div>
+    <div class="arab">وَسَوَاءٌ عَلَيْهِمْ أَأَنذَرْتَهُمْ أَمْ لَمْ تُنذِرْهُمْ لَا يُؤْمِنُونَ <span class="nomor">١٠</span></div>
     <div class="latin">Wa sawaaa'un 'alaihim 'a-anzartahum am lam tunzirhum laa yu'minoon</div>
     <div class="terjemahan">Dan sama saja bagi mereka, apakah engkau memberi peringatan kepada mereka atau engkau tidak memberi peringatan kepada mereka, mereka tidak akan beriman juga.</div>
   </div>
   
   <div class="ayat">
-    <div class="arab">إِنَّمَا تُنذِرُ مَنِ اتَّبَعَ الذِّكْرَ وَخَشِيَ الرَّحْمَٰنَ بِالْغَيْبِ ۖ فَبَشِّرْهُ بِمَغْفِرَةٍ وَأَجْرٍ كَرِيمٍ <span class="nomor">11</span></div>
+    <div class="arab">إِنَّمَا تُنذِرُ مَنِ اتَّبَعَ الذِّكْرَ وَخَشِيَ الرَّحْمَٰنَ بِالْغَيْبِ ۖ فَبَشِّرْهُ بِمَغْفِرَةٍ وَأَجْرٍ كَرِيمٍ <span class="nomor">١١</span></div>
     <div class="latin">Innamaa tunziru manit taba 'az-Zikra wa khashiyar Rahmaana bilghaib, fabashshirhu bimaghfiratinw-wa ajrin kareem</div>
     <div class="terjemahan">Sesungguhnya engkau hanya memberi peringatan kepada orang-orang yang mau mengikuti peringatan dan yang takut kepada Tuhan Yang Maha Pengasih, walaupun mereka tidak melihat-Nya. Maka berilah mereka kabar gembira dengan ampunan dan pahala yang mulia.</div>
   </div>
   
   <div class="ayat">
-    <div class="arab">إِنَّا نَحْنُ نُحْيِي الْمَوْتَىٰ وَنَكْتُبُ مَا قَدَّمُوا وَآثَارَهُمْ ۚ وَكُلَّ شَيْءٍ أَحْصَيْنَاهُ فِي إِمَامٍ مُّبِينٍ <span class="nomor">12</span></div>
+    <div class="arab">إِنَّا نَحْنُ نُحْيِي الْمَوْتَىٰ وَنَكْتُبُ مَا قَدَّمُوا وَآثَارَهُمْ ۚ وَكُلَّ شَيْءٍ أَحْصَيْنَاهُ فِي إِمَامٍ مُّبِينٍ <span class="nomor">١٢</span></div>
     <div class="latin">Innaa Nahnu nuhyil mawtaa wa naktubu maa qaddamoo wa aasaarahum; wa kulla shai'in ahsainaahu feee Imaamim Mubeen</div>
     <div class="terjemahan">Sungguh, Kamilah yang menghidupkan orang-orang yang mati, dan Kamilah yang mencatat apa yang telah mereka kerjakan dan bekas-bekas yang mereka (tinggalkan). Dan segala sesuatu Kami kumpulkan dalam Kitab yang jelas (Lauh Mahfuzh).</div>
   </div>
   
   <div class="ayat">
-    <div class="arab">وَاضْرِبْ لَهُم مَّثَلًا أَصْحَابَ الْقَرْيَةِ إِذْ جَاءَهَا الْمُرْسَلُونَ <span class="nomor">13</span></div>
+    <div class="arab">وَاضْرِبْ لَهُم مَّثَلًا أَصْحَابَ الْقَرْيَةِ إِذْ جَاءَهَا الْمُرْسَلُونَ <span class="nomor">١٣</span></div>
     <div class="latin">Wadrib lahum masalan Ashaabal Qaryatih; iz jaaa'ahal mursaloon</div>
     <div class="terjemahan">Dan buatlah suatu perumpamaan bagi mereka, yaitu penduduk suatu negeri, ketika utusan-utusan datang kepada mereka;</div>
   </div>
   
   <div class="ayat">
-    <div class="arab">إِذْ أَرْسَلْنَا إِلَيْهِمُ اثْنَيْنِ فَكَذَّبُوهُمَا فَعَزَّزْنَا بِثَالِثٍ فَقَالُوا إِنَّا إِلَيْكُم مُّرْسَلُونَ <span class="nomor">14</span></div>
+    <div class="arab">إِذْ أَرْسَلْنَا إِلَيْهِمُ اثْنَيْنِ فَكَذَّبُوهُمَا فَعَزَّزْنَا بِثَالِثٍ فَقَالُوا إِنَّا إِلَيْكُم مُّرْسَلُونَ <span class="nomor">١٤</span></div>
     <div class="latin">Iz arsalnaaa ilaihimusnaini fakazzaboohumaa fa'azzaznaa bisaalisin faqaalooo innaaa ilaikum mursaloon</div>
     <div class="terjemahan">(yaitu) ketika Kami mengutus kepada mereka dua orang utusan, lalu mereka mendustakan keduanya; kemudian Kami kuatkan dengan (utusan) yang ketiga, maka ketiga (utusan itu) berkata, “Sungguh, kami adalah orang-orang yang diutus kepadamu.”</div>
   </div>
   
   <div class="ayat">
-    <div class="arab">قَالُوا مَا أَنتُمْ إِلَّا بَشَرٌ مِّثْلُنَا وَمَا أَنزَلَ الرَّحْمَٰنُ مِن شَيْءٍ إِنْ أَنتُمْ إِلَّا تَكْذِبُونَ <span class="nomor">15</span></div>
+    <div class="arab">قَالُوا مَا أَنتُمْ إِلَّا بَشَرٌ مِّثْلُنَا وَمَا أَنزَلَ الرَّحْمَٰنُ مِن شَيْءٍ إِنْ أَنتُمْ إِلَّا تَكْذِبُونَ <span class="nomor">١٥</span></div>
     <div class="latin">Qaaloo maaa antum illaa basharum mislunaa wa maaa anzalar Rahmaanu min shai'in in antum illaa takziboon</div>
     <div class="terjemahan">Mereka (penduduk negeri) menjawab, “Kamu ini hanyalah manusia seperti kami, dan (Allah) Yang Maha Pengasih tidak menurunkan sesuatu apa pun; kamu hanyalah pendusta belaka.”</div>
   </div>
   
   <div class="ayat">
-    <div class="arab">قَالُوا رَبُّنَا يَعْلَمُ إِنَّا إِلَيْكُمْ لَمُرْسَلُونَ <span class="nomor">16</span></div>
+    <div class="arab">قَالُوا رَبُّنَا يَعْلَمُ إِنَّا إِلَيْكُمْ لَمُرْسَلُونَ <span class="nomor">١٦</span></div>
     <div class="latin">Qaaloo Rabbunaa ya'lamu innaaa ilaikum lamursaloon</div>
     <div class="terjemahan">Mereka berkata, “Tuhan kami mengetahui sesungguhnya kami adalah utusan-utusan(-Nya) kepada kamu.</div>
   </div>
   
   <div class="ayat">
-    <div class="arab">وَمَا عَلَيْنَا إِلَّا الْبَلَاغُ الْمُبِينُ <span class="nomor">17</span></div>
+    <div class="arab">وَمَا عَلَيْنَا إِلَّا الْبَلَاغُ الْمُبِينُ <span class="nomor">١٧</span></div>
     <div class="latin">Wa maa 'alainaaa illal balaaghul mubeen</div>
     <div class="terjemahan">Dan kewajiban kami hanyalah menyampaikan (perintah Allah) dengan jelas.”</div>
   </div>
   
   <div class="ayat">
-    <div class="arab">قَالُوا إِنَّا تَطَيَّرْنَا بِكُمْ ۖ لَئِن لَّمْ تَنتَهُوا لَنَرْجُمَنَّكُمْ وَلَيَمَسَّنَّكُم مِّنَّا عَذَابٌ أَلِيمٌ <span class="nomor">18</span></div>
+    <div class="arab">قَالُوا إِنَّا تَطَيَّرْنَا بِكُمْ ۖ لَئِن لَّمْ تَنتَهُوا لَنَرْجُمَنَّكُمْ وَلَيَمَسَّنَّكُم مِّنَّا عَذَابٌ أَلِيمٌ <span class="nomor">١٨</span></div>
     <div class="latin">Qaaloo innaa tataiyarnaa bikum la'il-lam tantahoo lanar jumannakum wa la-yamassan nakum minnaa 'azaabun aleem</div>
     <div class="terjemahan">Mereka menjawab, “Sesungguhnya kami bernasib malang karena kamu. Sungguh, jika kamu tidak berhenti (menyeru kami), niscaya kami rajam kamu dan kamu pasti akan merasakan siksaan yang pedih dari kami.”</div>
   </div>
   
   <div class="ayat">
-    <div class="arab">قَالُوا طَائِرُكُم مَّعَكُمْ ۚ أَئِن ذُكِّرْتُم ۚ بَلْ أَنتُمْ قَوْمٌ مُّسْرِفُونَ <span class="nomor">19</span></div>
+    <div class="arab">قَالُوا طَائِرُكُم مَّعَكُمْ ۚ أَئِن ذُكِّرْتُم ۚ بَلْ أَنتُمْ قَوْمٌ مُّسْرِفُونَ <span class="nomor">١٩</span></div>
     <div class="latin">Qaaloo taaa'irukum ma'akum; a'in zukkirtum; bal antum qawmum musrifoon</div>
     <div class="terjemahan">Mereka (utusan-utusan) itu berkata, “Kemalangan kamu itu adalah karena kamu sendiri. Apakah karena kamu diberi peringatan? Sebenarnya kamu adalah kaum yang melampaui batas.”</div>
   </div>
   
   <div class="ayat">
-    <div class="arab">وَجَاءَ مِنْ أَقْصَى الْمَدِينَةِ رَجُلٌ يَسْعَىٰ قَالَ يَا قَوْمِ اتَّبِعُوا الْمُرْسَلِينَ <span class="nomor">20</span></div>
+    <div class="arab">وَجَاءَ مِنْ أَقْصَى الْمَدِينَةِ رَجُلٌ يَسْعَىٰ قَالَ يَا قَوْمِ اتَّبِعُوا الْمُرْسَلِينَ <span class="nomor">٢٠</span></div>
     <div class="latin">Wa jaaa'a min aqsal madeenati rajuluny yas'aa qaala yaa qawmit tabi'ul mursaleen</div>
     <div class="terjemahan">Dan datanglah dari ujung kota, seorang laki-laki dengan bergegas dia berkata, “Wahai kaumku! Ikutilah utusan-utusan itu.</div>
   </div>
   
   <div class="ayat">
-    <div class="arab">اتَّبِعُوا مَن لَّا يَسْأَلُكُمْ أَجْرًا وَهُم مُّهْتَدُونَ <span class="nomor">21</span></div>
+    <div class="arab">اتَّبِعُوا مَن لَّا يَسْأَلُكُمْ أَجْرًا وَهُم مُّهْتَدُونَ <span class="nomor">٢١</span></div>
     <div class="latin">Ittabi'oo mal-laa yas'alukum ajranw-wa hum muhtadoon</div>
     <div class="terjemahan">Ikutilah orang yang tidak meminta imbalan kepadamu; dan mereka adalah orang-orang yang mendapat petunjuk.</div>
   </div>
   
   <div class="ayat">
-    <div class="arab">وَمَا لِيَ لَا أَعْبُدُ الَّذِي فَطَرَنِي وَإِلَيْهِ تُرْجَعُونَ <span class="nomor">22</span></div>
+    <div class="arab">وَمَا لِيَ لَا أَعْبُدُ الَّذِي فَطَرَنِي وَإِلَيْهِ تُرْجَعُونَ <span class="nomor">٢٢</span></div>
     <div class="latin">Wa maa liya laaa a'budul lazee fataranee wa ilaihi turja'oon</div>
     <div class="terjemahan">Dan tidak ada alasan bagiku untuk tidak menyembah (Allah) yang telah menciptakanku dan hanya kepada-Nyalah kamu akan dikembalikan.</div>
   </div>
   
   <div class="ayat">
-    <div class="arab">أَأَتَّخِذُ مِن دُونِهِ آلِهَةً إِن يُرِدْنِ الرَّحْمَٰنُ بِضُرٍّ لَّا تُغْنِ عَنِّي شَفَاعَتُهُمْ شَيْئًا وَلَا يُنقِذُونِ <span class="nomor">23</span></div>
+    <div class="arab">أَأَتَّخِذُ مِن دُونِهِ آلِهَةً إِن يُرِدْنِ الرَّحْمَٰنُ بِضُرٍّ لَّا تُغْنِ عَنِّي شَفَاعَتُهُمْ شَيْئًا وَلَا يُنقِذُونِ <span class="nomor">٢٣</span></div>
     <div class="latin">'A-attakhizu min dooniheee aalihatan iny-yuridnir Rahmaanu bidurril-laa tughni 'annee shafaa 'atuhum shai 'anw-wa laa yunqizoon</div>
     <div class="terjemahan">Mengapa aku akan menyembah tuhan-tuhan selain-Nya? Jika (Allah) Yang Maha Pengasih menghendaki bencana terhadapku, pasti pertolongan mereka tidak berguna sama sekali bagi diriku dan mereka (juga) tidak dapat menyelamatkanku.</div>
   </div>
   
   <div class="ayat">
-    <div class="arab">إِنِّي إِذًا لَّفِي ضَلَالٍ مُّبِينٍ <span class="nomor">24</span></div>
+    <div class="arab">إِنِّي إِذًا لَّفِي ضَلَالٍ مُّبِينٍ <span class="nomor">٢٤</span></div>
     <div class="latin">Inneee izal-lafee dalaa-lim-mubeen</div>
     <div class="terjemahan">Sesungguhnya jika aku (berbuat) begitu, pasti aku berada dalam kesesatan yang nyata.</div>
   </div>

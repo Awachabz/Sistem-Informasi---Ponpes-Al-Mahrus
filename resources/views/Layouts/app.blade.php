@@ -33,7 +33,7 @@
       border-radius: 4px;
     }
 
-    /* Caret untuk semua menu */
+    /* === Panah (caret) seragam untuk semua dropdown === */
     .nav-item > .nav-link::after {
       content: '';
       display: inline-block;
@@ -42,14 +42,15 @@
       border: solid white;
       border-width: 0 2px 2px 0;
       padding: 3px;
-      transform: rotate(-45deg);
+      transform: rotate(-45deg); /* bentuk “>” */
       transition: transform 0.3s ease;
     }
-    .nav-item.dropdown > .dropdown-toggle.show::after {
-      transform: rotate(45deg);
-    }
+
+    /* Saat dropdown aktif atau terbuka → panah ke bawah */
+    .nav-item.dropdown.show > .nav-link::after,
+    .nav-item.dropdown > .dropdown-toggle.show::after,
     .nav-item.active > .nav-link::after {
-      transform: rotate(45deg);
+      transform: rotate(45deg); /* bentuk “v” */
     }
 
     .dropdown-menu { background-color: #198754; border: none; }
@@ -78,119 +79,152 @@
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
-    <div class="container-fluid d-flex align-items-center justify-content-between">
-      <a class="navbar-brand d-flex align-items-center" href="{{ route('home') }}">
-        <img src="{{ asset('images/logo.png') }}" alt="Logo" onerror="this.style.display='none'">
-        <div class="ms-3 d-flex flex-column">
-          <span class="fw-bold fs-2 text-success">Ponpes Al-Mahrus</span>
-          <span class="text-success" style="font-size: 0.9rem; line-height: 1.3;">
-            Dusun Sindangkarya, RT/RW 026/008, Desa Lemahabang,<br>
-            Kec. Lemahabang, Kab. Karawang, Jawabarat (41383)
-          </span>
-        </div>
-      </a>
-
-      <!-- Teks animasi di tengah atas -->
-      <div class="text-center mx-auto d-none d-lg-block">
-        <div class="typewriter-text" id="typewriter"></div>
+  <div class="container-fluid d-flex align-items-center justify-content-between">
+    <a class="navbar-brand d-flex align-items-center" href="{{ route('home') }}">
+      <img src="{{ asset('images/logo.png') }}" alt="Logo" onerror="this.style.display='none'">
+      <div class="ms-3 d-flex flex-column">
+        <span class="fw-bold fs-2 text-success">Ponpes Al-Mahrus</span>
+        <a href="https://maps.app.goo.gl/ZWjEWJvqxhkDtwMZA" target="_blank"
+           class="text-success"
+           style="font-size: 0.9rem; line-height: 1.3; text-decoration: none; cursor: pointer;">
+          Dusun Sindangkarya, RT/RW 026/008, Desa Lemahabang,<br>
+          Kec. Lemahabang, Kab. Karawang, Jawabarat (41383)
+        </a>
       </div>
+    </a>
 
-      <!-- Tombol login/register agak ke kiri -->
-      <div class="auth-buttons d-flex align-items-center">
-        @guest
-          <a href="{{ route('login') }}" class="btn btn-outline-success me-2">Masuk</a>
-          <a href="{{ route('register') }}" class="btn btn-success">Daftar</a>
-        @else
-          <div class="dropdown">
-            <a class="btn btn-outline-success dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              {{ Auth::user()->name }}
-            </a>
-            <ul class="dropdown-menu dropdown-menu-end">
-              @if(Auth::user()->role === 'admin')
-                <li><a class="dropdown-item" href="{{ route('admin.dashboard') }}">Dashboard Admin</a></li>
-              @else
-                <li><a class="dropdown-item" href="{{ route('dashboard') }}">Dashboard</a></li>
-              @endif
-              <li><hr class="dropdown-divider"></li>
-              <li>
-                <form action="{{ route('logout') }}" method="POST">
-                  @csrf
-                  <button type="submit" class="dropdown-item text-danger">Logout</button>
-                </form>
-              </li>
-            </ul>
-          </div>
-        @endguest
-      </div>
+    <!-- Teks animasi di tengah atas -->
+    <div class="text-center mx-auto d-none d-lg-block">
+      <div class="typewriter-text" id="typewriter"></div>
     </div>
-  </nav>
 
-  <div class="menu-strip">
-    <div class="container">
-      <ul class="nav justify-content-start">
-        <li class="nav-item">
-          <a class="nav-link" href="{{ route('home') }}#beranda">Beranda</a>
-        </li>
+    <!-- KANAN ATAS: HANYA LOGO NU (tanpa fitur login) -->
+    <div class="auth-buttons d-flex align-items-center">
+      <img src="{{ asset('images/logo_nu.png') }}" alt="Logo NU" style="height:80px;">
+    </div>
+  </div> <!-- akhir container-fluid navbar -->
+</nav>
 
-        <li class="nav-item">
-          <a class="nav-link" href="{{ route('tentang') }}#tentang">Tentang Kami</a>
-        </li>
+<!-- MENU STRIP (hijau) -->
+<div class="menu-strip">
+  <div class="container d-flex justify-content-between align-items-center">
 
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="rotinanDropdown" role="button" 
-             data-bs-toggle="dropdown" aria-expanded="false">
+    <div class="dropdown">
+      <!-- Tombol Menu -->
+      <button 
+        class="btn d-flex align-items-center menu-btn"
+        style="padding: 8px 14px; border:none; color:white; font-weight:600;"
+        data-bs-toggle="dropdown"
+      >
+        <img src="/images/menu.png" style="width:40px; height:40px; margin-right:10px;">
+        <span class="menu-text">Menu</span>
+      </button>
+
+      <style>
+        .menu-text { display: none; }
+        .menu-btn:hover .menu-text { display: inline; }
+      </style>
+
+      <!-- Semua menu dipindah ke dalam -->
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="{{ route('home') }}#beranda">Beranda</a></li>
+        <li><a class="dropdown-item" href="{{ route('tentang') }}#tentang">Tentang Kami</a></li>
+
+        <li class="dropend">
+          <a class="dropdown-item dropdown-toggle d-flex align-items-center" href="#" data-bs-toggle="dropdown">
             Rotinan
           </a>
-          <ul class="dropdown-menu" aria-labelledby="rotinanDropdown">
-            <li><a class="dropdown-item" href="{{ route('surat yasiin') }}">Yasiin</a></li>
-            <li><a class="dropdown-item" href="{{ route('alwakiah') }}">Surat Al-Waqi’ah</a></li>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="{{ route('surat_yasiin') }}">Yasiin</a></li>
+            <li><a class="dropdown-item" href="{{ route('alwakiah') }}">Surat Al-Waqiʼah</a></li>
             <li><a class="dropdown-item" href="{{ route('almulk') }}">Surat Al-Mulk</a></li>
             <li><a class="dropdown-item" href="{{ route('kamilah') }}">Sholawat Kamilah</a></li>
             <li><a class="dropdown-item" href="{{ route('nurzati') }}">Sholawat Nurzati</a></li>
             <li><a class="dropdown-item" href="{{ route('anilqodr') }}">Sholawat Anil Qodr</a></li>
-
           </ul>
         </li>
 
-        <li class="nav-item">
-          <a class="nav-link" href="#album">Album</a>
-        </li>
+        <li><a class="dropdown-item" href="{{ route('album.index') }}">Album</a></li>
+        <li><a class="dropdown-item" href="{{ route('struktur.index') }}">Struktur</a></li>
 
-        <li class="nav-item">
-          <a class="nav-link" href="#struktur">Struktur</a>
-        </li>
-
-        <!-- ✅ Dropdown User khusus Admin -->
-     @php
-  use App\Models\User;
-  $pendingCount = User::where('status', 'pending')->count();
+        @php
+    use App\Models\User;
+    $pendingCount = User::where('status', 'pending')->count();
 @endphp
 
-<li class="nav-item dropdown {{ request()->is('admin/users*') ? 'active' : '' }}">
-  <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="userDropdown" role="button"
-     data-bs-toggle="dropdown" aria-expanded="false">
-    <span>User</span>
-    @if($pendingCount > 0)
-      <span class="badge bg-danger ms-2">{{ $pendingCount }}</span>
-    @endif
-  </a>
-  <ul class="dropdown-menu" aria-labelledby="userDropdown">
-    <li>
-      <a class="dropdown-item" href="{{ route('admin.users') }}">Daftar User</a>
-<a class="dropdown-item d-flex justify-content-between align-items-center" href="{{ route('admin.pending') }}">
-        Verifikasi User
+{{-- Tampilkan hanya jika role admin --}}
+@if(auth()->check() && auth()->user()->role === 'admin')
+    <li class="dropend">
+      <a class="dropdown-item dropdown-toggle d-flex align-items-center" href="#" data-bs-toggle="dropdown">
+        User
         @if($pendingCount > 0)
-          <span class="badge bg-danger">{{ $pendingCount }}</span>
+          <span class="badge bg-danger ms-2">{{ $pendingCount }}</span>
         @endif
       </a>
-    </li>
-  </ul>
-</li>
-
-
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="{{ route('admin.users') }}">Daftar User</a></li>
+        <li>
+          <a class="dropdown-item d-flex justify-content-between align-items-center" href="{{ route('admin.pending') }}">
+            Verifikasi User
+            @if($pendingCount > 0)
+              <span class="badge bg-danger">{{ $pendingCount }}</span>
+            @endif
+          </a>
+        </li>
       </ul>
+    </li>
+@endif
+</ul>
+</div>
+
+
+    <!-- DI SINI: Tombol Masuk/Daftar (dipertahankan di menu-strip) -->
+    <div class="auth-buttons d-flex align-items-center">
+      @guest
+        <a href="{{ route('login') }}" class="btn btn-outline-light me-2">Masuk</a>
+        <a href="{{ route('register') }}" class="btn btn-light text-success">Daftar</a>
+      @else
+        <div class="dropdown">
+          <a class="btn btn-outline-light dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+            {{ Auth::user()->name }}
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end">
+            
+    <!-- Profil -->
+@if (Auth::user()->role === 'admin')
+    <a class="dropdown-item" href="{{ route('admin.profile') }}">Profil Admin</a>
+@else
+    <a class="dropdown-item" href="{{ route('user.profile') }}">Profil Saya</a>
+@endif
+
+
+    <!-- @if(Auth::user()->role === 'admin')
+
+        <li><a class="dropdown-item" href="{{ route('admin/dashboard') }}">Dashboard Admin</a></li>
+    @else
+        <li><a class="dropdown-item" href="{{ route('dashboard') }}">Dashboard</a></li>
+    @endif -->
+
+    <li><hr class="dropdown-divider"></li>
+
+    <li>
+        <form action="{{ route('logout') }}" method="POST">
+            @csrf
+            <button type="submit" class="dropdown-item text-danger">Logout</button>
+        </form>
+    </li>
+</ul>
+
+        </div>
+      @endguest
     </div>
+
   </div>
+</div>
+
+
+
+<!-- == BAWAH == -->
 
   <main>
     @yield('content')
@@ -219,11 +253,10 @@
     }
     typeEffect();
 
-    // === Dropdown caret ===
+    // === Dropdown caret animasi ===
     document.querySelectorAll('.nav-item.dropdown').forEach(dropdown => {
-      const toggle = dropdown.querySelector('.dropdown-toggle');
-      dropdown.addEventListener('show.bs.dropdown', () => toggle.classList.add('show'));
-      dropdown.addEventListener('hide.bs.dropdown', () => toggle.classList.remove('show'));
+      dropdown.addEventListener('show.bs.dropdown', () => dropdown.classList.add('show'));
+      dropdown.addEventListener('hide.bs.dropdown', () => dropdown.classList.remove('show'));
     });
 
     // === Highlight menu aktif ===
@@ -252,7 +285,40 @@
         }
       });
     });
+
+    /* ===============================================
+       FIX SUBMENU DROPEND (ROTINAN & USER)
+       =============================================== */
+    document.querySelectorAll('.dropend .dropdown-toggle').forEach(function (element) {
+      element.addEventListener('click', function (e) {
+        e.stopPropagation(); // biar dropdown utama tidak menutup
+        this.nextElementSibling.classList.toggle('show');
+      });
+    });
+
   </script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    // Semua dropdown di dalam dropdown
+    document.querySelectorAll(".dropdown-menu .dropdown-toggle").forEach(function (dropdownToggle) {
+
+        dropdownToggle.addEventListener("click", function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            let submenu = this.nextElementSibling;
+
+            // Tutup semua submenu lain
+            this.parentElement.parentElement.querySelectorAll(".dropdown-menu.show").forEach(function (openSub) {
+                if (openSub !== submenu) openSub.classList.remove("show");
+            });
+
+            // Toggle submenu
+            submenu.classList.toggle("show");
+        });
+    });
+});
+</script>
 
   @stack('scripts')
 </body>

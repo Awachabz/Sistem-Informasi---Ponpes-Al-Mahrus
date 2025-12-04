@@ -7,32 +7,43 @@ use Illuminate\Http\Request;
 
 class AdminController extends Controller
 {
+    /**
+     * 🔹 Daftar semua user (aktif & pending)
+     */
+    public function index()
+    {
+        $users = User::orderBy('created_at', 'desc')->get();
+        return view('admin.users', compact('users'));
+    }
 
-   public function index()
-{
-    $users = User::all();
-    return view('admin.users', compact('users'));
-}
-
-
+    /**
+     * 🔹 Daftar user dengan status pending
+     */
     public function pendingUsers()
     {
-        $users = User::where('status', 'pending')->get();
+        $users = User::where('status', 'pending')->orderBy('created_at', 'desc')->get();
         return view('admin.pending-users', compact('users'));
     }
 
-    public function approveUser($id)
+    /**
+     * 🔹 Setujui user (ubah status dari pending ke active)
+     */
+    public function approve($id)
     {
         $user = User::findOrFail($id);
-        $user->status = 'active';
-        $user->save();
+        $user->update(['status' => 'active']);
 
-        return back()->with('success', 'User berhasil diaktifkan.');
+        return redirect()->route('admin.pending')->with('success', 'User berhasil diaktifkan.');
     }
 
-    public function deleteUser($id)
+    /**
+     * 🔹 Hapus user
+     */
+    public function delete($id)
     {
-        User::findOrFail($id)->delete();
+        $user = User::findOrFail($id);
+        $user->delete();
+
         return back()->with('success', 'User berhasil dihapus.');
     }
 }

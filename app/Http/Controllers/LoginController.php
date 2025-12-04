@@ -7,53 +7,49 @@ use Illuminate\Support\Facades\Auth;
 
 class LoginController extends Controller
 {
-    /**
-     * 🔹 Tampilkan halaman login
-     */
     public function showLoginForm()
     {
         return view('auth.login');
     }
 
-    /**
-     * 🔹 Proses login user
-     */
     public function login(Request $request)
-    {
-        $credentials = $request->validate([
-            'email' => ['required', 'email'],
-            'password' => ['required'],
-        ]);
+{
+    $credentials = $request->validate([
+        'email' => ['required', 'email'],
+        'password' => ['required'],
+    ]);
 
-        $remember = $request->filled('remember');
+    // dd($credentials); // hapus atau komentar
 
-        if (Auth::attempt($credentials, $remember)) {
-            $request->session()->regenerate();
-            $user = Auth::user();
+    $remember = $request->filled('remember');
 
-            // ✅ Pastikan user aktif
-            if ($user->status !== 'active') {
-                Auth::logout();
-                return back()->with('error', 'Akun Anda belum disetujui oleh admin.');
-            }
+    if (Auth::attempt($credentials, $remember)) {
+        $request->session()->regenerate();
 
-            // ✅ Redirect sesuai role
-            if ($user->role === 'admin') {
-                return redirect()->intended('/admin/dashboard');
-            } elseif ($user->role === 'user') {
-                return redirect()->intended('/dashboard');
-            }
+        $user = Auth::user();
+        // dd($user); // hapus atau komentar
 
-            // fallback
-            return redirect()->intended('/');
+        // Cek status akun
+        if ($user->status !== 'active') {
+            Auth::logout();
+            return back()->with('error', 'Akun Anda belum disetujui oleh admin.');
         }
 
-        return back()->with('error', 'Email atau password salah.')->onlyInput('email');
+        if ($user->role === 'admin') {
+            return redirect()->route('admin/dashboard');
+        }
+
+        if ($user->role === 'user') {
+            return redirect()->route('dashboard');
+        }
+
+        return redirect()->route('home');
     }
 
-    /**
-     * 🔹 Logout user
-     */
+    return back()->with('error', 'Email atau password salah.')->onlyInput('email');
+}
+
+
     public function logout(Request $request)
     {
         Auth::logout();

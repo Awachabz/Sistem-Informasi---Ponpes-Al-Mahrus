@@ -12,7 +12,7 @@
         الْعَالِىِّ الْقَادِرِ الْعَظِيْمِ الْجَاهِ<br/> وَعَلَى أَلِهِ وَصَحْبِهِ وَسَلِّمْ
     </p>
 
-    <div class="mt-5 text-start" style="max-width: 800px; margin: 0 auto;">
+    <div class="mt-5 text-start" style="max-width: 800px; margin: 150px auto;">
         <p class="fw-bold">Artinya:</p>
         <p>
             “Ya Allah, limpahkanlah salawat dan salam kepada Sayyidina Muhammad, Nabi yang ummi,
@@ -21,4 +21,6 @@
         </p>
     </div>
 </div>
+    <div class="text-start" style="max-width: 800px; margin: 100px auto 0;">
+
 @endsection
