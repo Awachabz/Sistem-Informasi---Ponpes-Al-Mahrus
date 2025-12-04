@@ -223,360 +223,411 @@
     <div class="terjemahan">Sesungguhnya jika aku (berbuat) begitu, pasti aku berada dalam kesesatan yang nyata.</div>
   </div>
   
-  <div class="ayat">
-    <div class="arab">إِنِّي آمَنتُ بِرَبِّكُمْ فَاسْمَعُونِ <span class="nomor">25</span></div>
-    <div class="latin">Inneee aamantu bi Rabbikum fasma'oon</div>
-    <div class="terjemahan">Sesungguhnya aku telah beriman kepada Tuhanmu; maka dengarkanlah (pengakuan keimanan)-ku.”</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">قِيلَ ادْخُلِ الْجَنَّةَ ۖ قَالَ يَا لَيْتَ قَوْمِي يَعْلَمُونَ <span class="nomor">26</span></div>
-    <div class="latin">Qeelad khulil Jannnah; qaala yaa laita qawmee ya'lamoon</div>
-    <div class="terjemahan">Dikatakan (kepadanya), “Masuklah ke surga.” Dia (laki-laki itu) berkata, “Alangkah baiknya sekiranya kaumku mengetahui,</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">بِمَا غَفَرَ لِي رَبِّي وَجَعَلَنِي مِنَ الْمُكْرَمِينَ <span class="nomor">27</span></div>
-    <div class="latin">Bimaa ghafara lee Rabbee wa ja'alanee minal mukrameen</div>
-    <div class="terjemahan">apa yang menyebabkan Tuhanku memberi ampun kepadaku dan menjadikan aku termasuk orang-orang yang telah dimuliakan.”</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">۞ وَمَا أَنزَلْنَا عَلَىٰ قَوْمِهِ مِن بَعْدِهِ مِن جُندٍ مِّنَ السَّمَاءِ وَمَا كُنَّا مُنزِلِينَ <span class="nomor">28</span></div>
-    <div class="latin">Wa maaa anzalnaa 'alaa qawmihee mim ba'dihee min jundim minas-samaaa'i wa maa kunnaa munzileen</div>
-    <div class="terjemahan">Dan setelah dia (meninggal), Kami tidak menurunkan suatu pasukan pun dari langit kepada kaumnya, dan Kami tidak perlu menurunkannya.</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">إِن كَانَتْ إِلَّا صَيْحَةً وَاحِدَةً فَإِذَا هُمْ خَامِدُونَ <span class="nomor">29</span></div>
-    <div class="latin">In kaanat illaa saihatanw waahidatan fa-izaa hum khaamidoon</div>
-    <div class="terjemahan">Tidak ada siksaan terhadap mereka melainkan dengan satu teriakan saja; maka seketika itu mereka mati.</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">يَا حَسْرَةً عَلَى الْعِبَادِ ۚ مَا يَأْتِيهِم مِّن رَّسُولٍ إِلَّا كَانُوا بِهِ يَسْتَهْزِئُونَ <span class="nomor">30</span></div>
-    <div class="latin">Yaa hasratan 'alal 'ibaad; maa yaateehim mir Rasoolin illaa kaanoo bihee yastahzi 'oon</div>
-    <div class="terjemahan">Alangkah besar penyesalan terhadap hamba-hamba itu, setiap datang seorang rasul kepada mereka, mereka selalu memperolok-olokkannya.</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">أَلَمْ يَرَوْا كَمْ أَهْلَكْنَا قَبْلَهُم مِّنَ الْقُرُونِ أَنَّهُمْ إِلَيْهِمْ لَا يَرْجِعُونَ <span class="nomor">31</span></div>
-    <div class="latin">Alam yaraw kam ahlak naa qablahum minal qurooni annahum ilaihim laa yarji'oon</div>
-    <div class="terjemahan">Tidakkah mereka mengetahui berapa banyak umat-umat sebelum mereka yang telah Kami binasakan. Orang-orang (yang telah Kami binasakan) itu tidak ada yang kembali kepada mereka.</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">وَإِن كُلٌّ لَّمَّا جَمِيعٌ لَّدَيْنَا مُحْضَرُونَ <span class="nomor">32</span></div>
-    <div class="latin">Wa in kullul lammaa jamee'ul-ladainaa muhdaroon</div>
-    <div class="terjemahan">Dan setiap (umat), semuanya akan dihadapkan kepada Kami.</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">وَآيَةٌ لَّهُمُ الْأَرْضُ الْمَيْتَةُ أَحْيَيْنَاهَا وَأَخْرَجْنَا مِنْهَا حَبًّا فَمِنْهُ يَأْكُلُونَ <span class="nomor">33</span></div>
-    <div class="latin">Wa Aayatul lahumul ardul maitatu ahyainaahaa wa akhrajnaa minhaa habban faminhu yaakuloon</div>
-    <div class="terjemahan">Dan suatu tanda (kebesaran Allah) bagi mereka adalah bumi yang mati (tandus). Kami hidupkan bumi itu dan Kami keluarkan darinya biji-bijian, maka dari (biji-bijian) itu mereka makan.</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">وَجَعَلْنَا فِيهَا جَنَّاتٍ مِّن نَّخِيلٍ وَأَعْنَابٍ وَفَجَّرْنَا فِيهَا مِنَ الْعُيُونِ <span class="nomor">34</span></div>
-    <div class="latin">Wa ja'alnaa feehaa jannaatim min nakheelinw wa a'naabinw wa fajjarnaa feeha minal 'uyoon</div>
-    <div class="terjemahan">Dan Kami jadikan padanya di bumi itu kebun-kebun kurma dan anggur dan Kami pancarkan padanya beberapa mata air,</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">لِيَأْكُلُوا مِن ثَمَرِهِ وَمَا عَمِلَتْهُ أَيْدِيهِمْ ۖ أَفَلَا يَشْكُرُونَ <span class="nomor">35</span></div>
-    <div class="latin">Liyaakuloo min samarihee wa maa 'amilat-hu aideehim; afalaa yashkuroon</div>
-    <div class="terjemahan">agar mereka dapat makan dari buahnya, dan dari hasil usaha tangan mereka. Maka mengapa mereka tidak bersyukur?</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">سُبْحَانَ الَّذِي خَلَقَ الْأَزْوَاجَ كُلَّهَا مِمَّا تُنبِتُ الْأَرْضُ وَمِنْ أَنفُسِهِمْ وَمِمَّا لَا يَعْلَمُونَ <span class="nomor">36</span></div>
-    <div class="latin">Subhaanal lazee khalaqal azwaaja kullahaa mimmaa tumbitul ardu wa min anfusihim wa mimmaa laa ya'lamoon</div>
-    <div class="terjemahan">Mahasuci (Allah) yang telah menciptakan semuanya berpasang-pasangan, baik dari apa yang ditumbuhkan oleh bumi dan dari diri mereka sendiri, maupun dari apa yang tidak mereka ketahui.</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">وَآيَةٌ لَّهُمُ اللَّيْلُ نَسْلَخُ مِنْهُ النَّهَارَ فَإِذَا هُم مُّظْلِمُونَ <span class="nomor">37</span></div>
-    <div class="latin">Wa Aayatul lahumul lailu naslakhu minhun nahaara fa-izaa hum muzlimoon</div>
-    <div class="terjemahan">Dan suatu tanda (kebesaran Allah) bagi mereka adalah malam; Kami tanggalkan siang dari (malam) itu, maka seketika itu mereka (berada dalam) kegelapan,</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">وَالشَّمْسُ تَجْرِي لِمُسْتَقَرٍّ لَّهَا ۚ ذَٰلِكَ تَقْدِيرُ الْعَزِيزِ الْعَلِيمِ <span class="nomor">38</span></div>
-    <div class="latin">Wash-shamsu tajree limustaqarril lahaa; zaalika taqdeerul 'Azeezil Aleem</div>
-    <div class="terjemahan">dan matahari berjalan di tempat peredarannya. Demikianlah ketetapan (Allah) Yang Mahaperkasa, Maha Mengetahui.</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">وَالْقَمَرَ قَدَّرْنَاهُ مَنَازِلَ حَتَّىٰ عَادَ كَالْعُرْجُونِ الْقَدِيمِ <span class="nomor">39</span></div>
-    <div class="latin">Walqamara qaddarnaahu manaazila hattaa 'aada kal'ur joonil qadeem</div>
-    <div class="terjemahan">Dan telah Kami tetapkan tempat peredaran bagi bulan, sehingga (setelah ia sampai ke tempat peredaran yang terakhir) kembalilah ia seperti bentuk tandan yang tua.</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">لَا الشَّمْسُ يَنبَغِي لَهَا أَن تُدْرِكَ الْقَمَرَ وَلَا اللَّيْلُ سَابِقُ النَّهَارِ ۚ وَكُلٌّ فِي فَلَكٍ يَسْبَحُونَ <span class="nomor">40</span></div>
-    <div class="latin">Lash shamsu yambaghee lahaaa an tudrikal qamara wa lal lailu saabiqun nahaar; wa kullun fee falaki yasbahoon</div>
-    <div class="terjemahan">Tidaklah mungkin bagi matahari mengejar bulan dan malam pun tidak dapat mendahului siang. Masing-masing beredar pada garis edarnya.</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">وَآيَةٌ لَّهُمْ أَنَّا حَمَلْنَا ذُرِّيَّتَهُمْ فِي الْفُلْكِ الْمَشْحُونِ <span class="nomor">41</span></div>
-    <div class="latin">Wa Aayatul lahum annaa hamalnaa zurriyatahum fil fulkil mashhoon</div>
-    <div class="terjemahan">Dan suatu tanda (kebesaran Allah) bagi mereka adalah bahwa Kami angkut keturunan mereka dalam kapal yang penuh muatan,</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">وَخَلَقْنَا لَهُم مِّن مِّثْلِهِ مَا يَرْكَبُونَ <span class="nomor">42</span></div>
-    <div class="latin">Wa khalaqnaa lahum mim-mislihee maa yarkaboon</div>
-    <div class="terjemahan">dan Kami ciptakan (juga) untuk mereka (angkutan lain) seperti apa yang mereka kendarai.</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">وَإِن نَّشَأْ نُغْرِقْهُمْ فَلَا صَرِيخَ لَهُمْ وَلَا هُمْ يُنقَذُونَ <span class="nomor">43</span></div>
-    <div class="latin">Wa in nashaa nughriqhum falaa sareekha lahum wa laa hum yunqazoon</div>
-    <div class="terjemahan">Dan jika Kami menghendaki, Kami tenggelamkan mereka. Maka tidak ada penolong bagi mereka dan tidak (pula) mereka diselamatkan,</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">إِلَّا رَحْمَةً مِّنَّا وَمَتَاعًا إِلَىٰ حِينٍ <span class="nomor">44</span></div>
-    <div class="latin">Illaa rahmatam minnaa wa mataa'an ilaa heen</div>
-    <div class="terjemahan">melainkan (Kami selamatkan mereka) karena rahmat yang besar dari Kami dan untuk memberikan kesenangan hidup sampai waktu tertentu.</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">وَإِذَا قِيلَ لَهُمُ اتَّقُوا مَا بَيْنَ أَيْدِيكُمْ وَمَا خَلْفَكُمْ لَعَلَّكُمْ تُرْحَمُونَ <span class="nomor">45</span></div>
-    <div class="latin">Wa izaa qeela lahumuttaqoo maa baina aideekum wa maa khalfakum la'allakum turhamoon</div>
-    <div class="terjemahan">Dan apabila dikatakan kepada mereka, “Takutlah kamu akan siksa yang di hadapanmu (di dunia) dan azab yang akan datang (akhirat) agar kamu mendapat rahmat.”</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">وَمَا تَأْتِيهِم مِّنْ آيَةٍ مِّنْ آيَاتِ رَبِّهِمْ إِلَّا كَانُوا عَنْهَا مُعْرِضِينَ <span class="nomor">46</span></div>
-    <div class="latin">Wa maa taateehim min aayatim min ayataati Rabbihim illaa kaanoo 'anhaa mu'rideen</div>
-    <div class="terjemahan">Dan setiap kali suatu tanda dari tanda-tanda (kebesaran) Tuhan datang kepada mereka, mereka selalu berpaling darinya.</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">وَإِذَا قِيلَ لَهُمْ أَنفِقُوا مِمَّا رَزَقَكُمُ اللَّهُ قَالَ الَّذِينَ كَفَرُوا لِلَّذِينَ آمَنُوا أَنُطْعِمُ مَن لَّوْ يَشَاءُ اللَّهُ أَطْعَمَهُ إِنْ أَنتُمْ إِلَّا فِي ضَلَالٍ مُّبِينٍ <span class="nomor">47</span></div>
-    <div class="latin">Wa izaa qeela lahum anfiqoo mimmaa razaqakumul laahu qaalal lazeena kafaroo lillazeena aamanooo anut'imu mal-law yashaaa'ul laahu at'amahooo in antum illaa fee dalaalim mubeen</div>
-    <div class="terjemahan">Dan apabila dikatakan kepada mereka, “Infakkanlah sebagian rezeki yang diberikan Allah kepadamu,” orang-orang yang kafir itu berkata kepada orang-orang yang beriman, “Apakah pantas kami memberi makan kepada orang-orang yang jika Allah menghendaki Dia akan memberinya makan? Kamu benar-benar dalam kesesatan yang nyata.”</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">وَيَقُولُونَ مَتَىٰ هَٰذَا الْوَعْدُ إِن كُنتُمْ صَادِقِينَ <span class="nomor">48</span></div>
-    <div class="latin">Wa yaqooloona mataa haazal wa'du in kuntum saadiqeen</div>
-    <div class="terjemahan">Dan mereka (orang-orang kafir) berkata, “Kapan janji (hari berbangkit) itu (terjadi) jika kamu orang yang benar?”</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">مَا يَنظُرُونَ إِلَّا صَيْحَةً وَاحِدَةً تَأْخُذُهُمْ وَهُمْ يَخِصِّمُونَ <span class="nomor">49</span></div>
-    <div class="latin">Maa yanzuroona illaa saihatanw waahidatan taa khuzuhum wa hum yakhissimoon</div>
-    <div class="terjemahan">Mereka hanya menunggu satu teriakan, yang akan membinasakan mereka ketika mereka sedang bertengkar.</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">فَلَا يَسْتَطِيعُونَ تَوْصِيَةً وَلَا إِلَىٰ أَهْلِهِمْ يَرْجِعُونَ <span class="nomor">50</span></div>
-    <div class="latin">Falaa yastatee'oona taw siyatanw-wa laaa ilaaa ahlihim yarji'oon</div>
-    <div class="terjemahan">Sehingga mereka tidak mampu membuat suatu wasiat dan mereka (juga) tidak dapat kembali kepada keluarganya.</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">وَنُفِخَ فِي الصُّورِ فَإِذَا هُم مِّنَ الْأَجْدَاثِ إِلَىٰ رَبِّهِمْ يَنسِلُونَ <span class="nomor">51</span></div>
-    <div class="latin">Wa nufikha fis-soori faizaa hum minal ajdaasi ilaa Rabbihim yansiloon</div>
-    <div class="terjemahan">Lalu ditiuplah sangkakala, maka seketika itu mereka keluar dari kuburnya (dalam keadaan hidup), menuju kepada Tuhannya.</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">قَالُوا يَا وَيْلَنَا مَن بَعَثَنَا مِن مَّرْقَدِنَا ۜ ۗ هَٰذَا مَا وَعَدَ الرَّحْمَٰنُ وَصَدَقَ الْمُرْسَلُونَ <span class="nomor">52</span></div>
-    <div class="latin">Qaaloo yaa wailanaa mam ba'asanaa mim marqadinaa; haaza maa wa'adar Rahmanu wa sadaqal mursaloon</div>
-    <div class="terjemahan">Mereka berkata, “Celakalah kami! Siapakah yang membangkitkan kami dari tempat tidur kami (kubur)?” Inilah yang dijanjikan (Allah) Yang Maha Pengasih dan benarlah rasul-rasul(-Nya).</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">إِن كَانَتْ إِلَّا صَيْحَةً وَاحِدَةً فَإِذَا هُمْ جَمِيعٌ لَّدَيْنَا مُحْضَرُونَ <span class="nomor">53</span></div>
-    <div class="latin">In kaanat illaa saihatanw waahidatan fa-izaa hum jamee'ul ladainaa muhdaroon</div>
-    <div class="terjemahan">Teriakan itu hanya sekali saja, maka seketika itu mereka semua dihadapkan kepada Kami (untuk dihisab).</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">فَالْيَوْمَ لَا تُظْلَمُ نَفْسٌ شَيْئًا وَلَا تُجْزَوْنَ إِلَّا مَا كُنتُمْ تَعْمَلُونَ <span class="nomor">54</span></div>
-    <div class="latin">Fal-Yawma laa tuzlamu nafsun shai'anw-wa laa tujzawna illaa maa kuntum ta'maloon</div>
-    <div class="terjemahan">Maka pada hari itu seseorang tidak akan dirugikan sedikit pun dan kamu tidak akan diberi balasan, kecuali sesuai dengan apa yang telah kamu kerjakan.</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">إِنَّ أَصْحَابَ الْجَنَّةِ الْيَوْمَ فِي شُغُلٍ فَاكِهُونَ <span class="nomor">55</span></div>
-    <div class="latin">Inna Ashaabal jannatil Yawma fee shughulin faakihoon</div>
-    <div class="terjemahan">Sesungguhnya penghuni surga pada hari itu bersenang-senang dalam kesibukan (mereka).</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">هُمْ وَأَزْوَاجُهُمْ فِي ظِلَالٍ عَلَى الْأَرَائِكِ مُتَّكِئُونَ <span class="nomor">56</span></div>
-    <div class="latin">Hum wa azwaajuhum fee zilaalin 'alal araaa'iki muttaki'oon</div>
-    <div class="terjemahan">Mereka dan pasangan-pasangannya berada dalam tempat yang teduh, bersandar di atas dipan-dipan.</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">لَهُمْ فِيهَا فَاكِهَةٌ وَلَهُم مَّا يَدَّعُونَ <span class="nomor">57</span></div>
-    <div class="latin">Lahum feehaa faakiha tunw-wa lahum maa yadda'oon</div>
-    <div class="terjemahan">Di surga itu mereka memperoleh buah-buahan dan memperoleh apa saja yang mereka inginkan.</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">سَلَامٌ قَوْلًا مِّن رَّبٍّ رَّحِيمٍ <span class="nomor">58</span></div>
-    <div class="latin">Salaamun qawlam mir Rabbir Raheem</div>
-    <div class="terjemahan">(Kepada mereka dikatakan), “Salam,” sebagai ucapan selamat dari Tuhan Yang Maha Penyayang.</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">وَامْتَازُوا الْيَوْمَ أَيُّهَا الْمُجْرِمُونَ <span class="nomor">59</span></div>
-    <div class="latin">Wamtaazul Yawma ayyuhal mujrimoon</div>
-    <div class="terjemahan">Dan (dikatakan kepada orang-orang kafir), “Berpisahlah kamu (dari orang-orang mukmin) pada hari ini, wahai orang-orang yang berdosa!</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">۞ أَلَمْ أَعْهَدْ إِلَيْكُمْ يَا بَنِي آدَمَ أَن لَّا تَعْبُدُوا الشَّيْطَانَ ۖ إِنَّهُ لَكُمْ عَدُوٌّ مُّبِينٌ <span class="nomor">60</span></div>
-    <div class="latin">Alam a'had ilaikum yaa Baneee Aadama al-laa ta'budush Shaitaana innahoo lakum 'aduwwum mubeen</div>
-    <div class="terjemahan">Bukankah Aku telah memerintahkan kepadamu wahai anak cucu Adam agar kamu tidak menyembah setan? Sungguh, setan itu musuh yang nyata bagi kamu,</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">وَأَنِ اعْبُدُونِي ۚ هَٰذَا صِرَاطٌ مُّسْتَقِيمٌ <span class="nomor">61</span></div>
-    <div class="latin">Wa ani'budoonee; haazaa Siraatum Mustaqeem</div>
-    <div class="terjemahan">dan hendaklah kamu menyembah-Ku. Inilah jalan yang lurus.”</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">وَلَقَدْ أَضَلَّ مِنكُمْ جِبِلًّا كَثِيرًا ۖ أَفَلَمْ تَكُونُوا تَعْقِلُونَ <span class="nomor">62</span></div>
-    <div class="latin">Wa laqad adalla minkum jibillan kaseeraa; afalam takoonoo ta'qiloon</div>
-    <div class="terjemahan">Dan sungguh, ia (setan itu) telah menyesatkan sebagian besar di antara kamu. Maka apakah kamu tidak mengerti?</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">هَٰذِهِ جَهَنَّمُ الَّتِي كُنتُمْ تُوعَدُونَ <span class="nomor">63</span></div>
-    <div class="latin">Haazihee Jahannamul latee kuntum too'adoon</div>
-    <div class="terjemahan">Inilah (neraka) Jahanam yang dahulu telah diperingatkan kepadamu.</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">اصْلَوْهَا الْيَوْمَ بِمَا كُنتُمْ تَكْفُرُونَ <span class="nomor">64</span></div>
-    <div class="latin">Islawhal Yawma bimaa kuntum takfuroon</div>
-    <div class="terjemahan">Masuklah ke dalamnya pada hari ini karena dahulu kamu mengingkarinya.</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">الْيَوْمَ نَخْتِمُ عَلَىٰ أَفْوَاهِهِمْ وَتُكَلِّمُنَا أَيْدِيهِمْ وَتَشْهَدُ أَرْجُلُهُم بِمَا كَانُوا يَكْسِبُونَ <span class="nomor">65</span></div>
-    <div class="latin">Al-Yawma nakhtimu 'alaaa afwaahihim wa tukallimunaaa aideehim wa tashhadu arjuluhum bimaa kaanoo yaksiboon</div>
-    <div class="terjemahan">Pada hari ini Kami tutup mulut mereka; tangan mereka akan berkata kepada Kami dan kaki mereka akan memberi kesaksian terhadap apa yang dahulu mereka kerjakan.</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">وَلَوْ نَشَاءُ لَطَمَسْنَا عَلَىٰ أَعْيُنِهِمْ فَاسْتَبَقُوا الصِّرَاطَ فَأَنَّىٰ يُبْصِرُونَ <span class="nomor">66</span></div>
-    <div class="latin">Wa law nashaaa'u lata masna 'alaaa aiyunihim fasta baqus-siraata fa-annaa yubsiroon</div>
-    <div class="terjemahan">Dan jika Kami menghendaki, pastilah Kami hapuskan penglihatan mata mereka; sehingga mereka berlomba-lomba (mencari) jalan. Maka bagaimana mungkin mereka dapat melihat?</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">وَلَوْ نَشَاءُ لَمَسَخْنَاهُمْ عَلَىٰ مَكَانَتِهِمْ فَمَا اسْتَطَاعُوا مُضِيًّا وَلَا يَرْجِعُونَ <span class="nomor">67</span></div>
-    <div class="latin">Wa law nashaaa'u lamasakhnaahum 'alaa makaanatihim famas-tataa'oo mudiyyanw-wa laa yarji'oon</div>
-    <div class="terjemahan">Dan jika Kami menghendaki, pastilah Kami ubah bentuk mereka di tempat mereka berada; sehingga mereka tidak sanggup berjalan lagi dan juga tidak sanggup kembali.</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">وَمَن نُّعَمِّرْهُ نُنَكِّسْهُ فِي الْخَلْقِ ۖ أَفَلَا يَعْقِلُونَ <span class="nomor">68</span></div>
-    <div class="latin">Wa man nu 'ammirhu nunakkishu fil-khalq; afalaa ya'qiloon</div>
-    <div class="terjemahan">Dan barangsiapa Kami panjangkan umurnya niscaya Kami kembalikan dia kepada awal kejadian(nya). Maka mengapa mereka tidak mengerti?</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">وَمَا عَلَّمْنَاهُ الشِّعْرَ وَمَا يَنبَغِي لَهُ ۚ إِنْ هُوَ إِلَّا ذِكْرٌ وَقُرْآنٌ مُّبِينٌ <span class="nomor">69</span></div>
-    <div class="latin">Wa maa 'allamnaahush shi'ra wa maa yambaghee lah; in huwa illaa zikrunw-wa Qur-aanum mubeen</div>
-    <div class="terjemahan">Dan Kami tidak mengajarkan syair kepadanya (Muhammad) dan bersyair itu tidaklah pantas baginya. Al-Qur'an itu tidak lain hanyalah pelajaran dan Kitab yang jelas,</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">لِّيُنذِرَ مَن كَانَ حَيًّا وَيَحِقَّ الْقَوْلُ عَلَى الْكَافِرِينَ <span class="nomor">70</span></div>
-    <div class="latin">Liyunzira man kaana haiyanw-wa yahiqqal qawlu 'alal-kaafireen</div>
-    <div class="terjemahan">agar dia (Muhammad) memberi peringatan kepada orang-orang yang hidup (hatinya) dan agar pasti ketetapan (azab) terhadap orang-orang kafir.</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">أَوَلَمْ يَرَوْا أَنَّا خَلَقْنَا لَهُم مِّمَّا عَمِلَتْ أَيْدِينَا أَنْعَامًا فَهُمْ لَهَا مَالِكُونَ <span class="nomor">71</span></div>
-    <div class="latin">Awalam yaraw annaa khalaqnaa lahum mimmaa 'amilat aideenaaa an'aaman fahum lahaa maalikoon</div>
-    <div class="terjemahan">Dan tidakkah mereka melihat bahwa Kami telah menciptakan hewan ternak untuk mereka, yaitu sebagian dari apa yang telah Kami ciptakan dengan kekuasaan Kami, lalu mereka menguasainya?</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">وَذَلَّلْنَاهَا لَهُمْ فَمِنْهَا رَكُوبُهُمْ وَمِنْهَا يَأْكُلُونَ <span class="nomor">72</span></div>
-    <div class="latin">Wa zallalnaahaa lahum faminhaa rakoobuhum wa minhaa yaakuloon</div>
-    <div class="terjemahan">Dan Kami menundukkannya (hewan-hewan itu) untuk mereka; lalu sebagiannya untuk menjadi tunggangan mereka dan sebagian untuk mereka makan.</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">وَلَهُمْ فِيهَا مَنَافِعُ وَمَشَارِبُ ۖ أَفَلَا يَشْكُرُونَ <span class="nomor">73</span></div>
-    <div class="latin">Wa lahum feehaa manaa fi'u wa mashaarib; afalaa yashkuroon</div>
-    <div class="terjemahan">Dan mereka memperoleh berbagai manfaat dan minuman darinya. Maka mengapa mereka tidak bersyukur?</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">وَاتَّخَذُوا مِن دُونِ اللَّهِ آلِهَةً لَّعَلَّهُمْ يُنصَرُونَ <span class="nomor">74</span></div>
-    <div class="latin">Wattakhazoo min doonil laahi aalihatal la'allahum yunsaroon</div>
-    <div class="terjemahan">Dan mereka mengambil sesembahan selain Allah agar mereka mendapat pertolongan.</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">لَا يَسْتَطِيعُونَ نَصْرَهُمْ وَهُمْ لَهُمْ جُندٌ مُّحْضَرُونَ <span class="nomor">75</span></div>
-    <div class="latin">Laa yastatee'oona nasrahum wa hum lahum jundum muhdaroon</div>
-    <div class="terjemahan">Mereka (sesembahan) itu tidak dapat menolong mereka; padahal mereka itu menjadi tentara yang disiapkan untuk menjaga (sesembahan) itu.</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">فَلَا يَحْزُنكَ قَوْلُهُمْ ۘ إِنَّا نَعْلَمُ مَا يُسِرُّونَ وَمَا يُعْلِنُونَ <span class="nomor">76</span></div>
-    <div class="latin">Falaa yahzunka qawluhum; innaa na'lamu maa yusirroona wa maa yu'linoon</div>
-    <div class="terjemahan">Maka jangan sampai ucapan mereka membuat engkau (Muhammad) bersedih hati. Sungguh, Kami mengetahui apa yang mereka rahasiakan dan apa yang mereka nyatakan.</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">أَوَلَمْ يَرَ الْإِنسَانُ أَنَّا خَلَقْنَاهُ مِن نُّطْفَةٍ فَإِذَا هُوَ خَصِيمٌ مُّبِينٌ <span class="nomor">77</span></div>
-    <div class="latin">Awalam yaral insaanu annaa khalaqnaahu min nutfatin fa-izaa huwa khaseemum mubeen</div>
-    <div class="terjemahan">Dan tidakkah manusia memperhatikan bahwa Kami menciptakannya dari setetes mani, ternyata dia menjadi musuh yang nyata!</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">وَضَرَبَ لَنَا مَثَلًا وَنَسِيَ خَلْقَهُ ۖ قَالَ مَن يُحْيِي الْعِظَامَ وَهِيَ رَمِيمٌ <span class="nomor">78</span></div>
-    <div class="latin">Wa daraba lanaa maslanw-wa nasiya khalqahoo qaala mai-yuhyil'izaama wa hiya rameem</div>
-    <div class="terjemahan">Dan dia membuat perumpamaan bagi Kami dan melupakan asal kejadiannya; dia berkata, “Siapakah yang dapat menghidupkan tulang-belulang, yang telah hancur luluh?”</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">قُلْ يُحْيِيهَا الَّذِي أَنشَأَهَا أَوَّلَ مَرَّةٍ ۖ وَهُوَ بِكُلِّ خَلْقٍ عَلِيمٌ <span class="nomor">79</span></div>
-    <div class="latin">Qul yuh yeehal lazeee ansha ahaaa awwala marrah; wa Huwa bikulli khalqin 'Aleem</div>
-    <div class="terjemahan">Katakanlah (Muhammad), “Yang akan menghidupkannya ialah (Allah) yang menciptakannya pertama kali. Dan Dia Maha Mengetahui tentang segala makhluk,</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">الَّذِي جَعَلَ لَكُم مِّنَ الشَّجَرِ الْأَخْضَرِ نَارًا فَإِذَا أَنتُم مِّنْهُ تُوقِدُونَ <span class="nomor">80</span></div>
-    <div class="latin">Allazee ja'ala lakum minash shajaril akhdari naaran fa-izaaa antum minhu tooqidoon</div>
-    <div class="terjemahan">yaitu (Allah) yang menjadikan api untukmu dari kayu yang hijau, maka seketika itu kamu nyalakan (api) dari kayu itu.”</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">أَوَلَيْسَ الَّذِي خَلَقَ السَّمَاوَاتِ وَالْأَرْضَ بِقَادِرٍ عَلَىٰ أَن يَخْلُقَ مِثْلَهُم ۚ بَلَىٰ وَهُوَ الْخَلَّاقُ الْعَلِيمُ <span class="nomor">81</span></div>
-    <div class="latin">Awa laisal lazee khalaqas samaawaati wal arda biqaadirin 'alaaa ai-yakhluqa mislahum; balaa wa Huwal Khallaaqul 'Aleem</div>
-    <div class="terjemahan">Dan bukankah (Allah) yang menciptakan langit dan bumi, mampu menciptakan kembali yang serupa itu (jasad mereka yang sudah hancur itu)? Benar, dan Dia Maha Pencipta, Maha Mengetahui.</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">إِنَّمَا أَمْرُهُ إِذَا أَرَادَ شَيْئًا أَن يَقُولَ لَهُ كُن فَيَكُونُ <span class="nomor">82</span></div>
-    <div class="latin">Innamaa amruhooo izaaa araada shai'an ai-yaqoola lahoo kun fa-yakoon</div>
-    <div class="terjemahan">Sesungguhnya urusan-Nya apabila Dia menghendaki sesuatu Dia hanya berkata kepadanya, “Jadilah!” Maka jadilah sesuatu itu.</div>
-  </div>
-  
-  <div class="ayat">
-    <div class="arab">فَسُبْحَانَ الَّذِي بِيَدِهِ مَلَكُوتُ كُلِّ شَيْءٍ وَإِلَيْهِ تُرْجَعُونَ <span class="nomor">83</span></div>
-    <div class="latin">Fa Subhaanal lazee biyadihee malakootu kulli shai-inw-wa ilaihi turja'oon</div>
-    <div class="terjemahan">Maka Mahasuci (Allah) yang di tangan-Nya kekuasaan atas segala sesuatu dan kepada-Nya kamu dikembalikan.</div>
-  </div>
-  
+  <!-- AYAT 25 -->
+<div class="ayat">
+  <div class="arab">إِنِّي آمَنتُ بِرَبِّكُمْ فَاسْمَعُونِ <span class="nomor">٢٥</span></div>
+  <div class="latin">Innī āmantu birabbikum fasma‘ūn</div>
+  <div class="terjemahan">Sesungguhnya aku beriman kepada Tuhanmu, maka dengarkanlah (pengakuanku).</div>
 </div>
 
+<!-- AYAT 26 -->
+<div class="ayat">
+  <div class="arab">قِيلَ ادْخُلِ الْجَنَّةَ ۖ قَالَ يَا لَيْتَ قَوْمِي يَعْلَمُونَ <span class="nomor">٢٦</span></div>
+  <div class="latin">Qīla udkhuli l-jannata qāla yā laitā qawmī ya‘lamūn</div>
+  <div class="terjemahan">Dikatakan (kepadanya), “Masuklah ke dalam surga.” Dia berkata, “Alangkah baiknya sekiranya kaumku mengetahui...”</div>
+</div>
+
+<!-- AYAT 27 -->
+<div class="ayat">
+  <div class="arab">بِمَا غَفَرَ لِي رَبِّي وَجَعَلَنِي مِنَ الْمُكْرَمِينَ <span class="nomor">٢٧</span></div>
+  <div class="latin">Bimā ghafara lī rabbī waja‘alanī minal-mukramīn</div>
+  <div class="terjemahan">Tentang apa yang telah diberikan Tuhanku kepadaku dan dijadikannya aku termasuk orang-orang yang dimuliakan.</div>
+</div>
+
+<!-- AYAT 28 -->
+<div class="ayat">
+  <div class="arab">وَمَا أَنْزَلْنَا عَلَىٰ قَوْمِهِ مِنْ بَعْدِهِ مِنْ جُنْدٍ مِنَ السَّمَاءِ وَمَا كُنَّا مُنْزِلِينَ <span class="nomor">٢٨</span></div>
+  <div class="latin">Wa mā anzalnā ‘alā qawmihi min ba‘dihi min jundin minas-samā’i wa mā kunnā munzilīn</div>
+  <div class="terjemahan">Dan Kami tidak menurunkan kepada kaumnya setelah dia (meninggal) suatu pasukan dari langit, dan tidaklah Kami akan menurunkannya.</div>
+</div>
+
+<!-- AYAT 29 -->
+<div class="ayat">
+  <div class="arab">إِنْ كَانَتْ إِلَّا صَيْحَةً وَاحِدَةً فَإِذَا هُمْ خَامِدُونَ <span class="nomor">٢٩</span></div>
+  <div class="latin">In kānat illā ṣayḥatan wāḥidatan fa-idzā hum khāmidūn</div>
+  <div class="terjemahan">Tidak ada (azab itu) melainkan satu teriakan saja, maka tiba-tiba mereka semuanya mati.</div>
+</div>
+
+<!-- AYAT 30 -->
+<div class="ayat">
+  <div class="arab">يَا حَسْرَةً عَلَى الْعِبَادِ ۚ مَا يَأْتِيهِمْ مِنْ رَسُولٍ إِلَّا كَانُوا بِهِ يَسْتَهْزِئُونَ <span class="nomor">٣٠</span></div>
+  <div class="latin">Yā ḥasratan ‘alal-‘ibād, mā ya'tīhim mir-rasūlin illā kānū bihī yastahzi’ūn</div>
+  <div class="terjemahan">Alangkah besar penyesalan terhadap hamba-hamba itu. Tidak datang seorang rasul pun kepada mereka melainkan mereka selalu memperolok-olokkannya.</div>
+</div>
+
+<!-- AYAT 31 -->
+<div class="ayat">
+  <div class="arab">أَلَمْ يَرَوْا كَمْ أَهْلَكْنَا قَبْلَهُمْ مِنَ الْقُرُونِ أَنَّهُمْ إِلَيْهِمْ لَا يَرْجِعُونَ <span class="nomor">٣١</span></div>
+  <div class="latin">Alam yaraw kam ahlaknā qablahum minal-qurūni annahum ilaihim lā yarji‘ūn</div>
+  <div class="terjemahan">Tidakkah mereka mengetahui berapa banyak umat sebelum mereka yang telah Kami binasakan, bahwa orang-orang itu tidak akan kembali lagi kepada mereka?</div>
+</div>
+
+<!-- AYAT 32 -->
+<div class="ayat">
+  <div class="arab">وَإِنْ كُلٌّ لَمَّا جَمِيعٌ لَدَيْنَا مُحْضَرُونَ <span class="nomor">٣٢</span></div>
+  <div class="latin">Wa in kullun lammā jamī‘un ladainā muḥḍarūn</div>
+  <div class="terjemahan">Dan setiap mereka semuanya benar-benar akan dihadirkan kepada Kami.</div>
+</div>
+
+<!-- AYAT 33 -->
+<div class="ayat">
+  <div class="arab">وَآيَةٌ لَهُمُ الْأَرْضُ الْمَيْتَةُ ۖ أَحْيَيْنَاهَا وَأَخْرَجْنَا مِنْهَا حَبًّا فَمِنْهُ يَأْكُلُونَ <span class="nomor">٣٣</span></div>
+  <div class="latin">Wa āyatul lahumul-arḍul-maitah, aḥyaināhā wa akhrajnā minhā ḥabban faminhū ya'kulūn</div>
+  <div class="terjemahan">Dan suatu tanda bagi mereka adalah bumi yang mati. Kami menghidupkannya dan mengeluarkan darinya biji-bijian, maka dari itulah mereka makan.</div>
+</div>
+
+<!-- AYAT 34 -->
+<div class="ayat">
+  <div class="arab">وَجَعَلْنَا فِيهَا جَنَّاتٍ مِنْ نَخِيلٍ وَأَعْنَابٍ وَفَجَّرْنَا فِيهَا مِنَ الْعُيُونِ <span class="nomor">٣٤</span></div>
+  <div class="latin">Wa ja‘alnā fīhā jannātim min nakhīlin wa a‘nābin wa fajjarnā fīhā minal-‘uyūn</div>
+  <div class="terjemahan">Dan Kami jadikan padanya kebun-kebun kurma dan anggur dan Kami pancarkan padanya beberapa mata air.</div>
+</div>
+
+<!-- AYAT 35 -->
+<div class="ayat">
+  <div class="arab">لِيَأْكُلُوا مِنْ ثَمَرِهِ وَمَا عَمِلَتْهُ أَيْدِيهِمْ ۖ أَفَلَا يَشْكُرُونَ <span class="nomor">٣٥</span></div>
+  <div class="latin">Liya'kulū min tsamarihi wa mā ‘amilat-hu aidīhim, afalā yasykurūn</div>
+  <div class="terjemahan">Agar mereka makan dari buahnya, dan dari apa yang diusahakan oleh tangan mereka. Maka mengapa mereka tidak bersyukur?</div>
+</div>
+<!-- AYAT 36 -->
+<div class="ayat">
+  <div class="arab">سُبْحَانَ الَّذِي خَلَقَ الْأَزْوَاجَ كُلَّهَا مِمَّا تُنْبِتُ الْأَرْضُ وَمِنْ أَنْفُسِهِمْ وَمِمَّا لَا يَعْلَمُونَ <span class="nomor">٣٦</span></div>
+  <div class="latin">Subḥānal-ladzī khalaqal-azwāja kullahā mimmā tunbitul-arḍu wa min anfusihim wa mimmā lā ya‘lamūn</div>
+  <div class="terjemahan">Maha suci Tuhan yang telah menciptakan pasangan-pasangan semuanya, baik dari apa yang ditumbuhkan oleh bumi, dari diri mereka, maupun dari apa yang tidak mereka ketahui.</div>
+</div>
+
+<!-- AYAT 37 -->
+<div class="ayat">
+  <div class="arab">وَآيَةٌ لَهُمُ اللَّيْلُ ۖ نَسْلَخُ مِنْهُ النَّهَارَ فَإِذَا هُمْ مُظْلِمُونَ <span class="nomor">٣٧</span></div>
+  <div class="latin">Wa āyatul lahumul-lail, naslakhu minhun-nahāra fa-idzā hum muẓlimūn</div>
+  <div class="terjemahan">Dan suatu tanda bagi mereka adalah malam; Kami tanggalkan siang dari malam itu, maka seketika itu mereka berada dalam kegelapan.</div>
+</div>
+
+<!-- AYAT 38 -->
+<div class="ayat">
+  <div class="arab">وَالشَّمْسُ تَجْرِي لِمُسْتَقَرٍّ لَهَا ۚ ذَٰلِكَ تَقْدِيرُ الْعَزِيزِ الْعَلِيمِ <span class="nomor">٣٨</span></div>
+  <div class="latin">Wasysyamsu tajrī limustaqarril lahā, dzālika taqdīrul-‘azīzil-‘alīm</div>
+  <div class="terjemahan">Dan matahari berjalan di tempat peredarannya. Itulah ketetapan Yang Maha Perkasa lagi Maha Mengetahui.</div>
+</div>
+
+<!-- AYAT 39 -->
+<div class="ayat">
+  <div class="arab">وَالْقَمَرَ قَدَّرْنَاهُ مَنَازِلَ حَتَّىٰ عَادَ كَالْعُرْجُونِ الْقَدِيمِ <span class="nomor">٣٩</span></div>
+  <div class="latin">Wal-qamara qaddarnāhu manāzila ḥattā ‘āda kal-‘urjūnil-qadīm</div>
+  <div class="terjemahan">Dan telah Kami tetapkan bagi bulan manzilah-manzilah, sehingga dia kembali seperti bentuk tandan yang tua.</div>
+</div>
+
+<!-- AYAT 40 -->
+<div class="ayat">
+  <div class="arab">لَا الشَّمْسُ يَنْبَغِي لَهَا أَنْ تُدْرِكَ الْقَمَرَ وَلَا اللَّيْلُ سَابِقُ النَّهَارِ ۚ وَكُلٌّ فِي فَلَكٍ يَسْبَحُونَ <span class="nomor">٤٠</span></div>
+  <div class="latin">Lā asy-syamsu yanbaghī lahā an tudrikal-qamara wa lal-lailu sābiqun-nahār, wa kullun fī falakin yasbaḥūn</div>
+  <div class="terjemahan">Tidaklah mungkin bagi matahari mengejar bulan dan malam pun tidak dapat mendahului siang. Masing-masing beredar pada garis edarnya.</div>
+</div>
+
+<!-- AYAT 41 -->
+<div class="ayat">
+  <div class="arab">وَآيَةٌ لَهُمْ أَنَّا حَمَلْنَا ذُرِّيَّتَهُمْ فِي الْفُلْكِ الْمَشْحُونِ <span class="nomor">٤١</span></div>
+  <div class="latin">Wa āyatul lahum annā ḥamalnā dzurriyyatahum fil-fulkil-masḥūn</div>
+  <div class="terjemahan">Dan suatu tanda bagi mereka adalah bahwa Kami angkut keturunan mereka dalam kapal yang penuh muatan.</div>
+</div>
+
+<!-- AYAT 42 -->
+<div class="ayat">
+  <div class="arab">وَخَلَقْنَا لَهُمْ مِنْ مِثْلِهِ مَا يَرْكَبُونَ <span class="nomor">٤٢</span></div>
+  <div class="latin">Wa khalaqnā lahum mim mitslihī mā yarkabūn</div>
+  <div class="terjemahan">Dan Kami ciptakan untuk mereka apa yang semisal dengannya, yang dapat mereka kendarai.</div>
+</div>
+
+<!-- AYAT 43 -->
+<div class="ayat">
+  <div class="arab">وَإِنْ نَشَأْ نُغْرِقْهُمْ فَلَا صَرِيخَ لَهُمْ وَلَا هُمْ يُنْقَذُونَ <span class="nomor">٤٣</span></div>
+  <div class="latin">Wa in nasyā’ nughrikhum fa lā ṣarīkha lahum wa lā hum yunqadzūn</div>
+  <div class="terjemahan">Dan jika Kami menghendaki, niscaya Kami tenggelamkan mereka; maka tidak ada penolong bagi mereka dan tidak pula mereka dapat diselamatkan.</div>
+</div>
+
+<!-- AYAT 44 -->
+<div class="ayat">
+  <div class="arab">إِلَّا رَحْمَةً مِنَّا وَمَتَاعًا إِلَىٰ حِينٍ <span class="nomor">٤٤</span></div>
+  <div class="latin">Illā raḥmatan minnā wa matā‘an ilā ḥīn</div>
+  <div class="terjemahan">Melainkan (Kami selamatkan) karena rahmat dari Kami dan untuk memberikan kesenangan hidup sampai waktu tertentu.</div>
+</div>
+
+<!-- AYAT 45 -->
+<div class="ayat">
+  <div class="arab">وَإِذَا قِيلَ لَهُمُ اتَّقُوا مَا بَيْنَ أَيْدِيكُمْ وَمَا خَلْفَكُمْ لَعَلَّكُمْ تُرْحَمُونَ <span class="nomor">٤٥</span></div>
+  <div class="latin">Wa idzā qīla lahumuttaqū mā baina aidīkum wa mā khalfakum la‘allakum turḥamūn</div>
+  <div class="terjemahan">Dan apabila dikatakan kepada mereka, “Bertakwalah kepada apa yang ada di hadapanmu dan apa yang ada di belakangmu agar kamu dirahmati.”</div>
+</div>
+<!-- AYAT 46 -->
+<div class="ayat">
+  <div class="arab">وَمَا تَأْتِيهِمْ مِنْ آيَةٍ مِنْ آيَاتِ رَبِّهِمْ إِلَّا كَانُوا عَنْهَا مُعْرِضِينَ <span class="nomor">٤٦</span></div>
+  <div class="latin">Wa mā ta'tīhim min āyatim min āyāti rabbihim illā kānū ‘anhā mu‘riḍīn</div>
+  <div class="terjemahan">Dan tidak datang kepada mereka suatu tanda dari tanda-tanda Tuhan mereka melainkan mereka selalu berpaling darinya.</div>
+</div>
+
+<!-- AYAT 47 -->
+<div class="ayat">
+  <div class="arab">وَإِذَا قِيلَ لَهُمْ أَنْفِقُوا مِمَّا رَزَقَكُمُ اللَّهُ قَالَ الَّذِينَ كَفَرُوا لِلَّذِينَ آمَنُوا أَنُطْعِمُ مَنْ لَوْ يَشَاءُ اللَّهُ أَطْعَمَهُ ۖ إِنْ أَنْتُمْ إِلَّا فِي ضَلَالٍ مُبِينٍ <span class="nomor">٤٧</span></div>
+  <div class="latin">Wa idzā qīla lahum anfiqū mimmā razaqakumullāh qālal-ladzīna kafarū lilladzīna āmanū anuṭ‘imu man lau yasyā’ullāhu aṭ‘amahu, in antum illā fī ḍalālin mubīn</div>
+  <div class="terjemahan">Dan apabila dikatakan kepada mereka, “Infakkanlah sebagian rezeki yang diberikan Allah kepadamu,” orang-orang kafir berkata kepada orang-orang beriman, “Apakah kami akan memberi makan kepada orang yang jika Allah menghendaki tentu Dia akan memberinya makan? Kamu tidak lain hanyalah dalam kesesatan yang nyata.”</div>
+</div>
+
+<!-- AYAT 48 -->
+<div class="ayat">
+  <div class="arab">وَيَقُولُونَ مَتَىٰ هَٰذَا الْوَعْدُ إِنْ كُنْتُمْ صَادِقِينَ <span class="nomor">٤٨</span></div>
+  <div class="latin">Wa yaqūlūna matā hādzal-wa‘du in kuntum ṣādiqīn</div>
+  <div class="terjemahan">Dan mereka berkata, “Kapankah janji itu (datang), jika kamu adalah orang-orang yang benar?”</div>
+</div>
+
+<!-- AYAT 49 -->
+<div class="ayat">
+  <div class="arab">مَا يَنْظُرُونَ إِلَّا صَيْحَةً وَاحِدَةً تَأْخُذُهُمْ وَهُمْ يَخِصِّمُونَ <span class="nomor">٤٩</span></div>
+  <div class="latin">Mā yanẓurūna illā ṣayḥatan wāḥidatan ta’khudzuhum wa hum yakhiṣṣimūn</div>
+  <div class="terjemahan">Mereka tidak menunggu melainkan satu teriakan saja yang akan membinasakan mereka ketika mereka sedang bertengkar.</div>
+</div>
+
+<!-- AYAT 50 -->
+<div class="ayat">
+  <div class="arab">فَلَا يَسْتَطِيعُونَ تَوْصِيَةً وَلَا إِلَىٰ أَهْلِهِمْ يَرْجِعُونَ <span class="nomor">٥٠</span></div>
+  <div class="latin">Fa lā yastaṭī‘ūna tauṣiyatan wa lā ilā ahlihim yarji‘ūn</div>
+  <div class="terjemahan">Maka mereka tidak mampu membuat suatu wasiat dan tidak pula mereka dapat kembali kepada keluarganya.</div>
+</div>
+
+<!-- AYAT 51 -->
+<div class="ayat">
+  <div class="arab">وَنُفِخَ فِي الصُّورِ فَإِذَا هُمْ مِنَ الْأَجْدَاثِ إِلَىٰ رَبِّهِمْ يَنْسِلُونَ <span class="nomor">٥١</span></div>
+  <div class="latin">Wa nufikha fiṣ-ṣūr fa-idzā hum minal-ajdātsi ilā rabbihim yansilūn</div>
+  <div class="terjemahan">Dan ditiuplah sangkakala, maka tiba-tiba mereka keluar dari kuburnya menuju kepada Tuhan mereka.</div>
+</div>
+
+<!-- AYAT 52 -->
+<div class="ayat">
+  <div class="arab">قَالُوا يَا وَيْلَنَا مَنْ بَعَثَنَا مِنْ مَرْقَدِنَا ۜ ۗ هَٰذَا مَا وَعَدَ الرَّحْمَٰنُ وَصَدَقَ الْمُرْسَلُونَ <span class="nomor">٥٢</span></div>
+  <div class="latin">Qālū yā wailanā man ba‘athanā mim marqadinā, hādzā mā wa‘adar-raḥmānu wa ṣadaqal-mursalūn</div>
+  <div class="terjemahan">Mereka berkata, “Aduhai celakalah kami! Siapakah yang membangkitkan kami dari tempat tidur kami?” Inilah yang dijanjikan oleh Tuhan Yang Maha Pengasih dan benarlah para rasul.</div>
+</div>
+
+<!-- AYAT 53 -->
+<div class="ayat">
+  <div class="arab">إِنْ كَانَتْ إِلَّا صَيْحَةً وَاحِدَةً فَإِذَا هُمْ جَمِيعٌ لَدَيْنَا مُحْضَرُونَ <span class="nomor">٥٣</span></div>
+  <div class="latin">In kānat illā ṣayḥatan wāḥidatan fa-idzā hum jamī‘un ladainā muḥḍarūn</div>
+  <div class="terjemahan">Tidak ada teriakan itu selain sekali saja, maka tiba-tiba mereka semua dikumpulkan kepada Kami.</div>
+</div>
+
+<!-- AYAT 54 -->
+<div class="ayat">
+  <div class="arab">فَالْيَوْمَ لَا تُظْلَمُ نَفْسٌ شَيْئًا وَلَا تُجْزَوْنَ إِلَّا مَا كُنْتُمْ تَعْمَلُونَ <span class="nomor">٥٤</span></div>
+  <div class="latin">Fal-yauma lā tuẓlamu nafsun syai’an wa lā tujzauna illā mā kuntum ta‘malūn</div>
+  <div class="terjemahan">Maka pada hari itu tidak ada satu jiwa pun yang dizalimi sedikit pun dan kamu tidak akan dibalas kecuali dengan apa yang telah kamu kerjakan.</div>
+</div>
+
+<!-- AYAT 55 -->
+<div class="ayat">
+  <div class="arab">إِنَّ أَصْحَابَ الْجَنَّةِ الْيَوْمَ فِي شُغُلٍ فَاكِهُونَ <span class="nomor">٥٥</span></div>
+  <div class="latin">Inna aṣḥābal-jannatil-yauma fī syughulin fākihūn</div>
+  <div class="terjemahan">Sesungguhnya penghuni surga pada hari itu berada dalam kesibukan yang penuh kenikmatan.</div>
+</div>
+<!-- AYAT 56 -->
+<div class="ayat">
+  <div class="arab">هُمْ وَأَزْوَاجُهُمْ فِي ظِلَالٍ عَلَى الْأَرَائِكِ مُتَّكِئُونَ <span class="nomor">٥٦</span></div>
+  <div class="latin">Hum wa azwājahum fī ẓilālin ‘alal-arā’iki muttaki’ūn</div>
+  <div class="terjemahan">Mereka dan pasangan-pasangan mereka berada dalam tempat yang teduh, bertelekan di atas dipan-dipan.</div>
+</div>
+
+<!-- AYAT 57 -->
+<div class="ayat">
+  <div class="arab">لَهُمْ فِيهَا فَاكِهَةٌ وَلَهُمْ مَا يَدَّعُونَ <span class="nomor">٥٧</span></div>
+  <div class="latin">Lahum fīhā fākihah, wa lahum mā yadda‘ūn</div>
+  <div class="terjemahan">Di dalamnya mereka memperoleh buah-buahan dan apa pun yang mereka inginkan.</div>
+</div>
+
+<!-- AYAT 58 -->
+<div class="ayat">
+  <div class="arab">سَلَامٌ قَوْلًا مِنْ رَبٍّ رَحِيمٍ <span class="nomor">٥٨</span></div>
+  <div class="latin">Salāmun qawlan mir rabbir-raḥīm</div>
+  <div class="terjemahan">Ucapan salam (kepada mereka) dari Tuhan Yang Maha Penyayang.</div>
+</div>
+
+<!-- AYAT 59 -->
+<div class="ayat">
+  <div class="arab">وَامْتَازُوا الْيَوْمَ أَيُّهَا الْمُجْرِمُونَ <span class="nomor">٥٩</span></div>
+  <div class="latin">Wam-tāzul-yauma ayyuhal-mujrimūn</div>
+  <div class="terjemahan">Dan (dikatakan kepada orang-orang kafir), “Berpisahlah kalian pada hari ini, wahai orang-orang yang berdosa!”</div>
+</div>
+
+<!-- AYAT 60 -->
+<div class="ayat">
+  <div class="arab">أَلَمْ أَعْهَدْ إِلَيْكُمْ يَا بَنِي آدَمَ أَنْ لَا تَعْبُدُوا الشَّيْطَانَ ۖ إِنَّهُ لَكُمْ عَدُوٌّ مُبِينٌ <span class="nomor">٦٠</span></div>
+  <div class="latin">A lam a‘had ilaikum yā banī ʾĀdama an lā ta‘budu-asy-syayṭān, innahū lakum ‘aduwwum mubīn</div>
+  <div class="terjemahan">Bukankah Aku telah memerintahkan kepadamu, wahai anak Adam, agar kamu tidak menyembah setan? Sesungguhnya ia adalah musuh yang nyata bagimu.</div>
+</div>
+
+<!-- AYAT 61 -->
+<div class="ayat">
+  <div class="arab">وَأَنِ اعْبُدُونِي ۚ هَٰذَا صِرَاطٌ مُسْتَقِيمٌ <span class="nomor">٦١</span></div>
+  <div class="latin">Wa an i‘budūnī, hādzā ṣirāṭum mustaqīm</div>
+  <div class="terjemahan">Dan hendaklah kamu menyembah-Ku. Inilah jalan yang lurus.</div>
+</div>
+
+<!-- AYAT 62 -->
+<div class="ayat">
+  <div class="arab">وَلَقَدْ أَضَلَّ مِنْكُمْ جِبِلًّا كَثِيرًا ۖ أَفَلَمْ تَكُونُوا تَعْقِلُونَ <span class="nomor">٦٢</span></div>
+  <div class="latin">Wa laqad aḍalla minkum jibillan katsīrā, afalam takūnū ta‘qilūn</div>
+  <div class="terjemahan">Dan sungguh, dia (setan) telah menyesatkan sebagian besar di antara kamu. Maka apakah kamu tidak mengerti?</div>
+</div>
+
+<!-- AYAT 63 -->
+<div class="ayat">
+  <div class="arab">هَٰذِهِ جَهَنَّمُ الَّتِي كُنْتُمْ تُوعَدُونَ <span class="nomor">٦٣</span></div>
+  <div class="latin">Hādzihi jahannamullatī kuntum tū‘adūn</div>
+  <div class="terjemahan">Inilah neraka Jahanam yang dahulu telah diperingatkan kepadamu.</div>
+</div>
+
+<!-- AYAT 64 -->
+<div class="ayat">
+  <div class="arab">اصْلَوْهَا الْيَوْمَ بِمَا كُنْتُمْ تَكْفُرُونَ <span class="nomor">٦٤</span></div>
+  <div class="latin">Iṣlauhal-yauma bimā kuntum takfurūn</div>
+  <div class="terjemahan">Masuklah ke dalamnya pada hari ini disebabkan kamu dahulu mengingkarinya.</div>
+</div>
+
+<!-- AYAT 65 -->
+<div class="ayat">
+  <div class="arab">الْيَوْمَ نَخْتِمُ عَلَىٰ أَفْوَاهِهِمْ وَتُكَلِّمُنَا أَيْدِيهِمْ وَتَشْهَدُ أَرْجُلُهُمْ بِمَا كَانُوا يَكْسِبُونَ <span class="nomor">٦٥</span></div>
+  <div class="latin">Al-yauma nakhtimu ‘alā afwāhihim wa tukallimunā aidīhim wa tasyhadu arjuluhum bimā kānū yaksibūn</div>
+  <div class="terjemahan">Pada hari ini Kami tutup mulut mereka; tangan mereka akan berkata kepada Kami, dan kaki mereka akan memberi kesaksian terhadap apa yang dahulu mereka kerjakan.</div>
+</div>
+<!-- AYAT 66 -->
+<div class="ayat">
+  <div class="arab">وَلَوْ نَشَاءُ لَطَمَسْنَا عَلَىٰ أَعْيُنِهِمْ فَاسْتَبَقُوا الصِّرَاطَ فَأَنَّىٰ يُبْصِرُونَ <span class="nomor">٦٦</span></div>
+  <div class="latin">Wa law nasyā’u laṭamasnā ‘alā a‘yunihim fastabaquṣ-ṣirāṭ, fa-annā yubṣirūn</div>
+  <div class="terjemahan">Dan jika Kami menghendaki, niscaya Kami hapuskan penglihatan mereka; lalu mereka akan berlomba-lomba (mencari) jalan, maka bagaimana mereka dapat melihat?</div>
+</div>
+
+<!-- AYAT 67 -->
+<div class="ayat">
+  <div class="arab">وَلَوْ نَشَاءُ لَمَسَخْنَاهُمْ عَلَىٰ مَكَانَتِهِمْ فَمَا اسْتَطَاعُوا مُضِيًّا وَلَا يَرْجِعُونَ <span class="nomor">٦٧</span></div>
+  <div class="latin">Wa law nasyā’u lamasakhnāhum ‘alā makānatihim famas-taṭā‘ū muḍiyyan wa lā yarji‘ūn</div>
+  <div class="terjemahan">Dan jika Kami menghendaki, niscaya Kami ubah mereka di tempat mereka berada; maka mereka tidak dapat pergi dan tidak dapat kembali.</div>
+</div>
+
+<!-- AYAT 68 -->
+<div class="ayat">
+  <div class="arab">وَمَنْ نُعَمِّرْهُ نُنَكِّسْهُ فِي الْخَلْقِ ۖ أَفَلَا يَعْقِلُونَ <span class="nomor">٦٨</span></div>
+  <div class="latin">Wa man nu‘ammirhu nunakkis-hu fil-khalq, afalā ya‘qilūn</div>
+  <div class="terjemahan">Dan barang siapa Kami panjangkan umurnya niscaya Kami kembalikan dia kepada keadaan lemah. Maka apakah mereka tidak mengerti?</div>
+</div>
+
+<!-- AYAT 69 -->
+<div class="ayat">
+  <div class="arab">وَمَا عَلَّمْنَاهُ الشِّعْرَ وَمَا يَنْبَغِي لَهُ ۚ إِنْ هُوَ إِلَّا ذِكْرٌ وَقُرْآنٌ مُبِينٌ <span class="nomor">٦٩</span></div>
+  <div class="latin">Wa mā ‘allamnāhusy-syi‘ra wa mā yanbagī lah, in huwa illā dzikrun wa qur’ānun mubīn</div>
+  <div class="terjemahan">Dan Kami tidak mengajarkan syair kepadanya (Muhammad) dan itu tidak pantas baginya; ini hanyalah pengajaran dan Al-Qur’an yang jelas.</div>
+</div>
+
+<!-- AYAT 70 -->
+<div class="ayat">
+  <div class="arab">لِيُنْذِرَ مَنْ كَانَ حَيًّا وَيَحِقَّ الْقَوْلُ عَلَى الْكَافِرِينَ <span class="nomor">٧٠</span></div>
+  <div class="latin">Liyundzira man kāna ḥayyā, wa yaḥiqqal-qaulu ‘alal-kāfirīn</div>
+  <div class="terjemahan">Agar dia memberi peringatan kepada orang yang hidup (hatinya) dan agar pasti ketetapan azab bagi orang-orang kafir.</div>
+</div>
+
+<!-- AYAT 71 -->
+<div class="ayat">
+  <div class="arab">أَوَلَمْ يَرَوْا أَنَّا خَلَقْنَا لَهُمْ مِمَّا عَمِلَتْ أَيْدِينَا أَنْعَامًا فَهُمْ لَهَا مَالِكُونَ <span class="nomor">٧١</span></div>
+  <div class="latin">A wa lam yarau annā khalaqnā lahum mimmā ‘amilat aidīnā an‘āman fahum lahā mālikūn</div>
+  <div class="terjemahan">Dan apakah mereka tidak melihat bahwa Kami menciptakan hewan ternak untuk mereka, yaitu sebagian dari apa yang Kami ciptakan dengan kekuasaan Kami, lalu mereka menguasainya?</div>
+</div>
+
+<!-- AYAT 72 -->
+<div class="ayat">
+  <div class="arab">وَذَلَّلْنَاهَا لَهُمْ فَمِنْهَا رَكُوبُهُمْ وَمِنْهَا يَأْكُلُونَ <span class="nomor">٧٢</span></div>
+  <div class="latin">Wa dzallalnāhā lahum fa minhā rukūbuhum wa minhā ya’kulūn</div>
+  <div class="terjemahan">Dan Kami tundukkan hewan-hewan itu untuk mereka; maka sebagian dapat mereka tunggangi dan sebagian dapat mereka makan.</div>
+</div>
+
+<!-- AYAT 73 -->
+<div class="ayat">
+  <div class="arab">وَلَهُمْ فِيهَا مَنَافِعُ وَمَشَارِبُ ۖ أَفَلَا يَشْكُرُونَ <span class="nomor">٧٣</span></div>
+  <div class="latin">Wa lahum fīhā manāfi‘u wa masyārib, a fa lā yasykurūn</div>
+  <div class="terjemahan">Dan mereka memperoleh berbagai manfaat dan minuman darinya; maka mengapa mereka tidak bersyukur?</div>
+</div>
+
+<!-- AYAT 74 -->
+<div class="ayat">
+  <div class="arab">وَاتَّخَذُوا مِنْ دُونِ اللَّهِ آلِهَةً لَعَلَّهُمْ يُنْصَرُونَ <span class="nomor">٧٤</span></div>
+  <div class="latin">Wa ttakhadzū min dūnillāhi ālihatan la‘allahum yunṣarūn</div>
+  <div class="terjemahan">Namun mereka mengambil sesembahan selain Allah, agar mereka mendapat pertolongan.</div>
+</div>
+
+<!-- AYAT 75 -->
+<div class="ayat">
+  <div class="arab">لَا يَسْتَطِيعُونَ نَصْرَهُمْ وَهُمْ لَهُمْ جُنْدٌ مُحْضَرُونَ <span class="nomor">٧٥</span></div>
+  <div class="latin">Lā yastaṭī‘ūna naṣrahum wa hum lahum jundum muḥḍarūn</div>
+  <div class="terjemahan">Padahal berhala-berhala itu tidak dapat menolong mereka, bahkan menjadi tentara yang diseret (ke neraka) bersama mereka.</div>
+</div>
+<!-- AYAT 76 -->
+<div class="ayat">
+  <div class="arab">فَلَا يَحْزُنْكَ قَوْلُهُمْ ۘ إِنَّا نَعْلَمُ مَا يُسِرُّونَ وَمَا يُعْلِنُونَ <span class="nomor">٧٦</span></div>
+  <div class="latin">Fa lā yaḥzunka qawluhum, innā na‘lamu mā yusirrūna wa mā yu‘linūn</div>
+  <div class="terjemahan">Maka janganlah engkau (Muhammad) bersedih hati terhadap apa yang mereka katakan. Sesungguhnya Kami mengetahui apa yang mereka rahasiakan dan apa yang mereka nyatakan.</div>
+</div>
+
+<!-- AYAT 77 -->
+<div class="ayat">
+  <div class="arab">أَوَلَمْ يَرَ الْإِنْسَانُ أَنَّا خَلَقْنَاهُ مِنْ نُطْفَةٍ فَإِذَا هُوَ خَصِيمٌ مُبِينٌ <span class="nomor">٧٧</span></div>
+  <div class="latin">A wa lam yaral-insānu annā khalaqnāhu min nuṭfatin fa-idzā huwa khaṣīmun mubīn</div>
+  <div class="terjemahan">Dan tidakkah manusia melihat bahwa Kami menciptakannya dari setetes mani? Tetapi tiba-tiba ia menjadi pembantah yang nyata.</div>
+</div>
+
+<!-- AYAT 78 -->
+<div class="ayat">
+  <div class="arab">وَضَرَبَ لَنَا مَثَلًا وَنَسِيَ خَلْقَهُ ۖ قَالَ مَنْ يُحْيِ الْعِظَامَ وَهِيَ رَمِيمٌ <span class="nomor">٧٨</span></div>
+  <div class="latin">Wa ḍaraba lanā matsalan wa nasīya khalqah, qāla man yuḥyil-‘iẓāma wa hiya ramīm</div>
+  <div class="terjemahan">Dan ia membuat perumpamaan bagi Kami dan melupakan asal kejadiannya. Ia berkata, “Siapakah yang dapat menghidupkan tulang-belulang yang telah hancur?”</div>
+</div>
+
+<!-- AYAT 79 -->
+<div class="ayat">
+  <div class="arab">قُلْ يُحْيِيهَا الَّذِي أَنْشَأَهَا أَوَّلَ مَرَّةٍ ۖ وَهُوَ بِكُلِّ خَلْقٍ عَلِيمٌ <span class="nomor">٧٩</span></div>
+  <div class="latin">Qul yuḥyīhā alladzī ansya’ahā awwala marrah, wa huwa bikulli khalqin ‘alīm</div>
+  <div class="terjemahan">Katakanlah, “Yang akan menghidupkannya ialah (Allah) yang menciptakannya pertama kali. Dan Dia Maha Mengetahui tentang segala makhluk.”</div>
+</div>
+
+<!-- AYAT 80 -->
+<div class="ayat">
+  <div class="arab">الَّذِي جَعَلَ لَكُمْ مِنَ الشَّجَرِ الْأَخْضَرِ نَارًا فَإِذَا أَنْتُمْ مِنْهُ تُوقِدُونَ <span class="nomor">٨٠</span></div>
+  <div class="latin">Alladzī ja‘ala lakum minasysyajari l-akhdari nāran fa-idzā antum minhu tūqidūn</div>
+  <div class="terjemahan">Yaitu (Allah) yang menjadikan untukmu api dari kayu yang hijau, maka tiba-tiba kamu menyalakan (api) dari kayu itu.</div>
+</div>
+
+<!-- AYAT 81 -->
+<div class="ayat">
+  <div class="arab">أَوَلَيْسَ الَّذِي خَلَقَ السَّمَاوَاتِ وَالْأَرْضَ بِقَادِرٍ عَلَىٰ أَنْ يَخْلُقَ مِثْلَهُمْ ۚ بَلَىٰ ۚ وَهُوَ الْخَلَّاقُ الْعَلِيمُ <span class="nomor">٨١</span></div>
+  <div class="latin">A wa laisa alladzī khalaqas-samāwāti wal-arḍa biqādirin ‘alā an yakhluqa mitslahum, balā wa huwal-khallāqul-‘alīm</div>
+  <div class="terjemahan">Dan tidakkah (Allah) yang menciptakan langit dan bumi berkuasa menciptakan yang serupa dengan mereka? Benar, Dia Maha Pencipta lagi Maha Mengetahui.</div>
+</div>
+
+<!-- AYAT 82 -->
+<div class="ayat">
+  <div class="arab">إِنَّمَا أَمْرُهُ إِذَا أَرَادَ شَيْئًا أَنْ يَقُولَ لَهُ كُنْ فَيَكُونُ <span class="nomor">٨٢</span></div>
+  <div class="latin">Innamā amruhū idzā arāda syai’an an yaqūla lahū kun fa yakūn</div>
+  <div class="terjemahan">Sesungguhnya urusan-Nya apabila Dia menghendaki sesuatu hanyalah berkata kepadanya: “Jadilah!” maka jadilah ia.</div>
+</div>
+
+<!-- AYAT 83 -->
+<div class="ayat">
+  <div class="arab">فَسُبْحَانَ الَّذِي بِيَدِهِ مَلَكُوتُ كُلِّ شَيْءٍ وَإِلَيْهِ تُرْجَعُونَ <span class="nomor">٨٣</span></div>
+  <div class="latin">Fa subḥānal-ladzī biyadihī malakūtu kulli syai’in wa ilaihi turja‘ūn</div>
+  <div class="terjemahan">Maka Mahasuci (Allah) yang di tangan-Nya kekuasaan atas segala sesuatu, dan kepada-Nyalah kamu dikembalikan.</div>
+</div>
 @endsection
