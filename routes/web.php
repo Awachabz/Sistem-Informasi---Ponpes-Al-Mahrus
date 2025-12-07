@@ -107,7 +107,7 @@ Route::get('/rotinan/anilqodr', fn() => view('rotinan.anilqodr'))->name('anilqod
 Route::get('/rotinan/surat-yasiin', fn() => view('rotinan.yasiin'))->name('surat_yasiin');
 Route::get('/rotinan/al-wakiah', fn() => view('rotinan.alwakiah'))->name('alwakiah');
 Route::get('/rotinan/al-mulk', fn() => view('rotinan.almulk'))->name('almulk');
-
+Route::get('/rotinan/lamyahtalim', fn() => view('rotinan.lamyahtalim'))->name('lamyahtalim');
 // ======================
 // 🔹 LOGOUT
 // ======================

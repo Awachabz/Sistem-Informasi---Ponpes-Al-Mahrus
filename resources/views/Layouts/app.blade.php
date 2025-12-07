@@ -141,6 +141,7 @@
             <li><a class="dropdown-item" href="{{ route('kamilah') }}">Sholawat Kamilah</a></li>
             <li><a class="dropdown-item" href="{{ route('nurzati') }}">Sholawat Nurzati</a></li>
             <li><a class="dropdown-item" href="{{ route('anilqodr') }}">Sholawat Anil Qodr</a></li>
+            <li><a class="dropdown-item" href="{{ route('lamyahtalim') }}">Sholawat Lamyahtalim</a></li>
           </ul>
         </li>
 
