@@ -32,7 +32,7 @@ class ProfilController extends Controller
      */
     public function userProfile()
     {
-        return view('user.profil');    // file: resources/views/user/profil.blade.php
+        return view('user.profile');    // file: resources/views/user/profil.blade.php
     }
 
     /**

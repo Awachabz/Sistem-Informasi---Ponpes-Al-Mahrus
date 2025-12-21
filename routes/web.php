@@ -9,6 +9,8 @@ use App\Http\Controllers\CommentController;
 use App\Http\Controllers\LikeController;
 use App\Http\Controllers\StrukturController;
 use App\Http\Controllers\ProfilController;
+use App\Http\Controllers\NotificationController;
+
 
 use App\Http\Controllers\Auth\RegisteredUserController;
 
@@ -107,6 +109,37 @@ Route::get('/rotinan/anilqodr', fn() => view('rotinan.anilqodr'))->name('anilqod
 Route::get('/rotinan/surat-yasiin', fn() => view('rotinan.yasiin'))->name('surat_yasiin');
 Route::get('/rotinan/al-wakiah', fn() => view('rotinan.alwakiah'))->name('alwakiah');
 Route::get('/rotinan/al-mulk', fn() => view('rotinan.almulk'))->name('almulk');
+Route::get('/rotinan/lamyahtalim', fn() => view('rotinan.lamyahtalim'))->name('lamyahtalim');
+
+
+// ===== NOTIFIKASI =====
+
+// semua user
+Route::get('/notification/list', [NotificationController::class, 'list'])
+    ->name('notification.list');
+
+Route::get('/notification/count', [NotificationController::class, 'count'])
+    ->name('notification.count');
+
+// hapus notif
+Route::delete('/notification/{id}', [NotificationController::class, 'destroy'])
+    ->name('notification.destroy');
+
+Route::delete('/notification-delete-all', [NotificationController::class, 'deleteAll'])
+    ->name('notification.deleteAll');
+
+// admin only
+Route::middleware(['auth', 'role:admin'])->group(function () {
+
+    Route::get('/admin/notifikasi/create', [NotificationController::class, 'create'])
+        ->name('notif-create');
+
+    Route::post('/notification/store', [NotificationController::class, 'store'])
+        ->name('notification.store');
+});
+
+
+
 
 // ======================
 // 🔹 LOGOUT
