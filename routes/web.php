@@ -10,8 +10,7 @@ use App\Http\Controllers\LikeController;
 use App\Http\Controllers\StrukturController;
 use App\Http\Controllers\ProfilController;
 use App\Http\Controllers\NotificationController;
-
-
+use App\Http\Controllers\YasinController;
 use App\Http\Controllers\Auth\RegisteredUserController;
 
 // ======================
@@ -106,7 +105,9 @@ Route::middleware(['auth'])->group(function () {
 Route::get('/rotinan/kamilah', fn() => view('rotinan.kamilah'))->name('kamilah');
 Route::get('/rotinan/nurzati', fn() => view('rotinan.nurzati'))->name('nurzati');
 Route::get('/rotinan/anilqodr', fn() => view('rotinan.anilqodr'))->name('anilqodr');
-Route::get('/rotinan/surat-yasiin', fn() => view('rotinan.yasiin'))->name('surat_yasiin');
+// Route::get('/rotinan/surat-yasiin', fn() => view('rotinan.yasiin'))->name('surat_yasiin');
+Route::get('/rotinan/surat-yasiin', [YasinController::class, 'index'])
+    ->name('surat_yasiin');
 Route::get('/rotinan/al-wakiah', fn() => view('rotinan.alwakiah'))->name('alwakiah');
 Route::get('/rotinan/al-mulk', fn() => view('rotinan.almulk'))->name('almulk');
 Route::get('/rotinan/lamyahtalim', fn() => view('rotinan.lamyahtalim'))->name('lamyahtalim');
