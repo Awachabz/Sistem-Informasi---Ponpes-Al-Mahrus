@@ -12,7 +12,8 @@ use App\Http\Controllers\ProfilController;
 use App\Http\Controllers\NotificationController;
 use App\Http\Controllers\YasinController;
 use App\Http\Controllers\Auth\RegisteredUserController;
-
+use App\Http\Controllers\AlWaqiahController;
+use App\Http\Controllers\AlMulkController;
 // ======================
 // 🔹 HALAMAN PUBLIK (tanpa login)
 // ======================
@@ -108,8 +109,12 @@ Route::get('/rotinan/anilqodr', fn() => view('rotinan.anilqodr'))->name('anilqod
 // Route::get('/rotinan/surat-yasiin', fn() => view('rotinan.yasiin'))->name('surat_yasiin');
 Route::get('/rotinan/surat-yasiin', [YasinController::class, 'index'])
     ->name('surat_yasiin');
-Route::get('/rotinan/al-wakiah', fn() => view('rotinan.alwakiah'))->name('alwakiah');
-Route::get('/rotinan/al-mulk', fn() => view('rotinan.almulk'))->name('almulk');
+// Route::get('/rotinan/al-wakiah', fn() => view('rotinan.alwakiah'))->name('alwakiah');
+Route::get('/rotinan/al-wakiah', [AlWaqiahController::class, 'index'])
+    ->name('alwakiah');
+// Route::get('/rotinan/al-mulk', fn() => view('rotinan.almulk'))->name('almulk');
+Route::get('/rotinan/al-mulk', [AlMulkController::class, 'index'])
+    ->name('almulk');
 Route::get('/rotinan/lamyahtalim', fn() => view('rotinan.lamyahtalim'))->name('lamyahtalim');
 
 
