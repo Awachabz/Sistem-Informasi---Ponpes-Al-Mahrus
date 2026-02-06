@@ -49,20 +49,20 @@
   <div class="carousel-separator-top"></div>
 
   <section id="beranda" class="hero p-0">
-    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="{{ asset('images/slide1.jpg') }}" class="d-block w-100 carousel-placeholder" alt="slide1" 
+          <img src="{{ asset('images/slide01.jpg') }}" class="d-block w-90 carousel-placeholder" alt="slide1" 
                onerror="this.src='https://via.placeholder.com/1600x600?text=Slide+1'">
         </div>
         <div class="carousel-item">
-          <img src="{{ asset('images/slide2.jpeg') }}" class="d-block w-100 carousel-placeholder" alt="slide2" 
+          <img src="{{ asset('images/slide02.jpg') }}" class="d-block w-100 carousel-placeholder" alt="slide2" 
                onerror="this.src='https://via.placeholder.com/1600x600?text=Slide+2'">
         </div>
-        <div class="carousel-item">
-          <img src="{{ asset('images/slide3.jpeg') }}" class="d-block w-100 carousel-placeholder" alt="slide3" 
+        <!-- <div class="carousel-item">
+          <img src="{{ asset('images/slides.jpeg') }}" class="d-block w-100 carousel-placeholder" alt="slide3" 
                onerror="this.src='https://via.placeholder.com/1600x600?text=Slide+3'">
-        </div>
+        </div> -->
       </div>
 
       <!-- Tombol Prev & Next -->

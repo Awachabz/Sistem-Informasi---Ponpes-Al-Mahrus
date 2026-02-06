@@ -4,22 +4,26 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\RotinanController;
 use App\Http\Controllers\AlbumController;
 use App\Http\Controllers\CommentController;
 use App\Http\Controllers\LikeController;
 use App\Http\Controllers\StrukturController;
 use App\Http\Controllers\ProfilController;
 use App\Http\Controllers\NotificationController;
-use App\Http\Controllers\YasinController;
+use App\Http\Controllers\EventController;
+use App\Http\Controllers\ChatController;
+use App\Http\Controllers\GalleryController;
+
+
+
 use App\Http\Controllers\Auth\RegisteredUserController;
-use App\Http\Controllers\AlWaqiahController;
-use App\Http\Controllers\AlMulkController;
+
 // ======================
 // 🔹 HALAMAN PUBLIK (tanpa login)
 // ======================
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/struktur', [HomeController::class, 'struktur'])->name('struktur');
-Route::get('/album', [HomeController::class, 'album'])->name('album');
 Route::get('/rotinan', [HomeController::class, 'rotinan'])->name('rotinan');
 
 // ======================
@@ -72,7 +76,9 @@ Route::middleware(['auth'])->group(function () {
 // ======================
 // ALBUM
 // ======================
-Route::get('/album', [AlbumController::class, 'index'])->name('album.index');
+// Route::get('/album', [AlbumController::class, 'index'])->name('album.index');
+Route::get('/album', [HomeController::class, 'album'])->name('album');
+
 
 Route::middleware(['auth'])->group(function () {
     Route::post('/album', [AlbumController::class, 'store'])->name('album.store');
@@ -80,6 +86,10 @@ Route::middleware(['auth'])->group(function () {
     Route::put('/album/{id}', [AlbumController::class, 'update'])->name('album.update');
     Route::delete('/album/{id}', [AlbumController::class, 'destroy'])->name('album.destroy');
 });
+Route::get('/galeri', [GalleryController::class, 'index'])->name('album.galery');
+Route::get('/album/{album}', [AlbumController::class, 'show'])
+    ->name('album.show');
+
 
 // =====================
 // Komentar & Like
@@ -106,35 +116,34 @@ Route::middleware(['auth'])->group(function () {
 Route::get('/rotinan/kamilah', fn() => view('rotinan.kamilah'))->name('kamilah');
 Route::get('/rotinan/nurzati', fn() => view('rotinan.nurzati'))->name('nurzati');
 Route::get('/rotinan/anilqodr', fn() => view('rotinan.anilqodr'))->name('anilqodr');
-// Route::get('/rotinan/surat-yasiin', fn() => view('rotinan.yasiin'))->name('surat_yasiin');
-Route::get('/rotinan/surat-yasiin', [YasinController::class, 'index'])
-    ->name('surat_yasiin');
-// Route::get('/rotinan/al-wakiah', fn() => view('rotinan.alwakiah'))->name('alwakiah');
-Route::get('/rotinan/al-wakiah', [AlWaqiahController::class, 'index'])
-    ->name('alwakiah');
-// Route::get('/rotinan/al-mulk', fn() => view('rotinan.almulk'))->name('almulk');
-Route::get('/rotinan/al-mulk', [AlMulkController::class, 'index'])
-    ->name('almulk');
+Route::get('/rotinan/surat-yasiin', fn() => view('rotinan.yasiin'))->name('surat_yasiin');
+Route::get('/rotinan/al-wakiah', fn() => view('rotinan.alwakiah'))->name('alwakiah');
+Route::get('/rotinan/al-mulk', fn() => view('rotinan.almulk'))->name('almulk');
 Route::get('/rotinan/lamyahtalim', fn() => view('rotinan.lamyahtalim'))->name('lamyahtalim');
 
 
-// ===== NOTIFIKASI =====
+// =====================
+//  NOTIFIKASI USER
+// =====================
+Route::middleware('auth')->group(function () {
 
-// semua user
-Route::get('/notification/list', [NotificationController::class, 'list'])
-    ->name('notification.list');
+    Route::get('/notification/list', [NotificationController::class, 'list'])
+        ->name('notification.list');
 
-Route::get('/notification/count', [NotificationController::class, 'count'])
-    ->name('notification.count');
+    Route::get('/notification/count', [NotificationController::class, 'count'])
+        ->name('notification.count');
 
-// hapus notif
-Route::delete('/notification/{id}', [NotificationController::class, 'destroy'])
-    ->name('notification.destroy');
+    Route::delete('/notification/{id}', [NotificationController::class, 'destroy'])
+        ->name('notification.destroy');
 
-Route::delete('/notification-delete-all', [NotificationController::class, 'deleteAll'])
-    ->name('notification.deleteAll');
+    Route::delete('/notification-delete-all', [NotificationController::class, 'deleteAll'])
+        ->name('notification.deleteAll');
+});
 
-// admin only
+
+// =====================
+//  NOTIFIKASI ADMIN
+// =====================
 Route::middleware(['auth', 'role:admin'])->group(function () {
 
     Route::get('/admin/notifikasi/create', [NotificationController::class, 'create'])
@@ -144,6 +153,42 @@ Route::middleware(['auth', 'role:admin'])->group(function () {
         ->name('notification.store');
 });
 
+
+
+// ===============
+// ACARA
+// ===============
+Route::get('/acara', [EventController::class, 'index'])->name('event.index');
+
+// KHUSUS ADMIN
+Route::middleware(['auth', 'role:admin'])->group(function () {
+    Route::get('/acara/create', [EventController::class, 'create'])->name('event.create');
+    Route::post('/acara', [EventController::class, 'store'])->name('event.store');
+    Route::get('/acara/{event}/edit', [EventController::class, 'edit'])->name('event.edit');
+    Route::put('/acara/{event}', [EventController::class, 'update'])->name('event.update');
+    Route::delete('/acara/{event}', [EventController::class, 'destroy'])->name('event.destroy');
+});
+
+
+
+Route::middleware('auth')->group(function () {
+    Route::get('/chat', [ChatController::class, 'index'])->name('chat.index');
+    Route::post('/chat-send', [ChatController::class, 'store']);
+    Route::get('/chat-fetch', [ChatController::class, 'fetch']);
+});
+
+
+// =====================
+// Qur'an Digital
+// =====================
+Route::get('/rotinan/surat-yasiin', [RotinanController::class, 'yasiin'])
+    ->name('surat_yasiin');
+
+Route::get('/rotinan/al-wakiah', [RotinanController::class, 'waqiah'])
+    ->name('alwakiah');
+
+Route::get('/rotinan/al-mulk', [RotinanController::class, 'almulk'])
+    ->name('almulk');
 
 
 

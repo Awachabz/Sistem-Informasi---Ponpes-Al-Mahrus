@@ -30,8 +30,7 @@ body {
 
 <div class="surat lamyahtalim" style="text-align:center;">
 <!-- lamyahtalim.blade.php -->
-  <div class="arab" style="text-align:center; font-size:40px; line-height:1.8;">بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ</div><br></br>
-
+</br>
 <div class="ayat">
   <div class="arab" style="text-align:center; font-size:32px; line-height:1.8;">لَمْ يَحْتَلِمْ قَطُّ طَهَ مُطْلَقًا أَبَدًا<br>وَمَا تَثَائَبَ أَصْلًا فِيْ مَدَى الزَّمَنِ</div>
   <div class="latin" style="text-align:center; margin-top:6px;">Kangjeng Nabi sama sakali tara ngimpén jima’, <br>Tara heuay sa pisan dina salawasna zaman.</div>

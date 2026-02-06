@@ -144,8 +144,71 @@
           </ul>
         </li>
 
-        <li><a class="dropdown-item" href="{{ route('album.index') }}">Album</a></li>
+       <li class="dropend">
+  <a class="dropdown-item dropdown-toggle d-flex align-items-center"
+     href="#"
+     data-bs-toggle="dropdown"
+     aria-expanded="false">
+    Album
+  </a>
+
+  <ul class="dropdown-menu">
+    <li>
+      <a class="dropdown-item" href="{{ route('album') }}">
+        Postingan Santri
+      </a>
+    </li>
+    <li>
+      <a class="dropdown-item" href="{{ route('album.galery') }}">
+        Galeri
+      </a>
+    </li>
+  </ul>
+</li>
+
         <li><a class="dropdown-item" href="{{ route('struktur.index') }}">Struktur</a></li>
+
+<!-- == Acara == -->
+@php
+use App\Models\Event;
+$eventCount = Event::activeCount();
+@endphp
+
+<li>
+  <a class="dropdown-item d-flex justify-content-between align-items-center"
+     href="{{ route('event.index') }}">
+    Acara
+    @if($eventCount > 0)
+      <span class="badge bg-danger">{{ $eventCount }}</span>
+    @endif
+  </a>
+</li>
+
+
+
+<!-- === Al-Mahrus Chat=== -->
+@php
+    $chatCount = \App\Models\Chat::whereNull('read_at')
+                    ->where('user_id', '!=', auth()->id())
+                    ->count();
+@endphp
+
+@if(auth()->check() && in_array(auth()->user()->role, ['admin', 'user']))
+    <a class="dropdown-item d-flex justify-content-between align-items-center"
+       href="{{ route('chat.index') }}">
+
+        Al-Mahrus Chat
+
+        @if($chatCount > 0)
+            <span class="badge bg-danger">
+                {{ $chatCount }}
+            </span>
+        @endif
+    </a>
+@endif
+
+
+
 
         @php
           use App\Models\User;
@@ -179,6 +242,7 @@
 
 
     <!-- ========== KANAN – LOGIN / USER ========== -->
+     
     <div class="auth-buttons d-flex align-items-center">
 
       @guest
@@ -189,6 +253,9 @@
       @else
 
       
+      
+
+
 
 <!-- ===================== NOTIFIKASI ===================== -->
 <style>
@@ -198,6 +265,32 @@
     width: 380px;
 }
 
+.notif-btn {
+    position: relative;
+}
+
+.notif-badge {
+    position: absolute;
+    top: -4px;
+    right: -6px;
+    min-width: 18px;
+    height: 18px;
+    padding: 0 5px;
+
+    background: #dc3545;
+    color: #fff;
+
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 18px;
+    text-align: center;
+
+    border-radius: 999px;
+    border: 2px solid white;
+
+    display: none;
+    z-index: 10;
+}
 
 /* HEADER */
 .notif-header {
@@ -246,9 +339,8 @@
 </style>
 
 <div class="dropdown me-3">
-
     <!-- TOMBOL LONCENG -->
-    <button class="btn position-relative notif-btn"
+    <button class="btn notif-btn position-relative p-0"
             data-bs-toggle="dropdown"
             data-bs-auto-close="outside"
             style="border:none;">
@@ -258,10 +350,7 @@
               style="display:none;"></span>
     </button>
 
-    <!-- DROPDOWN -->
     <ul class="dropdown-menu dropdown-menu-end p-0" id="notif-list">
-
-        <!-- HEADER -->
         <li class="notif-header">
             <button class="btn btn-sm btn-danger" id="delete-all">
                 Hapus Semua
@@ -272,11 +361,9 @@
                 Tidak ada notifikasi
             </span>
         </li>
-
-        <!-- ITEM VIA JS -->
-
     </ul>
 </div>
+
 
 <!-- ===================== MODAL DETAIL ===================== -->
 <div class="modal fade" id="notifModal" tabindex="-1">
@@ -297,6 +384,19 @@
     </div>
 </div>
 
+
+<script>
+    const IS_AUTH = {{ auth()->check() ? 'true' : 'false' }};
+
+    const COUNT_URL = IS_AUTH
+        ? "{{ route('notification.count') }}"
+        : "/public-notification/count";
+
+    const LIST_URL = IS_AUTH
+        ? "{{ route('notification.list') }}"
+        : "/public-notification/list";
+</script>
+
 <script>
 document.addEventListener("DOMContentLoaded", function () {
 
@@ -310,7 +410,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     /* ===== LOAD COUNT ===== */
     function loadNotifCount() {
-        fetch("{{ route('notification.count') }}")
+        fetch(COUNT_URL)
             .then(res => res.json())
             .then(d => {
                 if (d.count > 0) {
@@ -327,26 +427,19 @@ document.addEventListener("DOMContentLoaded", function () {
         if (loaded) return;
         loaded = true;
 
-        fetch("{{ route('notification.list') }}")
+        fetch(LIST_URL)
             .then(res => res.json())
             .then(data => {
 
                 list.querySelectorAll(".notif-item").forEach(el => el.remove());
 
-                // JIKA KOSONG
                 if (!data || data.length === 0) {
-                    delAll.style.display = "none";
+                    delAll && (delAll.style.display = "none");
                     emptyText.style.display = "inline";
-
-                    const li = document.createElement("li");
-                    li.className = "text-center text-muted py-3 notif-item";
-                    li.innerText = "Tidak ada notifikasi";
-                    list.appendChild(li);
                     return;
                 }
 
-                // JIKA ADA DATA
-                delAll.style.display = "inline-block";
+                delAll && (delAll.style.display = IS_AUTH ? "inline-block" : "none");
                 emptyText.style.display = "none";
 
                 data.forEach(n => {
@@ -371,10 +464,11 @@ document.addEventListener("DOMContentLoaded", function () {
                             <small>${n.message ?? ''}</small><br>
                             <small class="text-muted">${n.created_at}</small>
 
+                            ${IS_AUTH ? `
                             <div class="notif-actions">
                                 <button class="btn btn-sm btn-primary btn-view">Lihat</button>
                                 <button class="btn btn-sm btn-danger btn-delete">Hapus</button>
-                            </div>
+                            </div>` : ``}
                         </div>
                     `;
                     list.appendChild(li);
@@ -406,8 +500,8 @@ document.addEventListener("DOMContentLoaded", function () {
             ).show();
         }
 
-        // HAPUS SATU
-        if (e.target.classList.contains("btn-delete")) {
+        // HAPUS (USER SAJA)
+        if (IS_AUTH && e.target.classList.contains("btn-delete")) {
             const item = e.target.closest(".notif-item");
             const id = item.dataset.id;
 
@@ -425,28 +519,29 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
-    /* ===== HAPUS SEMUA ===== */
-    delAll.addEventListener("click", function () {
-        if (!confirm("Hapus semua notifikasi?")) return;
+    /* ===== HAPUS SEMUA (USER SAJA) ===== */
+    if (IS_AUTH && delAll) {
+        delAll.addEventListener("click", function () {
+            if (!confirm("Hapus semua notifikasi?")) return;
 
-        fetch("{{ route('notification.deleteAll') }}", {
-            method: "DELETE",
-            headers: {
-                "X-CSRF-TOKEN": "{{ csrf_token() }}"
-            }
-        }).then(() => {
-            list.querySelectorAll(".notif-item").forEach(el => el.remove());
-            delAll.style.display = "none";
-            emptyText.style.display = "inline";
-            loadNotifCount();
+            fetch("{{ route('notification.deleteAll') }}", {
+                method: "DELETE",
+                headers: {
+                    "X-CSRF-TOKEN": "{{ csrf_token() }}"
+                }
+            }).then(() => {
+                list.querySelectorAll(".notif-item").forEach(el => el.remove());
+                delAll.style.display = "none";
+                emptyText.style.display = "inline";
+                loadNotifCount();
+            });
         });
-    });
+    }
 
     /* ===== INIT ===== */
     loadNotifCount();
 });
 </script>
-
 
 
 
@@ -464,8 +559,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
       <!-- 🔥 TOMBOL BUAT NOTIFIKASI UNTUK ADMIN -->
       <li>
-        <a class="dropdown-item text-primary fw-bold" href="{{ route('notif-create') }}">
-          ➕ Buat Notifikasi
+        <a class="dropdown-item" href="{{ route('notif-create') }}">
+        Buat Notifikasi
         </a>
       </li>
 

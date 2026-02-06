@@ -1,40 +1,140 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
-    <h2 class="mb-4">📖 Surat Al-Mulk</h2>
 
+<!-- GOOGLE FONT -->
+<link href="https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@400;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+    body {
+        font-family: 'Inter', sans-serif;
+        background: #fafafa;
+        color: #222;
+    }
+
+    .wrap-mulk {
+        padding: 40px 10%;
+    }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 10px;
+        color: #166534;
+        font-weight: 600;
+    }
+
+    .bismillah {
+        text-align: center;
+        font-family: 'Scheherazade New', serif;
+        font-size: 42px;
+        margin-bottom: 40px;
+        color: #111;
+    }
+
+    .ayat-box {
+        margin-bottom: 35px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .arab {
+        font-family: 'Scheherazade New', serif;
+        font-size: 38px;
+        direction: rtl;
+        text-align: right;
+        line-height: 1.9;
+        color: #111;
+    }
+
+    .nomor {
+        display: inline-block;
+        background: #16a34a;
+        color: white;
+        border-radius: 50%;
+        width: 28px;
+        height: 28px;
+        text-align: center;
+        line-height: 28px;
+        font-size: 14px;
+        margin-left: 10px;
+        font-family: 'Scheherazade New', serif;
+    }
+
+    .latin {
+        font-style: italic;
+        font-size: 16px;
+        color: #555;
+        margin-top: 6px;
+    }
+
+    .terjemahan {
+        font-size: 17px;
+        margin-top: 6px;
+        color: #333;
+    }
+
+    audio {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    @media (max-width: 768px) {
+        .wrap-mulk {
+            padding: 20px;
+        }
+
+        .arab {
+            font-size: 30px;
+        }
+
+        .bismillah {
+            font-size: 34px;
+        }
+    }
+</style>
+
+<div class="wrap-mulk">
+
+    <!-- JUDUL -->
+    <h2>سُورَةُ الْمُلْك</h2>
+
+    <br>
+
+    <!-- BISMILLAH -->
+    <div class="bismillah">
+        بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ
+    </div><br>
+
+    <!-- AYAT -->
     @foreach ($ayat as $a)
-        <div class="mb-4 p-3 border rounded shadow-sm">
+        <div class="ayat-box">
 
-            {{-- Nomor Ayat --}}
-            <div class="text-muted mb-1">
-                <strong>Ayat {{ $a['nomorAyat'] }}</strong>
-            </div>
-
-            {{-- Arab --}}
-            <div style="font-size:28px; text-align:right; line-height:1.8;">
+            <!-- ARAB -->
+            <div class="arab">
                 {{ $a['teksArab'] }}
+                <span class="nomor">{{ $a['nomorAyat'] }}</span>
             </div>
 
-            {{-- Latin --}}
-            <div class="fst-italic text-muted mt-2">
+            <!-- LATIN -->
+            <div class="latin">
                 {{ $a['teksLatin'] }}
             </div>
 
-            {{-- Terjemahan --}}
-            <div class="mt-2">
+            <!-- TERJEMAHAN -->
+            <div class="terjemahan">
                 {{ $a['teksIndonesia'] }}
             </div>
 
-            {{-- Audio --}}
-            <div class="mt-3">
-                <audio controls style="width:100%;">
+            <!-- AUDIO -->
+            @if(isset($a['audio']['01']))
+                <audio controls>
                     <source src="{{ $a['audio']['01'] }}" type="audio/mpeg">
                 </audio>
-            </div>
+            @endif
 
         </div>
     @endforeach
+
 </div>
+
 @endsection

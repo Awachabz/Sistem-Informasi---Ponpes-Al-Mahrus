@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="container py-5">
-  <h2 class="fw-bold text-success mb-4 text-center">Album Santri</h2>
+  <h2 class="fw-bold text-success mb-4 text-center">Postingan Santri</h2>
 
   @if (session('success'))
     <div class="alert alert-success alert-dismissible fade show" role="alert">
@@ -10,6 +10,12 @@
       <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
     </div>
   @endif
+  @if (session('danger'))
+  <div class="alert alert-danger">
+    {{ session('danger') }}
+  </div>
+@endif
+
 
   @auth
   @if (Auth::user()->role === 'admin' || Auth::user()->role === 'user')
@@ -19,10 +25,10 @@
               @csrf
               <textarea name="caption" class="form-control mb-3" rows="3" placeholder="Apa yang sedang kamu pikirkan?" required></textarea>
 
-              <select name="privacy" class="form-select mb-3" required>
+              <!-- <select name="privacy" class="form-select mb-3" required>
                   <option value="public">Publik (semua bisa lihat)</option>
                   <option value="private">Privasi (hanya admin & user)</option>
-              </select>
+              </select> -->
 
               <input type="file" name="media" class="form-control mb-3" accept=".jpg,.jpeg,.png,.mp4,.mov,.avi">
 
@@ -35,7 +41,14 @@
 
 
   @forelse ($albums as $album)
-  <div class="card mb-4 shadow-sm">
+
+    <!-- {{-- 🔒 BLOKIR PRIVATE UNTUK GUEST --}} -->
+    @if($album->privacy === 'private' && !auth()->check())
+        @continue
+    @endif
+
+    <div class="card mb-4 shadow-sm">
+
     <div class="card-body">
 
       <!-- FOTO PROFIL USER -->

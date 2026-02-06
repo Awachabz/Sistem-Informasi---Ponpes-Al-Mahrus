@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Notification;
 use App\Models\User;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\Auth;
 
 class NotificationController extends Controller
 {
@@ -17,61 +17,60 @@ class NotificationController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'title'   => 'nullable|string',
+            'title'   => 'nullable|string|max:255',
             'message' => 'nullable|string',
             'image'   => 'nullable|image|max:2048',
         ]);
 
-        // upload gambar (jika ada)
         $imagePath = null;
         if ($request->hasFile('image')) {
             $imagePath = $request->file('image')->store('notif', 'public');
         }
 
-        // kirim ke semua user
-        $users = User::all();
+        // KIRIM KE SEMUA USER LOGIN
+        $users = User::pluck('id');
 
-        foreach ($users as $user) {
+        foreach ($users as $userId) {
             Notification::create([
-                'user_id' => $user->id,
-                'title'   => $request->title ?? '',
-                'message' => $request->message ?? '',
+                'user_id' => $userId, 
+                'title'   => $request->title,
+                'message' => $request->message,
                 'image'   => $imagePath,
+                'is_read' => false,
             ]);
         }
 
-        return back()->with('success', 'Notifikasi berhasil dikirim ke semua pengguna.');
+        return back()->with('success', 'Notifikasi berhasil dikirim ke semua user.');
     }
 
     /**
      * ===============================
-     * LIST NOTIFIKASI (BELL)
+     * LIST NOTIFIKASI USER LOGIN
      * ===============================
      */
     public function list()
     {
-        $notifications = Notification::latest()
+        return Notification::where('user_id', Auth::id())
+            ->latest()
             ->take(10)
             ->get();
-
-        return response()->json($notifications);
     }
 
     /**
      * ===============================
-     * HITUNG JUMLAH NOTIFIKASI
+     * HITUNG NOTIFIKASI USER
      * ===============================
      */
     public function count()
     {
         return response()->json([
-            'count' => Notification::count()
+            'count' => Notification::where('user_id', Auth::id())->count()
         ]);
     }
 
     /**
      * ===============================
-     * FORM CREATE NOTIFIKASI (ADMIN)
+     * FORM CREATE (ADMIN)
      * ===============================
      */
     public function create()
@@ -86,34 +85,21 @@ class NotificationController extends Controller
      */
     public function destroy($id)
     {
-        $notif = Notification::findOrFail($id);
-
-        // hapus file gambar jika ada
-        if ($notif->image && Storage::disk('public')->exists($notif->image)) {
-            Storage::disk('public')->delete($notif->image);
-        }
-
-        $notif->delete();
+        Notification::where('id', $id)
+            ->where('user_id', Auth::id())
+            ->delete();
 
         return response()->json(['success' => true]);
     }
 
     /**
      * ===============================
-     * HAPUS SEMUA NOTIFIKASI
+     * HAPUS SEMUA NOTIFIKASI USER
      * ===============================
      */
     public function deleteAll()
     {
-        $notifications = Notification::all();
-
-        foreach ($notifications as $notif) {
-            if ($notif->image && Storage::disk('public')->exists($notif->image)) {
-                Storage::disk('public')->delete($notif->image);
-            }
-        }
-
-        Notification::truncate();
+        Notification::where('user_id', Auth::id())->delete();
 
         return response()->json(['success' => true]);
     }

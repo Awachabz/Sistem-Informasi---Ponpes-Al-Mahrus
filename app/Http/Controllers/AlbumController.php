@@ -14,18 +14,27 @@ class AlbumController extends Controller
     // ===============================
     public function index()
     {
-        // Public (belum login / role public) hanya lihat postingan publik
-        if (!Auth::check() || Auth::user()->role === 'public') {
-            $albums = Album::where('privacy', 'public')
-                ->with('user')
-                ->latest()
-                ->get();
-        } else {
-            // Admin & user bisa lihat semua posting
-            $albums = Album::with('user')->latest()->get();
-        }
+        $albums = Album::with([
+            'user',
+            'likes',
+            'comments.replies'
+        ])->latest()->get();
 
         return view('album.album', compact('albums'));
+    }
+
+    // ===============================
+    //  DETAIL POSTINGAN
+    // ===============================
+    public function show(Album $album)
+    {
+        $album->load([
+            'user',
+            'likes',
+            'comments.replies'
+        ]);
+
+        return view('album.show', compact('album'));
     }
 
     // ===============================
@@ -35,28 +44,23 @@ class AlbumController extends Controller
     {
         $request->validate([
             'caption' => 'required|string|max:500',
-            'media' => 'nullable|file|mimes:jpg,jpeg,png,mp4,mov,avi|max:20480',
-            'privacy' => 'required|in:public,private'
+            'media'   => 'nullable|file|mimes:jpg,jpeg,png,mp4,mov,avi|max:20480',
         ]);
 
         $path = null;
+        $mediaType = 'none';
+
         if ($request->hasFile('media')) {
             $path = $request->file('media')->store('albums', 'public');
-        }
-
-        // Tentukan jenis media
-        $mediaType = 'none';
-        if ($request->hasFile('media')) {
             $ext = $request->file('media')->extension();
             $mediaType = in_array($ext, ['jpg','jpeg','png']) ? 'image' : 'video';
         }
 
         Album::create([
-            'user_id' => Auth::id(),
-            'caption' => $request->caption,
-            'media' => $path,
+            'user_id'    => Auth::id(),
+            'caption'    => $request->caption,
+            'media'      => $path,
             'media_type' => $mediaType,
-            'privacy' => $request->privacy
         ]);
 
         return back()->with('success', 'Postingan berhasil ditambahkan.');
@@ -69,8 +73,8 @@ class AlbumController extends Controller
     {
         $album = Album::findOrFail($id);
 
-        if (auth()->user()->role !== 'admin' && auth()->id() !== $album->user_id) {
-            abort(403, 'Tidak diizinkan mengedit postingan ini.');
+        if (Auth::user()->role !== 'admin' && Auth::id() !== $album->user_id) {
+            abort(403);
         }
 
         return view('album.edit', compact('album'));
@@ -83,17 +87,16 @@ class AlbumController extends Controller
     {
         $album = Album::findOrFail($id);
 
-        if (auth()->user()->role !== 'admin' && auth()->id() !== $album->user_id) {
-            abort(403, 'Tidak diizinkan mengedit postingan ini.');
+        if (Auth::user()->role !== 'admin' && Auth::id() !== $album->user_id) {
+            abort(403);
         }
 
         $request->validate([
-            'caption' => 'required',
-            'privacy' => 'required|in:public,private'
+            'caption' => 'required|string|max:500',
+            'media'   => 'nullable|file|mimes:jpg,jpeg,png,mp4,mov,avi|max:20480',
         ]);
 
         $album->caption = $request->caption;
-        $album->privacy = $request->privacy;
 
         if ($request->hasFile('media')) {
             if ($album->media && Storage::disk('public')->exists($album->media)) {
@@ -101,15 +104,14 @@ class AlbumController extends Controller
             }
 
             $album->media = $request->file('media')->store('albums', 'public');
-
-            // Update tipe media
             $ext = $request->file('media')->extension();
             $album->media_type = in_array($ext, ['jpg','jpeg','png']) ? 'image' : 'video';
         }
 
         $album->save();
 
-        return redirect()->route('album.index')->with('success', 'Postingan berhasil diperbarui.');
+        return redirect()->route('album.index')
+            ->with('success', 'Postingan berhasil diperbarui.');
     }
 
     // ===============================
@@ -119,8 +121,8 @@ class AlbumController extends Controller
     {
         $album = Album::findOrFail($id);
 
-        if (auth()->user()->role !== 'admin' && auth()->id() !== $album->user_id) {
-            abort(403, 'Tidak diizinkan menghapus postingan ini.');
+        if (Auth::user()->role !== 'admin' && Auth::id() !== $album->user_id) {
+            abort(403);
         }
 
         if ($album->media && Storage::disk('public')->exists($album->media)) {
@@ -129,6 +131,6 @@ class AlbumController extends Controller
 
         $album->delete();
 
-        return back()->with('success', 'Postingan berhasil dihapus.');
+        return back()->with('danger', 'Postingan berhasil dihapus.');
     }
 }
